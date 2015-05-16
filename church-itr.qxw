@@ -1598,11 +1598,11 @@
   </Function>
   <Function Type="Scene" Name="Festoon 25%" ID="51">
    <Speed Duration="0" FadeOut="4000" FadeIn="4000"/>
-   <FixtureVal ID="49">0,127</FixtureVal>
+   <FixtureVal ID="49">0,122</FixtureVal>
   </Function>
   <Function Type="Scene" Name="Festoon 75%" ID="52">
    <Speed Duration="0" FadeOut="4000" FadeIn="4000"/>
-   <FixtureVal ID="49">0,190</FixtureVal>
+   <FixtureVal ID="49">0,210</FixtureVal>
   </Function>
   <Function Type="Scene" Name="Festoon 50%" ID="53">
    <Speed Duration="0" FadeOut="4000" FadeIn="4000"/>
@@ -1613,7 +1613,7 @@
    <FixtureVal ID="49">0,0</FixtureVal>
   </Function>
   <Function Type="Scene" Name="ItR 8.15" ID="55">
-   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <Speed Duration="0" FadeOut="10000" FadeIn="10000"/>
    <FixtureVal ID="0">0,0</FixtureVal>
    <FixtureVal ID="1">0,0</FixtureVal>
    <FixtureVal ID="2">0,192</FixtureVal>
@@ -1675,7 +1675,7 @@
    <FixtureVal ID="58">0,0</FixtureVal>
   </Function>
   <Function Type="Scene" Name="8.15 itr 2" ID="56">
-   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <Speed Duration="0" FadeOut="10000" FadeIn="10000"/>
    <FixtureVal ID="0">0,0</FixtureVal>
    <FixtureVal ID="1">0,0</FixtureVal>
    <FixtureVal ID="2">0,0</FixtureVal>
@@ -1746,25 +1746,8 @@
     <BackgroundImage>None</BackgroundImage>
     <Font>Default</Font>
    </Appearance>
-   <Slider WidgetStyle="Slider" ID="49" Caption="Festoon" InvertedAppearance="false">
-    <WindowState Width="135" X="170" Y="35" Height="295" Visible="True"/>
-    <Appearance>
-     <FrameStyle>Sunken</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None">Level</SliderMode>
-    <Level HighLimit="255" LowLimit="77" Value="119">
-     <Channel Fixture="49">0</Channel>
-    </Level>
-    <Playback>
-     <Function>4294967295</Function>
-    </Playback>
-   </Slider>
-   <Slider WidgetStyle="Slider" ID="0" Caption="Floor Lights" InvertedAppearance="false">
-    <WindowState Width="135" X="325" Y="35" Height="295" Visible="True"/>
+   <Slider WidgetStyle="Slider" ID="0" Caption="8.15 Floor Lights" InvertedAppearance="false">
+    <WindowState Width="145" X="315" Y="35" Height="330" Visible="True"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1789,7 +1772,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Width="200" X="490" Y="35" Height="200" Visible="True"/>
+    <WindowState Width="195" X="490" Y="35" Height="330" Visible="True"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -1798,7 +1781,7 @@
      <Function ID="48"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="155" X="20" Y="45" Height="45" Visible="True"/>
+     <WindowState Width="155" X="20" Y="120" Height="45" Visible="True"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1811,7 +1794,7 @@
      <Function ID="49"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="155" X="20" Y="115" Height="45" Visible="True"/>
+     <WindowState Width="155" X="20" Y="170" Height="45" Visible="True"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1820,6 +1803,42 @@
       <Font>Default</Font>
      </Appearance>
     </Button>
+    <Button Icon="" ID="64" Caption="ItR 8.15 General">
+     <Function ID="55"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <WindowState Width="155" X="20" Y="220" Height="45" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" ID="65" Caption="ItR 8.15 End">
+     <Function ID="56"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <WindowState Width="155" X="20" Y="270" Height="45" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Label ID="66" Caption="These buttons only work when the laptop is connected to the house lighting system.">
+     <WindowState Width="175" X="10" Y="45" Height="65" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Label>
    </SoloFrame>
    <SoloFrame ID="52" Caption="Festoon">
     <Appearance>
@@ -1847,7 +1866,7 @@
       <Font>Default</Font>
      </Appearance>
     </Button>
-    <Button Icon="" Caption="75%">
+    <Button Icon="" ID="60" Caption="75%">
      <Function ID="52"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
@@ -1860,7 +1879,7 @@
       <Font>Default</Font>
      </Appearance>
     </Button>
-    <Button Icon="" Caption="50%">
+    <Button Icon="" ID="61" Caption="50%">
      <Function ID="53"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
@@ -1873,7 +1892,7 @@
       <Font>Default</Font>
      </Appearance>
     </Button>
-    <Button Icon="" Caption="25%">
+    <Button Icon="" ID="62" Caption="25%">
      <Function ID="51"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
@@ -1886,7 +1905,7 @@
       <Font>Default</Font>
      </Appearance>
     </Button>
-    <Button Icon="" Caption="0%">
+    <Button Icon="" ID="63" Caption="0%">
      <Function ID="54"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
