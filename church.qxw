@@ -3,13 +3,13 @@
 <Workspace xmlns="http://qlcplus.sourceforge.net/Workspace" CurrentWindow="VirtualConsole">
  <Creator>
   <Name>Q Light Controller Plus</Name>
-  <Version>4.8.5</Version>
-  <Author></Author>
+  <Version>4.9.1</Version>
+  <Author>James Muscat</Author>
  </Creator>
  <Engine>
   <InputOutputMap>
    <Universe Name="Universe 1" ID="0" Passthrough="False">
-    <Output Plugin="DMX USB" Line="0"/>
+    <Output Plugin="DMX USB" Line="4294967295"/>
    </Universe>
    <Universe Name="Universe 2" ID="1" Passthrough="False"/>
    <Universe Name="Universe 3" ID="2" Passthrough="False"/>
@@ -643,6 +643,16 @@
    <Name>44</Name>
    <Universe>0</Universe>
    <Address>43</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>Generic</Mode>
+   <ID>63</ID>
+   <Name>47</Name>
+   <Universe>0</Universe>
+   <Address>46</Address>
    <Channels>1</Channels>
   </Fixture>
   <Function Type="Scene" Name="House Lights" ID="0">
@@ -1441,6 +1451,11 @@
    <FixtureVal ID="61">0,77</FixtureVal>
    <FixtureVal ID="62">0,79</FixtureVal>
   </Function>
+  <Function Type="Scene" Name="Baptistry" ID="49">
+   <Speed Duration="0" FadeOut="3000" FadeIn="3000"/>
+   <FixtureVal ID="20">0,180</FixtureVal>
+   <FixtureVal ID="63">0,179</FixtureVal>
+  </Function>
   <Monitor ShowLabels="0" DisplayMode="0">
    <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
    <ChannelStyle>0</ChannelStyle>
@@ -1465,7 +1480,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Width="285" X="25" Y="15" Height="375" Visible="True"/>
+    <WindowState Width="280" X="25" Y="15" Height="275" Visible="True"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -1516,7 +1531,7 @@
     </Button>
    </SoloFrame>
    <Slider WidgetStyle="Slider" ID="2" Caption="Floor Lights" InvertedAppearance="false">
-    <WindowState Width="70" X="390" Y="35" Height="325" Visible="True"/>
+    <WindowState Width="75" X="330" Y="15" Height="340" Visible="True"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1525,7 +1540,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Percentage" Monitor="false" ClickAndGoType="None">Level</SliderMode>
-    <Level HighLimit="255" LowLimit="0" Value="126">
+    <Level HighLimit="255" LowLimit="0" Value="0">
      <Channel Fixture="49">0</Channel>
      <Channel Fixture="50">0</Channel>
     </Level>
@@ -1533,6 +1548,19 @@
      <Function>4294967295</Function>
     </Playback>
    </Slider>
+   <Button Icon="" ID="3" Caption="Baptistry">
+    <Function ID="49"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Width="210" X="60" Y="300" Height="55" Visible="True"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
   </Frame>
   <Properties>
    <Size Width="900" Height="700"/>
