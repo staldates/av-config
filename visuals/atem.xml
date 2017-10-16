@@ -61,7 +61,7 @@
         </MixEffectBlock>
     </MixEffectBlocks>
     <DownstreamKeys>
-        <DownstreamKey index="0" fillSource="5" keySource="5" rate="8" maskEnabled="False" maskTop="9" maskBottom="-9" maskLeft="-16" maskRight="16" preMultipliedKey="False" clip="25" gain="30" invert="False" onAir="False" tie="False"/>
+        <DownstreamKey index="0" fillSource="5" keySource="5" rate="8" maskEnabled="False" maskTop="9" maskBottom="-9" maskLeft="-16" maskRight="16" preMultipliedKey="False" clip="21" gain="50" invert="False" onAir="False" tie="False"/>
         <DownstreamKey index="1" fillSource="0" keySource="0" rate="25" maskEnabled="False" maskTop="9" maskBottom="-9" maskLeft="-16" maskRight="16" preMultipliedKey="False" clip="50" gain="70" invert="False" onAir="False" tie="False"/>
     </DownstreamKeys>
     <ColorGenerators>
