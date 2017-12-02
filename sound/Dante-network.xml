@@ -382,6 +382,309 @@
         </rxchannel>
     </device>
     <device>
+        <name>Colins-MacBook-Air-2</name>
+        <default_name>Colins-MacBook-Air-2</default_name>
+        <instance_id>
+            <device_id>A860B6305BD50000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <device_type>4476734D61630000</device_type>
+        <friendly_name>Colins-MacBook-Air-2</friendly_name>
+        <clock_pullup value="0"/>
+        <samplerate>48000</samplerate>
+        <encoding>24</encoding>
+        <unicast_latency>10000</unicast_latency>
+        <interface network="0"/>
+        <txchannel danteId="1"/>
+        <txchannel danteId="2"/>
+        <txchannel danteId="3"/>
+        <txchannel danteId="4"/>
+        <txchannel danteId="5"/>
+        <txchannel danteId="6"/>
+        <txchannel danteId="7"/>
+        <txchannel danteId="8"/>
+        <txchannel danteId="9"/>
+        <txchannel danteId="10"/>
+        <txchannel danteId="11"/>
+        <txchannel danteId="12"/>
+        <txchannel danteId="13"/>
+        <txchannel danteId="14"/>
+        <txchannel danteId="15"/>
+        <txchannel danteId="16"/>
+        <txchannel danteId="17"/>
+        <txchannel danteId="18"/>
+        <txchannel danteId="19"/>
+        <txchannel danteId="20"/>
+        <txchannel danteId="21"/>
+        <txchannel danteId="22"/>
+        <txchannel danteId="23"/>
+        <txchannel danteId="24"/>
+        <txchannel danteId="25"/>
+        <txchannel danteId="26"/>
+        <txchannel danteId="27"/>
+        <txchannel danteId="28"/>
+        <txchannel danteId="29"/>
+        <txchannel danteId="30"/>
+        <txchannel danteId="31"/>
+        <txchannel danteId="32"/>
+        <txchannel danteId="33"/>
+        <txchannel danteId="34"/>
+        <txchannel danteId="35"/>
+        <txchannel danteId="36"/>
+        <txchannel danteId="37"/>
+        <txchannel danteId="38"/>
+        <txchannel danteId="39"/>
+        <txchannel danteId="40"/>
+        <txchannel danteId="41"/>
+        <txchannel danteId="42"/>
+        <txchannel danteId="43"/>
+        <txchannel danteId="44"/>
+        <txchannel danteId="45"/>
+        <txchannel danteId="46"/>
+        <txchannel danteId="47"/>
+        <txchannel danteId="48"/>
+        <rxchannel danteId="1">
+            <name>01</name>
+            <subscribed_channel>01</subscribed_channel>
+            <subscribed_device>MY16-2-037786</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2">
+            <name>02</name>
+            <subscribed_channel>02</subscribed_channel>
+            <subscribed_device>MY16-2-037786</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="3">
+            <name>03</name>
+            <subscribed_channel>03</subscribed_channel>
+            <subscribed_device>MY16-2-037786</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="4">
+            <name>04</name>
+            <subscribed_channel>04</subscribed_channel>
+            <subscribed_device>MY16-2-037786</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="5">
+            <name>05</name>
+            <subscribed_channel>05</subscribed_channel>
+            <subscribed_device>MY16-2-037786</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="6">
+            <name>06</name>
+            <subscribed_channel>06</subscribed_channel>
+            <subscribed_device>MY16-2-037786</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="7">
+            <name>07</name>
+            <subscribed_channel>07</subscribed_channel>
+            <subscribed_device>MY16-2-037786</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="8">
+            <name>08</name>
+            <subscribed_channel>08</subscribed_channel>
+            <subscribed_device>MY16-2-037786</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="9">
+            <name>09</name>
+            <subscribed_channel>09</subscribed_channel>
+            <subscribed_device>MY16-2-037786</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="10">
+            <name>10</name>
+            <subscribed_channel>10</subscribed_channel>
+            <subscribed_device>MY16-2-037786</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="11">
+            <name>11</name>
+            <subscribed_channel>11</subscribed_channel>
+            <subscribed_device>MY16-2-037786</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="12">
+            <name>12</name>
+            <subscribed_channel>12</subscribed_channel>
+            <subscribed_device>MY16-2-037786</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="13">
+            <name>13</name>
+            <subscribed_channel>13</subscribed_channel>
+            <subscribed_device>MY16-2-037786</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="14">
+            <name>14</name>
+            <subscribed_channel>14</subscribed_channel>
+            <subscribed_device>MY16-2-037786</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="15">
+            <name>15</name>
+            <subscribed_channel>15</subscribed_channel>
+            <subscribed_device>MY16-2-037786</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="16">
+            <name>16</name>
+            <subscribed_channel>16</subscribed_channel>
+            <subscribed_device>MY16-2-037786</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="17">
+            <name>17</name>
+            <subscribed_channel>01</subscribed_channel>
+            <subscribed_device>MY16-2-037836</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="18">
+            <name>18</name>
+            <subscribed_channel>02</subscribed_channel>
+            <subscribed_device>MY16-2-037836</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="19">
+            <name>19</name>
+            <subscribed_channel>03</subscribed_channel>
+            <subscribed_device>MY16-2-037836</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="20">
+            <name>20</name>
+            <subscribed_channel>04</subscribed_channel>
+            <subscribed_device>MY16-2-037836</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="21">
+            <name>21</name>
+            <subscribed_channel>05</subscribed_channel>
+            <subscribed_device>MY16-2-037836</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="22">
+            <name>22</name>
+            <subscribed_channel>06</subscribed_channel>
+            <subscribed_device>MY16-2-037836</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="23">
+            <name>23</name>
+            <subscribed_channel>07</subscribed_channel>
+            <subscribed_device>MY16-2-037836</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="24">
+            <name>24</name>
+            <subscribed_channel>08</subscribed_channel>
+            <subscribed_device>MY16-2-037836</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="25">
+            <name>25</name>
+            <subscribed_channel>09</subscribed_channel>
+            <subscribed_device>MY16-2-037836</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="26">
+            <name>26</name>
+            <subscribed_channel>10</subscribed_channel>
+            <subscribed_device>MY16-2-037836</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="27">
+            <name>27</name>
+            <subscribed_channel>11</subscribed_channel>
+            <subscribed_device>MY16-2-037836</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="28">
+            <name>28</name>
+            <subscribed_channel>12</subscribed_channel>
+            <subscribed_device>MY16-2-037836</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="29">
+            <name>29</name>
+            <subscribed_channel>13</subscribed_channel>
+            <subscribed_device>MY16-2-037836</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="30">
+            <name>30</name>
+            <subscribed_channel>14</subscribed_channel>
+            <subscribed_device>MY16-2-037836</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="31">
+            <name>31</name>
+            <subscribed_channel>15</subscribed_channel>
+            <subscribed_device>MY16-2-037836</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="32">
+            <name>32</name>
+            <subscribed_channel>16</subscribed_channel>
+            <subscribed_device>MY16-2-037836</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="33">
+            <name>33</name>
+            <subscribed_channel>01</subscribed_channel>
+            <subscribed_device>MY16-2-03781e</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="34">
+            <name>34</name>
+            <subscribed_channel>02</subscribed_channel>
+            <subscribed_device>MY16-2-03781e</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="35">
+            <name>35</name>
+            <subscribed_channel>03</subscribed_channel>
+            <subscribed_device>MY16-2-03781e</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="36">
+            <name>36</name>
+            <subscribed_channel>04</subscribed_channel>
+            <subscribed_device>MY16-2-03781e</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="37">
+            <name>37</name>
+            <subscribed_channel>05</subscribed_channel>
+            <subscribed_device>MY16-2-03781e</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="38">
+            <name>38</name>
+            <subscribed_channel>06</subscribed_channel>
+            <subscribed_device>MY16-2-03781e</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="39">
+            <name>39</name>
+            <subscribed_channel>07</subscribed_channel>
+            <subscribed_device>MY16-2-03781e</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="40">
+            <name>40</name>
+            <subscribed_channel>08</subscribed_channel>
+            <subscribed_device>MY16-2-03781e</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="41">
+            <name>41</name>
+            <subscribed_channel>09</subscribed_channel>
+            <subscribed_device>MY16-2-03781e</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="42">
+            <name>42</name>
+            <subscribed_channel>10</subscribed_channel>
+            <subscribed_device>MY16-2-03781e</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="43">
+            <name>43</name>
+            <subscribed_channel>11</subscribed_channel>
+            <subscribed_device>MY16-2-03781e</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="44">
+            <name>44</name>
+            <subscribed_channel>12</subscribed_channel>
+            <subscribed_device>MY16-2-03781e</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="45">
+            <name>45</name>
+            <subscribed_channel>13</subscribed_channel>
+            <subscribed_device>MY16-2-03781e</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="46">
+            <name>46</name>
+            <subscribed_channel>14</subscribed_channel>
+            <subscribed_device>MY16-2-03781e</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="47">
+            <name>47</name>
+            <subscribed_channel>15</subscribed_channel>
+            <subscribed_device>MY16-2-03781e</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="48">
+            <name>48</name>
+            <subscribed_channel>16</subscribed_channel>
+            <subscribed_device>MY16-2-03781e</subscribed_device>
+        </rxchannel>
+    </device>
+    <device>
         <name>MY16-2-037786</name>
         <default_name>MY16-2-037786</default_name>
         <instance_id>
