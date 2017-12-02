@@ -1,14 +1,14 @@
 {
   "Channels": [
     {
-      "UserChannelName": "Talk",
+      "UserChannelName": "Ch 1",
       "UseReceivedName": false,
       "UserStereoLink": false,
       "UseReceivedStereoLink": true
     },
     {
-      "UserChannelName": "2",
-      "UseReceivedName": true,
+      "UserChannelName": "Ch 2",
+      "UseReceivedName": false,
       "UserStereoLink": false,
       "UseReceivedStereoLink": true
     },
@@ -25,13 +25,13 @@
       "UseReceivedStereoLink": true
     },
     {
-      "UserChannelName": "Keys 1",
+      "UserChannelName": "Piano",
       "UseReceivedName": false,
       "UserStereoLink": false,
       "UseReceivedStereoLink": true
     },
     {
-      "UserChannelName": "Keys 2",
+      "UserChannelName": "Pads",
       "UseReceivedName": false,
       "UserStereoLink": false,
       "UseReceivedStereoLink": true
@@ -43,32 +43,32 @@
       "UseReceivedStereoLink": true
     },
     {
-      "UserChannelName": "8",
-      "UseReceivedName": true,
-      "UserStereoLink": false,
-      "UseReceivedStereoLink": true
-    },
-    {
-      "UserChannelName": "E.Gtr",
+      "UserChannelName": "Cello",
       "UseReceivedName": false,
       "UserStereoLink": false,
       "UseReceivedStereoLink": true
     },
     {
-      "UserChannelName": "10",
-      "UseReceivedName": true,
+      "UserChannelName": "Elec",
+      "UseReceivedName": false,
       "UserStereoLink": false,
       "UseReceivedStereoLink": true
     },
     {
-      "UserChannelName": "11",
-      "UseReceivedName": true,
+      "UserChannelName": "Amb",
+      "UseReceivedName": false,
       "UserStereoLink": false,
       "UseReceivedStereoLink": true
     },
     {
-      "UserChannelName": "12",
-      "UseReceivedName": true,
+      "UserChannelName": "Ch 11",
+      "UseReceivedName": false,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "Ch 12",
+      "UseReceivedName": false,
       "UserStereoLink": false,
       "UseReceivedStereoLink": true
     },
@@ -103,31 +103,31 @@
       "UseReceivedStereoLink": true
     },
     {
-      "UserChannelName": "SnareT",
+      "UserChannelName": "Snr T",
       "UseReceivedName": false,
       "UserStereoLink": false,
       "UseReceivedStereoLink": true
     },
     {
-      "UserChannelName": "SnareB",
+      "UserChannelName": "Snr Bt",
       "UseReceivedName": false,
       "UserStereoLink": false,
       "UseReceivedStereoLink": true
     },
     {
-      "UserChannelName": "Hats",
+      "UserChannelName": "Hi Hat",
       "UseReceivedName": false,
       "UserStereoLink": false,
       "UseReceivedStereoLink": true
     },
     {
-      "UserChannelName": "TomR",
+      "UserChannelName": "R Tom",
       "UseReceivedName": false,
       "UserStereoLink": false,
       "UseReceivedStereoLink": true
     },
     {
-      "UserChannelName": "TomF",
+      "UserChannelName": "Fl Tom",
       "UseReceivedName": false,
       "UserStereoLink": false,
       "UseReceivedStereoLink": true
@@ -145,50 +145,50 @@
       "UseReceivedStereoLink": true
     },
     {
-      "UserChannelName": "25",
-      "UseReceivedName": true,
+      "UserChannelName": "Click",
+      "UseReceivedName": false,
       "UserStereoLink": false,
       "UseReceivedStereoLink": true
     },
     {
-      "UserChannelName": "26",
-      "UseReceivedName": true,
+      "UserChannelName": "Amb",
+      "UseReceivedName": false,
       "UserStereoLink": false,
       "UseReceivedStereoLink": true
     },
     {
-      "UserChannelName": "27",
-      "UseReceivedName": true,
+      "UserChannelName": "Ch 27",
+      "UseReceivedName": false,
       "UserStereoLink": false,
       "UseReceivedStereoLink": true
     },
     {
-      "UserChannelName": "28",
-      "UseReceivedName": true,
+      "UserChannelName": "Ch 28",
+      "UseReceivedName": false,
       "UserStereoLink": false,
       "UseReceivedStereoLink": true
     },
     {
-      "UserChannelName": "29",
-      "UseReceivedName": true,
+      "UserChannelName": "Ch 29",
+      "UseReceivedName": false,
       "UserStereoLink": false,
       "UseReceivedStereoLink": true
     },
     {
-      "UserChannelName": "30",
-      "UseReceivedName": true,
+      "UserChannelName": "Ch 30",
+      "UseReceivedName": false,
       "UserStereoLink": false,
       "UseReceivedStereoLink": true
     },
     {
-      "UserChannelName": "31",
-      "UseReceivedName": true,
+      "UserChannelName": "Ch 31",
+      "UseReceivedName": false,
       "UserStereoLink": false,
       "UseReceivedStereoLink": true
     },
     {
-      "UserChannelName": "32",
-      "UseReceivedName": true,
+      "UserChannelName": "Ch 32",
+      "UseReceivedName": false,
       "UserStereoLink": false,
       "UseReceivedStereoLink": true
     },
@@ -229,13 +229,13 @@
       "UseReceivedStereoLink": true
     },
     {
-      "UserChannelName": "Mics",
+      "UserChannelName": "Ch 39",
       "UseReceivedName": false,
       "UserStereoLink": false,
       "UseReceivedStereoLink": true
     },
     {
-      "UserChannelName": "Record",
+      "UserChannelName": "Ch 40",
       "UseReceivedName": false,
       "UserStereoLink": false,
       "UseReceivedStereoLink": true
