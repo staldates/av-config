@@ -1,0 +1,244 @@
+{
+  "Channels": [
+    {
+      "UserChannelName": "Talk",
+      "UseReceivedName": false,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "2",
+      "UseReceivedName": true,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "Gtr 1",
+      "UseReceivedName": false,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "Gtr 2",
+      "UseReceivedName": false,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "Keys 1",
+      "UseReceivedName": false,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "Keys 2",
+      "UseReceivedName": false,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "Bass",
+      "UseReceivedName": false,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "8",
+      "UseReceivedName": true,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "E.Gtr",
+      "UseReceivedName": false,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "10",
+      "UseReceivedName": true,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "11",
+      "UseReceivedName": true,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "12",
+      "UseReceivedName": true,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "Vox 1",
+      "UseReceivedName": false,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "Vox 2",
+      "UseReceivedName": false,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "Vox 3",
+      "UseReceivedName": false,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "Vox 4",
+      "UseReceivedName": false,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "Kick",
+      "UseReceivedName": false,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "SnareT",
+      "UseReceivedName": false,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "SnareB",
+      "UseReceivedName": false,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "Hats",
+      "UseReceivedName": false,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "TomR",
+      "UseReceivedName": false,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "TomF",
+      "UseReceivedName": false,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "OH L",
+      "UseReceivedName": false,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "OH R",
+      "UseReceivedName": false,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "25",
+      "UseReceivedName": true,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "26",
+      "UseReceivedName": true,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "27",
+      "UseReceivedName": true,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "28",
+      "UseReceivedName": true,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "29",
+      "UseReceivedName": true,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "30",
+      "UseReceivedName": true,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "31",
+      "UseReceivedName": true,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "32",
+      "UseReceivedName": true,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "Lav 1",
+      "UseReceivedName": false,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "Lav 2",
+      "UseReceivedName": false,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "Lav 3",
+      "UseReceivedName": false,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "Red",
+      "UseReceivedName": false,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "Blue",
+      "UseReceivedName": false,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "Yellow",
+      "UseReceivedName": false,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "Mics",
+      "UseReceivedName": false,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    },
+    {
+      "UserChannelName": "Record",
+      "UseReceivedName": false,
+      "UserStereoLink": false,
+      "UseReceivedStereoLink": true
+    }
+  ]
+}
