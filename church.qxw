@@ -1,24 +1,22 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://qlcplus.sourceforge.net/Workspace" CurrentWindow="VirtualConsole">
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="SimpleDesk">
  <Creator>
   <Name>Q Light Controller Plus</Name>
-  <Version>4.9.1</Version>
+  <Version>4.10.5b</Version>
   <Author>James Muscat</Author>
  </Creator>
  <Engine>
   <InputOutputMap>
-   <Universe Name="Universe 1" ID="0" Passthrough="False">
-    <Output Plugin="DMX USB" Line="4294967295"/>
-   </Universe>
-   <Universe Name="Universe 2" ID="1" Passthrough="False"/>
-   <Universe Name="Universe 3" ID="2" Passthrough="False"/>
-   <Universe Name="Universe 4" ID="3" Passthrough="False"/>
+   <Universe Name="Universe 1" ID="0"/>
+   <Universe Name="Universe 2" ID="1"/>
+   <Universe Name="Universe 3" ID="2"/>
+   <Universe Name="Universe 4" ID="3"/>
   </InputOutputMap>
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>0</ID>
    <Name>Nave 1</Name>
    <Universe>0</Universe>
@@ -28,7 +26,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>1</ID>
    <Name>Nave 2</Name>
    <Universe>0</Universe>
@@ -38,7 +36,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>2</ID>
    <Name>Nave 3</Name>
    <Universe>0</Universe>
@@ -48,7 +46,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>3</ID>
    <Name>Nave 4</Name>
    <Universe>0</Universe>
@@ -58,7 +56,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>4</ID>
    <Name>East End 1</Name>
    <Universe>0</Universe>
@@ -68,7 +66,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>5</ID>
    <Name>East End 2</Name>
    <Universe>0</Universe>
@@ -78,7 +76,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>6</ID>
    <Name>Back Aisle</Name>
    <Universe>0</Universe>
@@ -88,7 +86,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>7</ID>
    <Name>Outside Oak Room</Name>
    <Universe>0</Universe>
@@ -98,7 +96,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>8</ID>
    <Name>Stage Wash #1</Name>
    <Universe>0</Universe>
@@ -108,7 +106,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>9</ID>
    <Name>Stage Wash #2</Name>
    <Universe>0</Universe>
@@ -118,7 +116,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>10</ID>
    <Name>Pillar Uplights #1</Name>
    <Universe>0</Universe>
@@ -128,7 +126,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>11</ID>
    <Name>Pillar Uplights #2</Name>
    <Universe>0</Universe>
@@ -138,7 +136,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>12</ID>
    <Name>Pillar Uplights #3</Name>
    <Universe>0</Universe>
@@ -148,7 +146,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>13</ID>
    <Name>Pillar Uplights #4</Name>
    <Universe>0</Universe>
@@ -158,7 +156,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>14</ID>
    <Name>Spot Centre</Name>
    <Universe>0</Universe>
@@ -168,7 +166,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>15</ID>
    <Name>Spot Fwd Left</Name>
    <Universe>0</Universe>
@@ -178,7 +176,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>16</ID>
    <Name>Spot Fwd Right</Name>
    <Universe>0</Universe>
@@ -188,7 +186,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>17</ID>
    <Name>Stage Wash</Name>
    <Universe>0</Universe>
@@ -198,7 +196,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>18</ID>
    <Name>Stage front edge</Name>
    <Universe>0</Universe>
@@ -208,7 +206,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>19</ID>
    <Name>Stage wash east</Name>
    <Universe>0</Universe>
@@ -218,7 +216,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>20</ID>
    <Name>Stage wash west</Name>
    <Universe>0</Universe>
@@ -228,7 +226,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>21</ID>
    <Name>Nave Ceiling</Name>
    <Universe>0</Universe>
@@ -238,7 +236,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>22</ID>
    <Name>South screen</Name>
    <Universe>0</Universe>
@@ -248,7 +246,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>23</ID>
    <Name>South wall</Name>
    <Universe>0</Universe>
@@ -258,7 +256,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>24</ID>
    <Name>North Ceiling</Name>
    <Universe>0</Universe>
@@ -268,7 +266,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>25</ID>
    <Name>East End Ceiling</Name>
    <Universe>0</Universe>
@@ -278,7 +276,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>26</ID>
    <Name>Chapel ceiling</Name>
    <Universe>0</Universe>
@@ -288,7 +286,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>27</ID>
    <Name>East End Wall</Name>
    <Universe>0</Universe>
@@ -298,7 +296,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>28</ID>
    <Name>EXT Welcome Rear</Name>
    <Universe>0</Universe>
@@ -308,7 +306,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>29</ID>
    <Name>EXT Spire Base 1</Name>
    <Universe>0</Universe>
@@ -318,7 +316,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>30</ID>
    <Name>EXT Spire Base 2</Name>
    <Universe>0</Universe>
@@ -328,7 +326,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>31</ID>
    <Name>EXT West End Roof</Name>
    <Universe>0</Universe>
@@ -338,7 +336,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>32</ID>
    <Name>EXT Welcome Front</Name>
    <Universe>0</Universe>
@@ -348,7 +346,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>33</ID>
    <Name>EXT Side Lights</Name>
    <Universe>0</Universe>
@@ -358,7 +356,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>34</ID>
    <Name>EXT South Side</Name>
    <Universe>0</Universe>
@@ -368,7 +366,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>35</ID>
    <Name>EXT East End</Name>
    <Universe>0</Universe>
@@ -378,7 +376,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>36</ID>
    <Name>EXT Ramp</Name>
    <Universe>0</Universe>
@@ -388,7 +386,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>37</ID>
    <Name>EXT Display</Name>
    <Universe>0</Universe>
@@ -398,7 +396,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>38</ID>
    <Name>EXT Entrance Down</Name>
    <Universe>0</Universe>
@@ -408,7 +406,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>39</ID>
    <Name>Gallery #1</Name>
    <Universe>0</Universe>
@@ -418,7 +416,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>40</ID>
    <Name>Gallery #2</Name>
    <Universe>0</Universe>
@@ -428,7 +426,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>41</ID>
    <Name>Gallery #3</Name>
    <Universe>0</Universe>
@@ -438,7 +436,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>42</ID>
    <Name>Oak Room</Name>
    <Universe>0</Universe>
@@ -448,7 +446,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>43</ID>
    <Name>Font Up</Name>
    <Universe>0</Universe>
@@ -458,7 +456,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>44</ID>
    <Name>Font Down</Name>
    <Universe>0</Universe>
@@ -468,7 +466,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>45</ID>
    <Name>GOBOs</Name>
    <Universe>0</Universe>
@@ -478,7 +476,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>46</ID>
    <Name>Welcome L</Name>
    <Universe>0</Universe>
@@ -488,7 +486,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>47</ID>
    <Name>Welcome M</Name>
    <Universe>0</Universe>
@@ -498,7 +496,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>48</ID>
    <Name>Welcome R</Name>
    <Universe>0</Universe>
@@ -508,7 +506,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>49</ID>
    <Name>Floor Lights 1 #1</Name>
    <Universe>0</Universe>
@@ -518,7 +516,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>50</ID>
    <Name>Floor Lights 1 #2</Name>
    <Universe>0</Universe>
@@ -528,7 +526,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>51</ID>
    <Name>Welcome Track</Name>
    <Universe>0</Universe>
@@ -538,7 +536,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>52</ID>
    <Name>North Wall</Name>
    <Universe>0</Universe>
@@ -548,7 +546,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>53</ID>
    <Name>E Dias Back</Name>
    <Universe>0</Universe>
@@ -558,7 +556,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>54</ID>
    <Name>T-Bar Dimmer #1</Name>
    <Universe>0</Universe>
@@ -568,7 +566,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>55</ID>
    <Name>T-Bar Dimmer #2</Name>
    <Universe>0</Universe>
@@ -578,7 +576,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>56</ID>
    <Name>T-Bar Dimmer #3</Name>
    <Universe>0</Universe>
@@ -588,7 +586,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>57</ID>
    <Name>T-Bar Dimmer #4</Name>
    <Universe>0</Universe>
@@ -598,7 +596,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>58</ID>
    <Name>S Dias Back</Name>
    <Universe>0</Universe>
@@ -608,7 +606,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>59</ID>
    <Name>48</Name>
    <Universe>0</Universe>
@@ -618,7 +616,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>60</ID>
    <Name>7</Name>
    <Universe>0</Universe>
@@ -628,7 +626,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>61</ID>
    <Name>29</Name>
    <Universe>0</Universe>
@@ -638,7 +636,7 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>62</ID>
    <Name>44</Name>
    <Universe>0</Universe>
@@ -648,190 +646,82 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>Generic</Mode>
+   <Mode>1 Channel</Mode>
    <ID>63</ID>
    <Name>47</Name>
    <Universe>0</Universe>
    <Address>46</Address>
    <Channels>1</Channels>
   </Fixture>
-  <Function Type="Scene" Name="House Lights" ID="0">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
-   <FixtureVal ID="0">0,50</FixtureVal>
-   <FixtureVal ID="1">0,50</FixtureVal>
-   <FixtureVal ID="2">0,50</FixtureVal>
-   <FixtureVal ID="3">0,50</FixtureVal>
-   <FixtureVal ID="4">0,51</FixtureVal>
-   <FixtureVal ID="5">0,49</FixtureVal>
-   <FixtureVal ID="6">0,57</FixtureVal>
-   <FixtureVal ID="7">0,53</FixtureVal>
-   <FixtureVal ID="8">0,0</FixtureVal>
-   <FixtureVal ID="9">0,0</FixtureVal>
-   <FixtureVal ID="10">0,90</FixtureVal>
-   <FixtureVal ID="11">0,92</FixtureVal>
-   <FixtureVal ID="12">0,88</FixtureVal>
-   <FixtureVal ID="13">0,92</FixtureVal>
-   <FixtureVal ID="14">0,0</FixtureVal>
-   <FixtureVal ID="15">0,0</FixtureVal>
-   <FixtureVal ID="16">0,0</FixtureVal>
-   <FixtureVal ID="17">0,0</FixtureVal>
-   <FixtureVal ID="18">0,0</FixtureVal>
-   <FixtureVal ID="19">0,0</FixtureVal>
-   <FixtureVal ID="20">0,0</FixtureVal>
-   <FixtureVal ID="21">0,108</FixtureVal>
-   <FixtureVal ID="22">0,0</FixtureVal>
-   <FixtureVal ID="23">0,0</FixtureVal>
-   <FixtureVal ID="24">0,255</FixtureVal>
-   <FixtureVal ID="25">0,255</FixtureVal>
-   <FixtureVal ID="26">0,255</FixtureVal>
-   <FixtureVal ID="27">0,0</FixtureVal>
-  </Function>
-  <Function Type="Scene" Name="Black" ID="1">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
-   <FixtureVal ID="0">0,0</FixtureVal>
-   <FixtureVal ID="1">0,0</FixtureVal>
-   <FixtureVal ID="2">0,0</FixtureVal>
-   <FixtureVal ID="3">0,0</FixtureVal>
-   <FixtureVal ID="4">0,0</FixtureVal>
+  <Function ID="0" Type="Scene" Name="ItR 10.30">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255</FixtureVal>
+   <FixtureVal ID="1">0,255</FixtureVal>
+   <FixtureVal ID="2">0,255</FixtureVal>
+   <FixtureVal ID="3">0,255</FixtureVal>
+   <FixtureVal ID="4">0,255</FixtureVal>
    <FixtureVal ID="5">0,0</FixtureVal>
-   <FixtureVal ID="6">0,0</FixtureVal>
-   <FixtureVal ID="7">0,0</FixtureVal>
-   <FixtureVal ID="8">0,0</FixtureVal>
+   <FixtureVal ID="6">0,255</FixtureVal>
+   <FixtureVal ID="7">0,255</FixtureVal>
+   <FixtureVal ID="8">0,140</FixtureVal>
    <FixtureVal ID="9">0,0</FixtureVal>
-   <FixtureVal ID="10">0,0</FixtureVal>
-   <FixtureVal ID="11">0,0</FixtureVal>
-   <FixtureVal ID="12">0,0</FixtureVal>
-   <FixtureVal ID="13">0,0</FixtureVal>
-   <FixtureVal ID="14">0,0</FixtureVal>
-   <FixtureVal ID="15">0,0</FixtureVal>
-   <FixtureVal ID="16">0,0</FixtureVal>
-   <FixtureVal ID="17">0,0</FixtureVal>
-   <FixtureVal ID="18">0,0</FixtureVal>
-   <FixtureVal ID="19">0,0</FixtureVal>
-   <FixtureVal ID="20">0,0</FixtureVal>
-   <FixtureVal ID="21">0,0</FixtureVal>
-   <FixtureVal ID="22">0,0</FixtureVal>
-   <FixtureVal ID="23">0,0</FixtureVal>
-   <FixtureVal ID="24">0,0</FixtureVal>
-   <FixtureVal ID="25">0,0</FixtureVal>
-   <FixtureVal ID="26">0,0</FixtureVal>
-   <FixtureVal ID="27">0,0</FixtureVal>
-  </Function>
-  <Function Type="Scene" Name="Uplights Only" ID="2">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
-   <FixtureVal ID="0">0,0</FixtureVal>
-   <FixtureVal ID="1">0,0</FixtureVal>
-   <FixtureVal ID="2">0,0</FixtureVal>
-   <FixtureVal ID="3">0,0</FixtureVal>
-   <FixtureVal ID="4">0,0</FixtureVal>
-   <FixtureVal ID="5">0,0</FixtureVal>
-   <FixtureVal ID="6">0,0</FixtureVal>
-   <FixtureVal ID="7">0,0</FixtureVal>
-   <FixtureVal ID="8">0,0</FixtureVal>
-   <FixtureVal ID="9">0,0</FixtureVal>
-   <FixtureVal ID="10">0,140</FixtureVal>
-   <FixtureVal ID="11">0,140</FixtureVal>
-   <FixtureVal ID="12">0,140</FixtureVal>
-   <FixtureVal ID="13">0,92</FixtureVal>
-   <FixtureVal ID="14">0,0</FixtureVal>
-   <FixtureVal ID="15">0,0</FixtureVal>
-   <FixtureVal ID="16">0,0</FixtureVal>
-   <FixtureVal ID="17">0,0</FixtureVal>
-   <FixtureVal ID="18">0,0</FixtureVal>
-   <FixtureVal ID="19">0,0</FixtureVal>
-   <FixtureVal ID="20">0,0</FixtureVal>
-   <FixtureVal ID="21">0,0</FixtureVal>
-   <FixtureVal ID="22">0,0</FixtureVal>
-   <FixtureVal ID="23">0,0</FixtureVal>
-   <FixtureVal ID="24">0,0</FixtureVal>
-   <FixtureVal ID="25">0,255</FixtureVal>
-   <FixtureVal ID="26">0,255</FixtureVal>
-   <FixtureVal ID="27">0,0</FixtureVal>
-  </Function>
-  <Function Type="Scene" Name="Worship" ID="3">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
-   <FixtureVal ID="0">0,0</FixtureVal>
-   <FixtureVal ID="1">0,0</FixtureVal>
-   <FixtureVal ID="2">0,0</FixtureVal>
-   <FixtureVal ID="3">0,0</FixtureVal>
-   <FixtureVal ID="4">0,0</FixtureVal>
-   <FixtureVal ID="5">0,0</FixtureVal>
-   <FixtureVal ID="6">0,0</FixtureVal>
-   <FixtureVal ID="7">0,0</FixtureVal>
-   <FixtureVal ID="8">0,70</FixtureVal>
-   <FixtureVal ID="9">0,0</FixtureVal>
-   <FixtureVal ID="10">0,0</FixtureVal>
-   <FixtureVal ID="11">0,0</FixtureVal>
-   <FixtureVal ID="12">0,0</FixtureVal>
-   <FixtureVal ID="13">0,0</FixtureVal>
-   <FixtureVal ID="14">0,0</FixtureVal>
-   <FixtureVal ID="15">0,108</FixtureVal>
-   <FixtureVal ID="16">0,108</FixtureVal>
-   <FixtureVal ID="17">0,0</FixtureVal>
-   <FixtureVal ID="18">0,0</FixtureVal>
-   <FixtureVal ID="19">0,118</FixtureVal>
-   <FixtureVal ID="20">0,0</FixtureVal>
-   <FixtureVal ID="21">0,0</FixtureVal>
-   <FixtureVal ID="22">0,0</FixtureVal>
-   <FixtureVal ID="23">0,0</FixtureVal>
-   <FixtureVal ID="24">0,0</FixtureVal>
-   <FixtureVal ID="25">0,0</FixtureVal>
-   <FixtureVal ID="26">0,0</FixtureVal>
-   <FixtureVal ID="27">0,0</FixtureVal>
-  </Function>
-  <Function Type="Scene" Name="Choir Bright" ID="4">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
-   <FixtureVal ID="8">0,182</FixtureVal>
-  </Function>
-  <Function Type="Scene" Name="Readings" ID="5">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
-   <FixtureVal ID="0">0,0</FixtureVal>
-   <FixtureVal ID="1">0,0</FixtureVal>
-   <FixtureVal ID="2">0,0</FixtureVal>
-   <FixtureVal ID="3">0,0</FixtureVal>
-   <FixtureVal ID="4">0,0</FixtureVal>
-   <FixtureVal ID="5">0,0</FixtureVal>
-   <FixtureVal ID="6">0,0</FixtureVal>
-   <FixtureVal ID="7">0,0</FixtureVal>
-   <FixtureVal ID="8">0,0</FixtureVal>
-   <FixtureVal ID="9">0,0</FixtureVal>
-   <FixtureVal ID="10">0,0</FixtureVal>
-   <FixtureVal ID="11">0,0</FixtureVal>
-   <FixtureVal ID="12">0,0</FixtureVal>
-   <FixtureVal ID="13">0,0</FixtureVal>
-   <FixtureVal ID="14">0,0</FixtureVal>
-   <FixtureVal ID="15">0,255</FixtureVal>
-   <FixtureVal ID="16">0,255</FixtureVal>
-   <FixtureVal ID="17">0,0</FixtureVal>
-   <FixtureVal ID="18">0,0</FixtureVal>
-   <FixtureVal ID="19">0,0</FixtureVal>
-   <FixtureVal ID="20">0,0</FixtureVal>
-   <FixtureVal ID="21">0,0</FixtureVal>
-   <FixtureVal ID="22">0,0</FixtureVal>
-   <FixtureVal ID="23">0,0</FixtureVal>
-   <FixtureVal ID="24">0,0</FixtureVal>
-   <FixtureVal ID="25">0,0</FixtureVal>
-   <FixtureVal ID="26">0,0</FixtureVal>
-   <FixtureVal ID="27">0,0</FixtureVal>
-  </Function>
-  <Function Type="Scene" Name="Choir Mid Brt" ID="6">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
-   <FixtureVal ID="8">0,109</FixtureVal>
-   <FixtureVal ID="17">0,40</FixtureVal>
-  </Function>
-  <Function Type="Scene" Name="Bright Finale" ID="7">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
    <FixtureVal ID="10">0,255</FixtureVal>
    <FixtureVal ID="11">0,255</FixtureVal>
-   <FixtureVal ID="12">0,76</FixtureVal>
+   <FixtureVal ID="12">0,255</FixtureVal>
    <FixtureVal ID="13">0,255</FixtureVal>
+   <FixtureVal ID="14">0,0</FixtureVal>
+   <FixtureVal ID="15">0,0</FixtureVal>
+   <FixtureVal ID="16">0,0</FixtureVal>
+   <FixtureVal ID="17">0,0</FixtureVal>
+   <FixtureVal ID="18">0,0</FixtureVal>
+   <FixtureVal ID="19">0,212</FixtureVal>
+   <FixtureVal ID="20">0,0</FixtureVal>
    <FixtureVal ID="21">0,255</FixtureVal>
+   <FixtureVal ID="22">0,0</FixtureVal>
+   <FixtureVal ID="23">0,0</FixtureVal>
    <FixtureVal ID="24">0,255</FixtureVal>
-   <FixtureVal ID="25">0,236</FixtureVal>
+   <FixtureVal ID="25">0,0</FixtureVal>
    <FixtureVal ID="26">0,255</FixtureVal>
+   <FixtureVal ID="27">0,255</FixtureVal>
+   <FixtureVal ID="28">0,0</FixtureVal>
+   <FixtureVal ID="29">0,0</FixtureVal>
+   <FixtureVal ID="30">0,0</FixtureVal>
+   <FixtureVal ID="31">0,0</FixtureVal>
+   <FixtureVal ID="32">0,0</FixtureVal>
+   <FixtureVal ID="33">0,0</FixtureVal>
+   <FixtureVal ID="34">0,0</FixtureVal>
+   <FixtureVal ID="35">0,0</FixtureVal>
+   <FixtureVal ID="36">0,0</FixtureVal>
+   <FixtureVal ID="37">0,0</FixtureVal>
+   <FixtureVal ID="38">0,0</FixtureVal>
+   <FixtureVal ID="39">0,0</FixtureVal>
+   <FixtureVal ID="40">0,0</FixtureVal>
+   <FixtureVal ID="41">0,0</FixtureVal>
+   <FixtureVal ID="42">0,0</FixtureVal>
+   <FixtureVal ID="43">0,0</FixtureVal>
+   <FixtureVal ID="44">0,0</FixtureVal>
+   <FixtureVal ID="45">0,0</FixtureVal>
+   <FixtureVal ID="46">0,0</FixtureVal>
+   <FixtureVal ID="47">0,0</FixtureVal>
+   <FixtureVal ID="48">0,0</FixtureVal>
+   <FixtureVal ID="49">0,0</FixtureVal>
+   <FixtureVal ID="50">0,0</FixtureVal>
+   <FixtureVal ID="51">0,0</FixtureVal>
+   <FixtureVal ID="52">0,112</FixtureVal>
+   <FixtureVal ID="53">0,0</FixtureVal>
+   <FixtureVal ID="54">0,0</FixtureVal>
+   <FixtureVal ID="55">0,0</FixtureVal>
+   <FixtureVal ID="56">0,0</FixtureVal>
+   <FixtureVal ID="57">0,0</FixtureVal>
+   <FixtureVal ID="58">0,0</FixtureVal>
+   <FixtureVal ID="59">0,0</FixtureVal>
+   <FixtureVal ID="60">0,255</FixtureVal>
+   <FixtureVal ID="61">0,0</FixtureVal>
+   <FixtureVal ID="62">0,0</FixtureVal>
+   <FixtureVal ID="63">0,0</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="Just Spots" ID="8">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+  <Function ID="1" Type="Scene" Name="Black">
+   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
    <FixtureVal ID="0">0,0</FixtureVal>
    <FixtureVal ID="1">0,0</FixtureVal>
    <FixtureVal ID="2">0,0</FixtureVal>
@@ -846,11 +736,11 @@
    <FixtureVal ID="11">0,0</FixtureVal>
    <FixtureVal ID="12">0,0</FixtureVal>
    <FixtureVal ID="13">0,0</FixtureVal>
-   <FixtureVal ID="14">0,151</FixtureVal>
-   <FixtureVal ID="15">0,150</FixtureVal>
-   <FixtureVal ID="16">0,151</FixtureVal>
+   <FixtureVal ID="14">0,0</FixtureVal>
+   <FixtureVal ID="15">0,0</FixtureVal>
+   <FixtureVal ID="16">0,0</FixtureVal>
    <FixtureVal ID="17">0,0</FixtureVal>
-   <FixtureVal ID="18">0,71</FixtureVal>
+   <FixtureVal ID="18">0,0</FixtureVal>
    <FixtureVal ID="19">0,0</FixtureVal>
    <FixtureVal ID="20">0,0</FixtureVal>
    <FixtureVal ID="21">0,0</FixtureVal>
@@ -861,8 +751,75 @@
    <FixtureVal ID="26">0,0</FixtureVal>
    <FixtureVal ID="27">0,0</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="General During Event" ID="9">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+  <Function ID="2" Type="Scene" Name="ItR 6pm">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,97</FixtureVal>
+   <FixtureVal ID="1">0,97</FixtureVal>
+   <FixtureVal ID="2">0,196</FixtureVal>
+   <FixtureVal ID="3">0,97</FixtureVal>
+   <FixtureVal ID="4">0,97</FixtureVal>
+   <FixtureVal ID="5">0,128</FixtureVal>
+   <FixtureVal ID="6">0,97</FixtureVal>
+   <FixtureVal ID="7">0,128</FixtureVal>
+   <FixtureVal ID="8">0,80</FixtureVal>
+   <FixtureVal ID="9">0,0</FixtureVal>
+   <FixtureVal ID="10">0,102</FixtureVal>
+   <FixtureVal ID="11">0,128</FixtureVal>
+   <FixtureVal ID="12">0,128</FixtureVal>
+   <FixtureVal ID="13">0,192</FixtureVal>
+   <FixtureVal ID="14">0,0</FixtureVal>
+   <FixtureVal ID="15">0,0</FixtureVal>
+   <FixtureVal ID="16">0,0</FixtureVal>
+   <FixtureVal ID="17">0,0</FixtureVal>
+   <FixtureVal ID="18">0,255</FixtureVal>
+   <FixtureVal ID="19">0,128</FixtureVal>
+   <FixtureVal ID="20">0,0</FixtureVal>
+   <FixtureVal ID="21">0,255</FixtureVal>
+   <FixtureVal ID="22">0,0</FixtureVal>
+   <FixtureVal ID="23">0,0</FixtureVal>
+   <FixtureVal ID="24">0,255</FixtureVal>
+   <FixtureVal ID="25">0,0</FixtureVal>
+   <FixtureVal ID="26">0,255</FixtureVal>
+   <FixtureVal ID="27">0,255</FixtureVal>
+   <FixtureVal ID="28">0,0</FixtureVal>
+   <FixtureVal ID="29">0,0</FixtureVal>
+   <FixtureVal ID="30">0,0</FixtureVal>
+   <FixtureVal ID="31">0,0</FixtureVal>
+   <FixtureVal ID="32">0,0</FixtureVal>
+   <FixtureVal ID="33">0,0</FixtureVal>
+   <FixtureVal ID="34">0,0</FixtureVal>
+   <FixtureVal ID="35">0,0</FixtureVal>
+   <FixtureVal ID="36">0,0</FixtureVal>
+   <FixtureVal ID="37">0,0</FixtureVal>
+   <FixtureVal ID="38">0,0</FixtureVal>
+   <FixtureVal ID="39">0,0</FixtureVal>
+   <FixtureVal ID="40">0,0</FixtureVal>
+   <FixtureVal ID="41">0,0</FixtureVal>
+   <FixtureVal ID="42">0,0</FixtureVal>
+   <FixtureVal ID="43">0,0</FixtureVal>
+   <FixtureVal ID="44">0,0</FixtureVal>
+   <FixtureVal ID="45">0,0</FixtureVal>
+   <FixtureVal ID="46">0,0</FixtureVal>
+   <FixtureVal ID="47">0,0</FixtureVal>
+   <FixtureVal ID="48">0,0</FixtureVal>
+   <FixtureVal ID="49">0,0</FixtureVal>
+   <FixtureVal ID="50">0,0</FixtureVal>
+   <FixtureVal ID="51">0,0</FixtureVal>
+   <FixtureVal ID="52">0,0</FixtureVal>
+   <FixtureVal ID="53">0,0</FixtureVal>
+   <FixtureVal ID="54">0,0</FixtureVal>
+   <FixtureVal ID="55">0,0</FixtureVal>
+   <FixtureVal ID="56">0,0</FixtureVal>
+   <FixtureVal ID="57">0,0</FixtureVal>
+   <FixtureVal ID="58">0,0</FixtureVal>
+   <FixtureVal ID="59">0,0</FixtureVal>
+   <FixtureVal ID="60">0,255</FixtureVal>
+   <FixtureVal ID="61">0,0</FixtureVal>
+   <FixtureVal ID="62">0,0</FixtureVal>
+   <FixtureVal ID="63">0,0</FixtureVal>
+  </Function>
+  <Function ID="9" Type="Scene" Name="General During Event">
+   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
    <FixtureVal ID="0">0,128</FixtureVal>
    <FixtureVal ID="1">0,128</FixtureVal>
    <FixtureVal ID="2">0,128</FixtureVal>
@@ -892,66 +849,8 @@
    <FixtureVal ID="26">0,63</FixtureVal>
    <FixtureVal ID="27">0,0</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="Late Service Worship" ID="10">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
-   <FixtureVal ID="0">0,0</FixtureVal>
-   <FixtureVal ID="1">0,0</FixtureVal>
-   <FixtureVal ID="2">0,0</FixtureVal>
-   <FixtureVal ID="3">0,0</FixtureVal>
-   <FixtureVal ID="4">0,0</FixtureVal>
-   <FixtureVal ID="5">0,0</FixtureVal>
-   <FixtureVal ID="6">0,0</FixtureVal>
-   <FixtureVal ID="7">0,0</FixtureVal>
-   <FixtureVal ID="8">0,105</FixtureVal>
-   <FixtureVal ID="9">0,0</FixtureVal>
-   <FixtureVal ID="10">0,70</FixtureVal>
-   <FixtureVal ID="11">0,170</FixtureVal>
-   <FixtureVal ID="12">0,70</FixtureVal>
-   <FixtureVal ID="13">0,70</FixtureVal>
-   <FixtureVal ID="14">0,126</FixtureVal>
-   <FixtureVal ID="15">0,255</FixtureVal>
-   <FixtureVal ID="16">0,255</FixtureVal>
-   <FixtureVal ID="17">0,0</FixtureVal>
-   <FixtureVal ID="18">0,0</FixtureVal>
-   <FixtureVal ID="19">0,0</FixtureVal>
-   <FixtureVal ID="20">0,0</FixtureVal>
-   <FixtureVal ID="21">0,0</FixtureVal>
-   <FixtureVal ID="22">0,0</FixtureVal>
-   <FixtureVal ID="23">0,131</FixtureVal>
-   <FixtureVal ID="24">0,0</FixtureVal>
-   <FixtureVal ID="25">0,0</FixtureVal>
-   <FixtureVal ID="26">0,0</FixtureVal>
-   <FixtureVal ID="27">0,0</FixtureVal>
-  </Function>
-  <Function Type="Scene" Name="Stage Red" ID="11">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
-   <FixtureVal ID="-1"/>
-  </Function>
-  <Function Type="Scene" Name="Ext Lights On" ID="12">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
-   <FixtureVal ID="28">0,255</FixtureVal>
-   <FixtureVal ID="29">0,255</FixtureVal>
-   <FixtureVal ID="30">0,255</FixtureVal>
-   <FixtureVal ID="31">0,255</FixtureVal>
-   <FixtureVal ID="32">0,255</FixtureVal>
-   <FixtureVal ID="33">0,255</FixtureVal>
-   <FixtureVal ID="34">0,255</FixtureVal>
-   <FixtureVal ID="35">0,255</FixtureVal>
-   <FixtureVal ID="36">0,255</FixtureVal>
-   <FixtureVal ID="37">0,255</FixtureVal>
-   <FixtureVal ID="38">0,255</FixtureVal>
-  </Function>
-  <Function Type="Scene" Name="Font Lights On" ID="13">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
-   <FixtureVal ID="43">0,255</FixtureVal>
-   <FixtureVal ID="44">0,255</FixtureVal>
-  </Function>
-  <Function Type="Scene" Name="Gobos On" ID="14">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
-   <FixtureVal ID="45">0,255</FixtureVal>
-  </Function>
-  <Function Type="Scene" Name="General Before Event" ID="15">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+  <Function ID="15" Type="Scene" Name="General Before Event">
+   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
    <FixtureVal ID="0">0,128</FixtureVal>
    <FixtureVal ID="1">0,128</FixtureVal>
    <FixtureVal ID="2">0,128</FixtureVal>
@@ -981,209 +880,20 @@
    <FixtureVal ID="26">0,63</FixtureVal>
    <FixtureVal ID="27">0,0</FixtureVal>
   </Function>
-  <Function Type="Chaser" Name="Random Multi" ID="16">
-   <Speed Duration="2010" FadeOut="0" FadeIn="0"/>
+  <Function ID="16" Type="Chaser" Name="Random Multi">
+   <Speed FadeIn="0" FadeOut="0" Duration="2010"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
-   <SpeedModes Duration="Common" FadeOut="Default" FadeIn="Default"/>
-   <Step Number="0" FadeOut="0" FadeIn="0" Hold="90">17</Step>
-   <Step Number="1" FadeOut="0" FadeIn="0" Hold="1000">18</Step>
-   <Step Number="2" FadeOut="0" FadeIn="0" Hold="0">19</Step>
-   <Step Number="3" FadeOut="0" FadeIn="0" Hold="0">20</Step>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
   </Function>
-  <Function Type="Scene" Name="Random Step 1" ID="17">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
-   <FixtureVal ID="10">0,255</FixtureVal>
-   <FixtureVal ID="12">0,255</FixtureVal>
-   <FixtureVal ID="13">0,255</FixtureVal>
-  </Function>
-  <Function Type="Scene" Name="Random Step 2" ID="18">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
-   <FixtureVal ID="11">0,255</FixtureVal>
-   <FixtureVal ID="13">0,255</FixtureVal>
-  </Function>
-  <Function Type="Scene" Name="Random Step 3" ID="19">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
-   <FixtureVal ID="11">0,255</FixtureVal>
-   <FixtureVal ID="12">0,255</FixtureVal>
-   <FixtureVal ID="13">0,255</FixtureVal>
-  </Function>
-  <Function Type="Scene" Name="Random Step 4" ID="20">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
-   <FixtureVal ID="11">0,255</FixtureVal>
-  </Function>
-  <Function Type="Scene" Name="Stage Purple" ID="21">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
-   <FixtureVal ID="-1"/>
-  </Function>
-  <Function Type="Scene" Name="Stage Orange" ID="22">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
-   <FixtureVal ID="-1"/>
-  </Function>
-  <Function Type="Scene" Name="Stage Yellow" ID="23">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
-   <FixtureVal ID="-1"/>
-  </Function>
-  <Function Type="Scene" Name="Stage Green" ID="24">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
-   <FixtureVal ID="-1"/>
-  </Function>
-  <Function Type="Scene" Name="Stage Blue" ID="25">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
-   <FixtureVal ID="-1"/>
-  </Function>
-  <Function Type="Scene" Name="Stage Off" ID="26">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
-   <FixtureVal ID="-1"/>
-  </Function>
-  <Function Type="Chaser" Name="Random Single" ID="27">
-   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+  <Function ID="27" Type="Chaser" Name="Random Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
-   <SpeedModes Duration="Common" FadeOut="Default" FadeIn="Default"/>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
   </Function>
-  <Function Type="Scene" Name="Pillars Red" ID="28">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
-   <FixtureVal ID="-1"/>
-  </Function>
-  <Function Type="Scene" Name="Pillars Orange" ID="29">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
-   <FixtureVal ID="-1"/>
-  </Function>
-  <Function Type="Scene" Name="Pillars Yellow" ID="30">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
-   <FixtureVal ID="-1"/>
-  </Function>
-  <Function Type="Scene" Name="Pillars Green" ID="31">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
-   <FixtureVal ID="-1"/>
-  </Function>
-  <Function Type="Scene" Name="Pillars Blue" ID="32">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
-   <FixtureVal ID="-1"/>
-  </Function>
-  <Function Type="Scene" Name="Late Service notices" ID="33">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
-   <FixtureVal ID="0">0,0</FixtureVal>
-   <FixtureVal ID="1">0,0</FixtureVal>
-   <FixtureVal ID="2">0,0</FixtureVal>
-   <FixtureVal ID="3">0,0</FixtureVal>
-   <FixtureVal ID="4">0,0</FixtureVal>
-   <FixtureVal ID="5">0,0</FixtureVal>
-   <FixtureVal ID="6">0,0</FixtureVal>
-   <FixtureVal ID="7">0,0</FixtureVal>
-   <FixtureVal ID="8">0,36</FixtureVal>
-   <FixtureVal ID="9">0,0</FixtureVal>
-   <FixtureVal ID="10">0,70</FixtureVal>
-   <FixtureVal ID="11">0,170</FixtureVal>
-   <FixtureVal ID="12">0,70</FixtureVal>
-   <FixtureVal ID="13">0,70</FixtureVal>
-   <FixtureVal ID="14">0,0</FixtureVal>
-   <FixtureVal ID="15">0,0</FixtureVal>
-   <FixtureVal ID="16">0,0</FixtureVal>
-   <FixtureVal ID="17">0,0</FixtureVal>
-   <FixtureVal ID="18">0,180</FixtureVal>
-   <FixtureVal ID="19">0,0</FixtureVal>
-   <FixtureVal ID="20">0,0</FixtureVal>
-   <FixtureVal ID="21">0,255</FixtureVal>
-   <FixtureVal ID="22">0,0</FixtureVal>
-   <FixtureVal ID="23">0,255</FixtureVal>
-   <FixtureVal ID="24">0,0</FixtureVal>
-   <FixtureVal ID="25">0,0</FixtureVal>
-   <FixtureVal ID="26">0,0</FixtureVal>
-   <FixtureVal ID="27">0,0</FixtureVal>
-  </Function>
-  <Function Type="Scene" Name="Late Service talk" ID="34">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
-   <FixtureVal ID="0">0,48</FixtureVal>
-   <FixtureVal ID="1">0,48</FixtureVal>
-   <FixtureVal ID="2">0,48</FixtureVal>
-   <FixtureVal ID="3">0,0</FixtureVal>
-   <FixtureVal ID="4">0,0</FixtureVal>
-   <FixtureVal ID="5">0,0</FixtureVal>
-   <FixtureVal ID="6">0,0</FixtureVal>
-   <FixtureVal ID="7">0,0</FixtureVal>
-   <FixtureVal ID="8">0,36</FixtureVal>
-   <FixtureVal ID="9">0,0</FixtureVal>
-   <FixtureVal ID="10">0,141</FixtureVal>
-   <FixtureVal ID="11">0,170</FixtureVal>
-   <FixtureVal ID="12">0,143</FixtureVal>
-   <FixtureVal ID="13">0,146</FixtureVal>
-   <FixtureVal ID="14">0,0</FixtureVal>
-   <FixtureVal ID="15">0,0</FixtureVal>
-   <FixtureVal ID="16">0,0</FixtureVal>
-   <FixtureVal ID="17">0,0</FixtureVal>
-   <FixtureVal ID="18">0,199</FixtureVal>
-   <FixtureVal ID="19">0,0</FixtureVal>
-   <FixtureVal ID="20">0,0</FixtureVal>
-   <FixtureVal ID="21">0,255</FixtureVal>
-   <FixtureVal ID="22">0,0</FixtureVal>
-   <FixtureVal ID="23">0,255</FixtureVal>
-   <FixtureVal ID="24">0,0</FixtureVal>
-   <FixtureVal ID="25">0,0</FixtureVal>
-   <FixtureVal ID="26">0,0</FixtureVal>
-   <FixtureVal ID="27">0,0</FixtureVal>
-  </Function>
-  <Function Type="Scene" Name="Pillars Purple" ID="35">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
-   <FixtureVal ID="-1"/>
-  </Function>
-  <Function Type="Scene" Name="Pillars Music" ID="36">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
-   <FixtureVal ID="-1"/>
-  </Function>
-  <Function Type="Scene" Name="Pillars Off" ID="37">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
-   <FixtureVal ID="-1"/>
-  </Function>
-  <Function Type="Scene" Name="LS InTheRound" ID="38">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
-   <FixtureVal ID="0">0,0</FixtureVal>
-   <FixtureVal ID="1">0,0</FixtureVal>
-   <FixtureVal ID="2">0,255</FixtureVal>
-   <FixtureVal ID="3">0,112</FixtureVal>
-  </Function>
-  <Function Type="Scene" Name="Stage Aqua" ID="39">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
-   <FixtureVal ID="-1"/>
-  </Function>
-  <Function Type="Scene" Name="Pillars Aqua" ID="40">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
-   <FixtureVal ID="-1"/>
-  </Function>
-  <Function Type="Scene" Name="Worship+Orch" ID="41">
-   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
-   <FixtureVal ID="0">0,0</FixtureVal>
-   <FixtureVal ID="1">0,0</FixtureVal>
-   <FixtureVal ID="2">0,0</FixtureVal>
-   <FixtureVal ID="3">0,0</FixtureVal>
-   <FixtureVal ID="4">0,0</FixtureVal>
-   <FixtureVal ID="5">0,0</FixtureVal>
-   <FixtureVal ID="6">0,0</FixtureVal>
-   <FixtureVal ID="7">0,0</FixtureVal>
-   <FixtureVal ID="8">0,70</FixtureVal>
-   <FixtureVal ID="9">0,0</FixtureVal>
-   <FixtureVal ID="10">0,0</FixtureVal>
-   <FixtureVal ID="11">0,0</FixtureVal>
-   <FixtureVal ID="12">0,0</FixtureVal>
-   <FixtureVal ID="13">0,0</FixtureVal>
-   <FixtureVal ID="14">0,0</FixtureVal>
-   <FixtureVal ID="15">0,108</FixtureVal>
-   <FixtureVal ID="16">0,108</FixtureVal>
-   <FixtureVal ID="17">0,0</FixtureVal>
-   <FixtureVal ID="18">0,0</FixtureVal>
-   <FixtureVal ID="19">0,118</FixtureVal>
-   <FixtureVal ID="20">0,92</FixtureVal>
-   <FixtureVal ID="21">0,0</FixtureVal>
-   <FixtureVal ID="22">0,0</FixtureVal>
-   <FixtureVal ID="23">0,0</FixtureVal>
-   <FixtureVal ID="24">0,0</FixtureVal>
-   <FixtureVal ID="25">0,0</FixtureVal>
-   <FixtureVal ID="26">0,0</FixtureVal>
-   <FixtureVal ID="27">0,0</FixtureVal>
-  </Function>
-  <Function Type="Scene" Name="6pm worship" ID="42">
-   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+  <Function ID="42" Type="Scene" Name="6pm worship">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,57</FixtureVal>
    <FixtureVal ID="1">0,57</FixtureVal>
    <FixtureVal ID="2">0,57</FixtureVal>
@@ -1216,8 +926,8 @@
    <FixtureVal ID="58">0,127</FixtureVal>
    <FixtureVal ID="59">0,163</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="6pm prepost" ID="43">
-   <Speed Duration="0" FadeOut="8000" FadeIn="0"/>
+  <Function ID="43" Type="Scene" Name="6pm prepost">
+   <Speed FadeIn="0" FadeOut="8000" Duration="0"/>
    <FixtureVal ID="0">0,127</FixtureVal>
    <FixtureVal ID="1">0,127</FixtureVal>
    <FixtureVal ID="2">0,127</FixtureVal>
@@ -1250,8 +960,8 @@
    <FixtureVal ID="53">0,0</FixtureVal>
    <FixtureVal ID="58">0,0</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="6pm service (during)" ID="44">
-   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+  <Function ID="44" Type="Scene" Name="6pm service (during)">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,82</FixtureVal>
    <FixtureVal ID="1">0,82</FixtureVal>
    <FixtureVal ID="2">0,82</FixtureVal>
@@ -1283,12 +993,8 @@
    <FixtureVal ID="53">0,82</FixtureVal>
    <FixtureVal ID="59">0,182</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="New Scene 45" ID="45">
-   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
-   <FixtureVal ID="-1"/>
-  </Function>
-  <Function Type="Scene" Name="8.15 Autumn 2015 Draft" ID="46">
-   <Speed Duration="0" FadeOut="0" FadeIn="5000"/>
+  <Function ID="46" Type="Scene" Name="8.15 Autumn 2015 Draft">
+   <Speed FadeIn="5000" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,0</FixtureVal>
    <FixtureVal ID="1">0,0</FixtureVal>
    <FixtureVal ID="2">0,200</FixtureVal>
@@ -1351,8 +1057,8 @@
    <FixtureVal ID="61">0,77</FixtureVal>
    <FixtureVal ID="62">0,79</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="6pm-8.15 transition" ID="47">
-   <Speed Duration="0" FadeOut="5000" FadeIn="0"/>
+  <Function ID="47" Type="Scene" Name="6pm-8.15 transition">
+   <Speed FadeIn="0" FadeOut="5000" Duration="0"/>
    <FixtureVal ID="0">0,127</FixtureVal>
    <FixtureVal ID="1">0,127</FixtureVal>
    <FixtureVal ID="2">0,127</FixtureVal>
@@ -1385,8 +1091,8 @@
    <FixtureVal ID="53">0,0</FixtureVal>
    <FixtureVal ID="58">0,0</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="8.15 Break" ID="48">
-   <Speed Duration="0" FadeOut="5000" FadeIn="5000"/>
+  <Function ID="48" Type="Scene" Name="8.15 Break">
+   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
    <FixtureVal ID="0">0,0</FixtureVal>
    <FixtureVal ID="1">0,0</FixtureVal>
    <FixtureVal ID="2">0,200</FixtureVal>
@@ -1451,15 +1157,15 @@
    <FixtureVal ID="61">0,77</FixtureVal>
    <FixtureVal ID="62">0,79</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="Baptistry" ID="49">
-   <Speed Duration="0" FadeOut="3000" FadeIn="3000"/>
+  <Function ID="49" Type="Scene" Name="Baptistry">
+   <Speed FadeIn="3000" FadeOut="3000" Duration="0"/>
    <FixtureVal ID="20">0,180</FixtureVal>
    <FixtureVal ID="63">0,179</FixtureVal>
   </Function>
-  <Monitor ShowLabels="0" DisplayMode="0">
+  <Monitor DisplayMode="0" ShowLabels="0">
    <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
    <ChannelStyle>0</ChannelStyle>
-   <ValueStyle>0</ValueStyle>
+   <ValueStyle>1</ValueStyle>
    <Grid Width="5" Height="5" Units="0"/>
   </Monitor>
  </Engine>
@@ -1472,7 +1178,7 @@
     <BackgroundImage>None</BackgroundImage>
     <Font>Default</Font>
    </Appearance>
-   <SoloFrame ID="0" Caption="8.15 Lighting Presets">
+   <SoloFrame Caption="8.15 Lighting Presets" ID="0">
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1480,21 +1186,29 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Width="280" X="25" Y="15" Height="275" Visible="True"/>
+    <WindowState Visible="False" X="25" Y="15" Width="280" Height="275"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
     <ShowEnableButton>True</ShowEnableButton>
+    <Mixing>False</Mixing>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-    <Enable>
-     <Key></Key>
-    </Enable>
-    <Button Icon="" ID="1" Caption="6pm Post Service">
+    <Button Caption="6pm Post Service" ID="1" Icon="">
+     <WindowState Visible="False" X="35" Y="45" Width="210" Height="65"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
      <Function ID="43"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="210" X="35" Y="45" Height="65" Visible="True"/>
+    </Button>
+    <Button Caption="8.15 Service" ID="4" Icon="">
+     <WindowState Visible="False" X="35" Y="185" Width="210" Height="60"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1502,12 +1216,12 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-    </Button>
-    <Button Icon="" ID="4" Caption="8.15 Service">
      <Function ID="46"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="210" X="35" Y="185" Height="60" Visible="True"/>
+    </Button>
+    <Button Caption="8.15 Pre/Break/Post" ID="5" Icon="">
+     <WindowState Visible="False" X="35" Y="120" Width="210" Height="55"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1515,23 +1229,13 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-    </Button>
-    <Button Icon="" ID="5" Caption="8.15 Pre/Break/Post">
      <Function ID="48"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="210" X="35" Y="120" Height="55" Visible="True"/>
-     <Appearance>
-      <FrameStyle>None</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
     </Button>
    </SoloFrame>
-   <Slider WidgetStyle="Slider" ID="2" Caption="Floor Lights" InvertedAppearance="false">
-    <WindowState Width="75" X="330" Y="15" Height="340" Visible="True"/>
+   <Slider Caption="Floor Lights" ID="2" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="False" X="330" Y="15" Width="75" Height="340"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1539,8 +1243,8 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <SliderMode ValueDisplayStyle="Percentage" Monitor="false" ClickAndGoType="None">Level</SliderMode>
-    <Level HighLimit="255" LowLimit="0" Value="0">
+    <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="49">0</Channel>
      <Channel Fixture="50">0</Channel>
     </Level>
@@ -1548,11 +1252,8 @@
      <Function>4294967295</Function>
     </Playback>
    </Slider>
-   <Button Icon="" ID="3" Caption="Baptistry">
-    <Function ID="49"/>
-    <Action>Toggle</Action>
-    <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="210" X="60" Y="300" Height="55" Visible="True"/>
+   <Button Caption="Baptistry" ID="3" Icon="">
+    <WindowState Visible="False" X="60" Y="300" Width="210" Height="55"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1560,16 +1261,17 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
+    <Function ID="49"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
    </Button>
   </Frame>
   <Properties>
    <Size Width="900" Height="700"/>
-   <Keyboard TapModifier="67108864"/>
-   <GrandMaster SliderMode="Normal" ChannelMode="Intensity" ValueMode="Reduce"/>
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
   </Properties>
  </VirtualConsole>
  <SimpleDesk>
   <Engine/>
  </SimpleDesk>
 </Workspace>
-
