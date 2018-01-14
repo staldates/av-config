@@ -35,3 +35,5 @@ which will override all the channel names with no further warning.
 To generate a link like this to save a custom config, use your browser's insepctor features to
 capture the URL that is generated when the save button is pressed in the web interface. It will
 be a single URL about 4k long.
+
+You can download the confing in JSON format [here](http://192.168.1.40/cgi-bin/getsharedchanneldata.cgi)
