@@ -3,7 +3,7 @@
     <MixEffectBlocks>
         <MixEffectBlock index="0">
             <Program input="0"/>
-            <Preview input="5"/>
+            <Preview input="1"/>
             <NextTransition selection="Background" nextSelection="Background"/>
             <TransitionStyle style="Mix" nextStyle="Mix" previewTransition="False" transitionPosition="0">
                 <MixParameters rate="25"/>
@@ -74,7 +74,7 @@
         <Auxiliary id="8003" input="10010"/>
         <Auxiliary id="8004" input="10010"/>
         <Auxiliary id="8005" input="10010"/>
-        <Auxiliary id="8006" input="1"/>
+        <Auxiliary id="8006" input="10010"/>
     </Auxiliaries>
     <Settings videoMode="1080p25" abDirect="False" cameraAux="-1" SDI3GOutputLevel="LevelB">
         <MultiViewVideoModes>
@@ -156,11 +156,11 @@
                     <Window index="1" input="10010" vuMeterEnabled="False"/>
                     <Window index="2" input="1" vuMeterEnabled="False"/>
                     <Window index="3" input="2" vuMeterEnabled="False"/>
-                    <Window index="4" input="4" vuMeterEnabled="False"/>
-                    <Window index="5" input="8001" vuMeterEnabled="True"/>
+                    <Window index="4" input="3" vuMeterEnabled="False"/>
+                    <Window index="5" input="8001" vuMeterEnabled="False"/>
                     <Window index="6" input="5" vuMeterEnabled="False"/>
                     <Window index="7" input="6" vuMeterEnabled="False"/>
-                    <Window index="8" input="8002" vuMeterEnabled="False"/>
+                    <Window index="8" input="8002" vuMeterEnabled="True"/>
                     <Window index="9" input="8003" vuMeterEnabled="False"/>
                 </Windows>
             </MultiView>
