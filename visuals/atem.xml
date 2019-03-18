@@ -2,8 +2,8 @@
 <Profile majorVersion="1" minorVersion="4" product="ATEM 2 M/E Production Studio 4K">
     <MixEffectBlocks>
         <MixEffectBlock index="0">
-            <Program input="0"/>
-            <Preview input="1"/>
+            <Program input="3"/>
+            <Preview input="3"/>
             <NextTransition selection="Background" nextSelection="Background"/>
             <TransitionStyle style="Mix" nextStyle="Mix" previewTransition="False" transitionPosition="0">
                 <MixParameters rate="25"/>
@@ -150,7 +150,7 @@
             </Clips>
         </MediaPool>
         <MultiViews>
-            <MultiView index="0" layout="ProgramTop" vuMeterOpacity="1" safeAreaEnabled="True" programPreviewSwapped="False">
+            <MultiView index="0" layout="ProgramTop" vuMeterOpacity="0.64" safeAreaEnabled="True" programPreviewSwapped="False">
                 <Windows>
                     <Window index="0" input="10011" vuMeterEnabled="False"/>
                     <Window index="1" input="10010" vuMeterEnabled="False"/>
@@ -212,7 +212,7 @@
         <HyperDeck id="2" networkAddress="0.0.0.0" input="0" autoRoll="False" autoRollFrameDelay="0"/>
         <HyperDeck id="3" networkAddress="0.0.0.0" input="0" autoRoll="False" autoRollFrameDelay="0"/>
     </HyperDecks>
-    <AudioMixer programOutGain="6" programOutBalance="0" programOutFollowFadeToBlack="False">
+    <AudioMixer programOutGain="0" programOutBalance="0" programOutFollowFadeToBlack="False">
         <AudioInputs>
             <AudioInput id="1" mixOption="Off" gain="-inf" balance="0"/>
             <AudioInput id="2" mixOption="Off" gain="-inf" balance="0"/>
@@ -237,7 +237,7 @@
             <AudioInput id="2001" mixOption="AudioFollowVideo" gain="0" balance="0"/>
             <AudioInput id="2002" mixOption="AudioFollowVideo" gain="0" balance="0"/>
             <AudioInput id="1201" mixOption="Off" gain="0" balance="0"/>
-            <AudioInput id="1001" mixOption="On" gain="6" balance="0"/>
+            <AudioInput id="1001" mixOption="On" gain="0" balance="0"/>
         </AudioInputs>
         <AudioMonitorOutputs>
             <AudioMonitorOutput index="0" gain="0" mute="False" solo="True" soloInput="8" dim="False" dimLevel="20"/>
@@ -538,7 +538,92 @@
         <Property device="20" property="Locked" value="False"/>
     </CameraControl>
     <MacroPool>
-        <Macro index="0" name="Load Media" description=""/>
+        <Macro index="0" name="Toggle Overlays" description="">
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key1"/>
+            <Op id="AudioMixerInputGain" input="Camera1" gain="0"/>
+            <Op id="AudioMixerInputGain" input="Camera2" gain="0"/>
+            <Op id="AudioMixerInputGain" input="Camera3" gain="0"/>
+            <Op id="AudioMixerInputGain" input="Camera4" gain="0"/>
+            <Op id="AudioMixerInputGain" input="Camera5" gain="0"/>
+            <Op id="AudioMixerInputGain" input="Camera6" gain="0"/>
+            <Op id="AudioMixerInputGain" input="Camera7" gain="0"/>
+            <Op id="AudioMixerInputGain" input="Camera8" gain="0"/>
+            <Op id="AudioMixerMasterOutGain" gain="32768"/>
+            <Op id="AudioMixerMonitorOutSoloInput" input="Camera8"/>
+            <Op id="AudioMixerMonitorOutSolo" solo="True"/>
+            <Op id="AudioMixerInputMixType" input="Camera1" mixType="AudioFollowVideo"/>
+            <Op id="AudioMixerInputMixType" input="Camera2" mixType="AudioFollowVideo"/>
+            <Op id="AudioMixerInputMixType" input="Camera3" mixType="AudioFollowVideo"/>
+            <Op id="AudioMixerInputMixType" input="Camera4" mixType="AudioFollowVideo"/>
+            <Op id="AudioMixerInputMixType" input="Camera5" mixType="On"/>
+            <Op id="AudioMixerInputMixType" input="Camera6" mixType="On"/>
+            <Op id="AudioMixerInputMixType" input="Camera7" mixType="On"/>
+            <Op id="AudioMixerInputMixType" input="Camera8" mixType="On"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="1" source="Key1"/>
+            <Op id="AudioMixerInputGain" input="Camera1" gain="0"/>
+            <Op id="AudioMixerInputGain" input="Camera2" gain="0"/>
+            <Op id="AudioMixerInputGain" input="Camera3" gain="0"/>
+            <Op id="AudioMixerInputGain" input="Camera4" gain="0"/>
+            <Op id="AudioMixerInputGain" input="Camera5" gain="0"/>
+            <Op id="AudioMixerInputGain" input="Camera6" gain="0"/>
+            <Op id="AudioMixerInputGain" input="Camera7" gain="0"/>
+            <Op id="AudioMixerInputGain" input="Camera8" gain="0"/>
+            <Op id="AudioMixerMasterOutGain" gain="32768"/>
+            <Op id="AudioMixerMonitorOutSoloInput" input="Camera8"/>
+            <Op id="AudioMixerMonitorOutSolo" solo="True"/>
+            <Op id="AudioMixerInputMixType" input="Camera1" mixType="On"/>
+            <Op id="AudioMixerInputMixType" input="Camera2" mixType="On"/>
+            <Op id="AudioMixerInputMixType" input="Camera3" mixType="On"/>
+            <Op id="AudioMixerInputMixType" input="Camera4" mixType="On"/>
+            <Op id="AudioMixerInputMixType" input="Camera5" mixType="AudioFollowVideo"/>
+            <Op id="AudioMixerInputMixType" input="Camera6" mixType="AudioFollowVideo"/>
+            <Op id="AudioMixerInputMixType" input="Camera7" mixType="AudioFollowVideo"/>
+            <Op id="AudioMixerInputMixType" input="Camera8" mixType="AudioFollowVideo"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="AudioMixerInputGain" input="Camera1" gain="0"/>
+            <Op id="AudioMixerInputGain" input="Camera2" gain="0"/>
+            <Op id="AudioMixerInputGain" input="Camera3" gain="0"/>
+            <Op id="AudioMixerInputGain" input="Camera4" gain="0"/>
+            <Op id="AudioMixerInputGain" input="Camera5" gain="0"/>
+            <Op id="AudioMixerInputGain" input="Camera6" gain="0"/>
+            <Op id="AudioMixerInputGain" input="Camera7" gain="0"/>
+            <Op id="AudioMixerInputGain" input="Camera8" gain="0"/>
+            <Op id="AudioMixerMasterOutGain" gain="32768"/>
+            <Op id="AudioMixerMonitorOutSoloInput" input="Camera8"/>
+            <Op id="AudioMixerMonitorOutSolo" solo="True"/>
+            <Op id="AudioMixerInputMixType" input="Camera1" mixType="AudioFollowVideo"/>
+            <Op id="AudioMixerInputMixType" input="Camera2" mixType="AudioFollowVideo"/>
+            <Op id="AudioMixerInputMixType" input="Camera3" mixType="AudioFollowVideo"/>
+            <Op id="AudioMixerInputMixType" input="Camera4" mixType="AudioFollowVideo"/>
+            <Op id="AudioMixerInputMixType" input="Camera5" mixType="On"/>
+            <Op id="AudioMixerInputMixType" input="Camera6" mixType="On"/>
+            <Op id="AudioMixerInputMixType" input="Camera7" mixType="On"/>
+            <Op id="AudioMixerInputMixType" input="Camera8" mixType="On"/>
+        </Macro>
+        <Macro index="2" name="Fix" description="">
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="1" source="Background"/>
+            <Op id="AudioMixerInputGain" input="Camera1" gain="0"/>
+            <Op id="AudioMixerInputGain" input="Camera2" gain="0"/>
+            <Op id="AudioMixerInputGain" input="Camera3" gain="0"/>
+            <Op id="AudioMixerInputGain" input="Camera4" gain="0"/>
+            <Op id="AudioMixerInputGain" input="Camera5" gain="0"/>
+            <Op id="AudioMixerInputGain" input="Camera6" gain="0"/>
+            <Op id="AudioMixerInputGain" input="Camera7" gain="0"/>
+            <Op id="AudioMixerInputGain" input="Camera8" gain="0"/>
+            <Op id="AudioMixerMasterOutGain" gain="32768"/>
+            <Op id="AudioMixerMonitorOutSoloInput" input="Camera7"/>
+            <Op id="AudioMixerMonitorOutSolo" solo="False"/>
+            <Op id="AudioMixerInputMixType" input="Camera1" mixType="On"/>
+            <Op id="AudioMixerInputMixType" input="Camera2" mixType="On"/>
+            <Op id="AudioMixerInputMixType" input="Camera3" mixType="On"/>
+            <Op id="AudioMixerInputMixType" input="Camera4" mixType="AudioFollowVideo"/>
+            <Op id="AudioMixerInputMixType" input="Camera5" mixType="On"/>
+            <Op id="AudioMixerInputMixType" input="Camera6" mixType="On"/>
+            <Op id="AudioMixerInputMixType" input="Camera7" mixType="On"/>
+            <Op id="AudioMixerInputMixType" input="Camera8" mixType="On"/>
+        </Macro>
     </MacroPool>
     <MacroControl loop="False"/>
 </Profile>
