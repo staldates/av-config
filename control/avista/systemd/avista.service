@@ -1,0 +1,14 @@
+[Unit]
+Description=avista master router
+After=network.target
+
+[Service]
+Type=simple
+StandardInput=null
+StandardOutput=journal
+StandardError=journal
+ExecStart=/home/sound/avista/bin/crossbar start --cbdir=/home/sound/av-config/control/avista/ --logformat syslogd
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target
