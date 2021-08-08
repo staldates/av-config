@@ -1,0 +1,14 @@
+[Unit]
+Description=Stage power avista device
+After=network.target
+
+[Service]
+Type=simple
+StandardInput=null
+StandardOutput=journal
+StandardError=journal
+ExecStart=/home/pi/avista/bin/avista-device -n stage_power -o port=/dev/ttyUSB0 -r ws://192.168.1.133:8080/ws avista.devices.relay.KMtronicRelayCard
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target
