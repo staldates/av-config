@@ -80,6 +80,10 @@
             },
             "info": {
               "type": "nodeinfo"
+            },
+            "/": {
+              "type": "static",
+              "directory": "../../../webroot"
             }
           }
         }
