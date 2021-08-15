@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<preset version="2.1.0">
+    <name>Dante - stream from broadcast</name>
+    <description>Dante Controller preset</description>
+    <device>
+        <name>ATEM-Input</name>
+        <default_name>SK-80e84f</default_name>
+        <instance_id>
+            <device_id>001DC1FFFE80E84F</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>536E646B696E6700</manufacturer_id>
+        <manufacturer_name>Soundking Electronics&amp;Sound Co</manufacturer_name>
+        <model_id>0000000020181115</model_id>
+        <model_name>CXA036</model_name>
+        <model_version>1.0.0</model_version>
+        <device_type>556C74696D6F5800</device_type>
+        <device_type_string>UltimoX2</device_type_string>
+        <friendly_name>ATEM-Input</friendly_name>
+        <preferred_master value="false"/>
+        <samplerate>48000</samplerate>
+        <encoding>24</encoding>
+        <unicast_latency>1000</unicast_latency>
+        <interface network="0">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <rxchannel danteId="1" mediaType="audio">
+            <name>Left</name>
+            <subscribed_channel>Broadcast L</subscribed_channel>
+            <subscribed_device>SQ6-Broadcast</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2" mediaType="audio">
+            <name>Right</name>
+            <subscribed_channel>Broadcast R</subscribed_channel>
+            <subscribed_device>SQ6-Broadcast</subscribed_device>
+        </rxchannel>
+    </device>
+    <device>
+        <name>StreamPC</name>
+        <default_name>AVIOUSB-5131e4</default_name>
+        <instance_id>
+            <device_id>001DC1FFFE5131E4</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>417564696E617465</manufacturer_id>
+        <manufacturer_name>Audinate</manufacturer_name>
+        <model_id>44494F5553420000</model_id>
+        <model_name>AVIO-USB</model_name>
+        <model_version>1.1.5</model_version>
+        <device_type>44494F5553420000</device_type>
+        <device_type_string>DIOUSB</device_type_string>
+        <friendly_name>StreamPC</friendly_name>
+        <preferred_master value="false"/>
+        <samplerate>48000</samplerate>
+        <encoding>24</encoding>
+        <unicast_latency>1000</unicast_latency>
+        <interface network="0">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <txchannel danteId="1" mediaType="audio">
+            <label>Left</label>
+        </txchannel>
+        <txchannel danteId="2" mediaType="audio">
+            <label>Right</label>
+        </txchannel>
+        <rxchannel danteId="1" mediaType="audio">
+            <name>Left</name>
+            <subscribed_channel>Broadcast L</subscribed_channel>
+            <subscribed_device>SQ6-Broadcast</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2" mediaType="audio">
+            <name>Right</name>
+            <subscribed_channel>Broadcast R</subscribed_channel>
+            <subscribed_device>SQ6-Broadcast</subscribed_device>
+        </rxchannel>
+    </device>
+</preset>
