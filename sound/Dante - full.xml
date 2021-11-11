@@ -745,26 +745,26 @@
         </rxchannel>
         <rxchannel danteId="3" mediaType="audio">
             <name>Keys</name>
-            <subscribed_channel>05</subscribed_channel>
+            <subscribed_channel>07</subscribed_channel>
             <subscribed_device>Stage-A</subscribed_device>
         </rxchannel>
         <rxchannel danteId="4" mediaType="audio">
-            <name>04</name>
+            <name>DrumTB</name>
+            <subscribed_channel>16</subscribed_channel>
+            <subscribed_device>Stage-B</subscribed_device>
         </rxchannel>
         <rxchannel danteId="5" mediaType="audio">
             <name>Pads L</name>
-            <subscribed_channel>06</subscribed_channel>
+            <subscribed_channel>05</subscribed_channel>
             <subscribed_device>Stage-A</subscribed_device>
         </rxchannel>
         <rxchannel danteId="6" mediaType="audio">
             <name>Pads R</name>
-            <subscribed_channel>07</subscribed_channel>
+            <subscribed_channel>06</subscribed_channel>
             <subscribed_device>Stage-A</subscribed_device>
         </rxchannel>
         <rxchannel danteId="7" mediaType="audio">
-            <name>EGuitar</name>
-            <subscribed_channel>08</subscribed_channel>
-            <subscribed_device>Stage-A</subscribed_device>
+            <name>07</name>
         </rxchannel>
         <rxchannel danteId="8" mediaType="audio">
             <name>Bass</name>
@@ -872,13 +872,13 @@
             <subscribed_device>SQ6-FrontOfHouse</subscribed_device>
         </rxchannel>
         <rxchannel danteId="29" mediaType="audio">
-            <name>Extra 1</name>
-            <subscribed_channel>10</subscribed_channel>
+            <name>E.Gtr L</name>
+            <subscribed_channel>15</subscribed_channel>
             <subscribed_device>Stage-A</subscribed_device>
         </rxchannel>
         <rxchannel danteId="30" mediaType="audio">
-            <name>Extra 2</name>
-            <subscribed_channel>11</subscribed_channel>
+            <name>E.Gtr R</name>
+            <subscribed_channel>16</subscribed_channel>
             <subscribed_device>Stage-A</subscribed_device>
         </rxchannel>
         <rxchannel danteId="31" mediaType="audio">
@@ -893,7 +893,7 @@
         </rxchannel>
         <rxchannel danteId="33" mediaType="audio">
             <name>Radio mics</name>
-            <subscribed_channel>33</subscribed_channel>
+            <subscribed_channel>61</subscribed_channel>
             <subscribed_device>SQ6-FrontOfHouse</subscribed_device>
         </rxchannel>
         <rxchannel danteId="34" mediaType="audio">
@@ -907,7 +907,7 @@
             <subscribed_device>SQ6-Broadcast</subscribed_device>
         </rxchannel>
         <rxchannel danteId="36" mediaType="audio">
-            <name>Comms</name>
+            <name>36</name>
         </rxchannel>
         <rxchannel danteId="37" mediaType="audio">
             <name>37</name>
@@ -1218,41 +1218,43 @@
         </txchannel>
         <rxchannel danteId="1" mediaType="audio">
             <name>01</name>
-            <subscribed_channel>15</subscribed_channel>
-            <subscribed_device>Stage-B</subscribed_device>
+            <subscribed_channel>01</subscribed_channel>
+            <subscribed_device>Stage-A</subscribed_device>
         </rxchannel>
         <rxchannel danteId="2" mediaType="audio">
             <name>02</name>
-            <subscribed_channel>16</subscribed_channel>
-            <subscribed_device>Stage-B</subscribed_device>
+            <subscribed_channel>02</subscribed_channel>
+            <subscribed_device>Stage-A</subscribed_device>
         </rxchannel>
         <rxchannel danteId="3" mediaType="audio">
             <name>03</name>
-            <subscribed_channel>05</subscribed_channel>
+            <subscribed_channel>03</subscribed_channel>
             <subscribed_device>Stage-A</subscribed_device>
         </rxchannel>
         <rxchannel danteId="4" mediaType="audio">
             <name>04</name>
+            <subscribed_channel>04</subscribed_channel>
+            <subscribed_device>Stage-A</subscribed_device>
         </rxchannel>
         <rxchannel danteId="5" mediaType="audio">
             <name>05</name>
-            <subscribed_channel>06</subscribed_channel>
+            <subscribed_channel>05</subscribed_channel>
             <subscribed_device>Stage-A</subscribed_device>
         </rxchannel>
         <rxchannel danteId="6" mediaType="audio">
             <name>06</name>
-            <subscribed_channel>07</subscribed_channel>
+            <subscribed_channel>06</subscribed_channel>
             <subscribed_device>Stage-A</subscribed_device>
         </rxchannel>
         <rxchannel danteId="7" mediaType="audio">
             <name>07</name>
-            <subscribed_channel>08</subscribed_channel>
+            <subscribed_channel>07</subscribed_channel>
             <subscribed_device>Stage-A</subscribed_device>
         </rxchannel>
         <rxchannel danteId="8" mediaType="audio">
             <name>08</name>
-            <subscribed_channel>11</subscribed_channel>
-            <subscribed_device>Stage-B</subscribed_device>
+            <subscribed_channel>08</subscribed_channel>
+            <subscribed_device>Stage-A</subscribed_device>
         </rxchannel>
         <rxchannel danteId="9" mediaType="audio">
             <name>09</name>
@@ -1261,37 +1263,37 @@
         </rxchannel>
         <rxchannel danteId="10" mediaType="audio">
             <name>10</name>
-            <subscribed_channel>12</subscribed_channel>
-            <subscribed_device>Stage-B</subscribed_device>
+            <subscribed_channel>10</subscribed_channel>
+            <subscribed_device>Stage-A</subscribed_device>
         </rxchannel>
         <rxchannel danteId="11" mediaType="audio">
             <name>11</name>
-            <subscribed_channel>13</subscribed_channel>
-            <subscribed_device>Stage-B</subscribed_device>
+            <subscribed_channel>11</subscribed_channel>
+            <subscribed_device>Stage-A</subscribed_device>
         </rxchannel>
         <rxchannel danteId="12" mediaType="audio">
             <name>12</name>
-            <subscribed_channel>14</subscribed_channel>
-            <subscribed_device>Stage-B</subscribed_device>
+            <subscribed_channel>12</subscribed_channel>
+            <subscribed_device>Stage-A</subscribed_device>
         </rxchannel>
         <rxchannel danteId="13" mediaType="audio">
             <name>13</name>
-            <subscribed_channel>01</subscribed_channel>
+            <subscribed_channel>13</subscribed_channel>
             <subscribed_device>Stage-A</subscribed_device>
         </rxchannel>
         <rxchannel danteId="14" mediaType="audio">
             <name>14</name>
-            <subscribed_channel>02</subscribed_channel>
+            <subscribed_channel>14</subscribed_channel>
             <subscribed_device>Stage-A</subscribed_device>
         </rxchannel>
         <rxchannel danteId="15" mediaType="audio">
             <name>15</name>
-            <subscribed_channel>03</subscribed_channel>
+            <subscribed_channel>15</subscribed_channel>
             <subscribed_device>Stage-A</subscribed_device>
         </rxchannel>
         <rxchannel danteId="16" mediaType="audio">
             <name>16</name>
-            <subscribed_channel>04</subscribed_channel>
+            <subscribed_channel>16</subscribed_channel>
             <subscribed_device>Stage-A</subscribed_device>
         </rxchannel>
         <rxchannel danteId="17" mediaType="audio">
@@ -1346,51 +1348,63 @@
         </rxchannel>
         <rxchannel danteId="27" mediaType="audio">
             <name>27</name>
-            <subscribed_channel>27</subscribed_channel>
-            <subscribed_device>SQ6-FrontOfHouse</subscribed_device>
+            <subscribed_channel>11</subscribed_channel>
+            <subscribed_device>Stage-B</subscribed_device>
         </rxchannel>
         <rxchannel danteId="28" mediaType="audio">
             <name>28</name>
-            <subscribed_channel>28</subscribed_channel>
-            <subscribed_device>SQ6-FrontOfHouse</subscribed_device>
+            <subscribed_channel>12</subscribed_channel>
+            <subscribed_device>Stage-B</subscribed_device>
         </rxchannel>
         <rxchannel danteId="29" mediaType="audio">
             <name>29</name>
-            <subscribed_channel>10</subscribed_channel>
-            <subscribed_device>Stage-A</subscribed_device>
+            <subscribed_channel>13</subscribed_channel>
+            <subscribed_device>Stage-B</subscribed_device>
         </rxchannel>
         <rxchannel danteId="30" mediaType="audio">
             <name>30</name>
-            <subscribed_channel>11</subscribed_channel>
-            <subscribed_device>Stage-A</subscribed_device>
+            <subscribed_channel>14</subscribed_channel>
+            <subscribed_device>Stage-B</subscribed_device>
         </rxchannel>
         <rxchannel danteId="31" mediaType="audio">
             <name>31</name>
-            <subscribed_channel>12</subscribed_channel>
-            <subscribed_device>Stage-A</subscribed_device>
+            <subscribed_channel>15</subscribed_channel>
+            <subscribed_device>Stage-B</subscribed_device>
         </rxchannel>
         <rxchannel danteId="32" mediaType="audio">
             <name>32</name>
-            <subscribed_channel>13</subscribed_channel>
-            <subscribed_device>Stage-A</subscribed_device>
+            <subscribed_channel>16</subscribed_channel>
+            <subscribed_device>Stage-B</subscribed_device>
         </rxchannel>
         <rxchannel danteId="33" mediaType="audio">
             <name>33</name>
+            <subscribed_channel>33</subscribed_channel>
+            <subscribed_device>SQ6-FrontOfHouse</subscribed_device>
         </rxchannel>
         <rxchannel danteId="34" mediaType="audio">
             <name>34</name>
+            <subscribed_channel>34</subscribed_channel>
+            <subscribed_device>SQ6-FrontOfHouse</subscribed_device>
         </rxchannel>
         <rxchannel danteId="35" mediaType="audio">
             <name>35</name>
+            <subscribed_channel>35</subscribed_channel>
+            <subscribed_device>SQ6-FrontOfHouse</subscribed_device>
         </rxchannel>
         <rxchannel danteId="36" mediaType="audio">
             <name>36</name>
+            <subscribed_channel>36</subscribed_channel>
+            <subscribed_device>SQ6-FrontOfHouse</subscribed_device>
         </rxchannel>
         <rxchannel danteId="37" mediaType="audio">
             <name>37</name>
+            <subscribed_channel>37</subscribed_channel>
+            <subscribed_device>SQ6-FrontOfHouse</subscribed_device>
         </rxchannel>
         <rxchannel danteId="38" mediaType="audio">
             <name>38</name>
+            <subscribed_channel>38</subscribed_channel>
+            <subscribed_device>SQ6-FrontOfHouse</subscribed_device>
         </rxchannel>
         <rxchannel danteId="39" mediaType="audio">
             <name>39</name>
@@ -1434,9 +1448,13 @@
         </rxchannel>
         <rxchannel danteId="47" mediaType="audio">
             <name>47</name>
+            <subscribed_channel>27</subscribed_channel>
+            <subscribed_device>SQ6-FrontOfHouse</subscribed_device>
         </rxchannel>
         <rxchannel danteId="48" mediaType="audio">
             <name>48</name>
+            <subscribed_channel>28</subscribed_channel>
+            <subscribed_device>SQ6-FrontOfHouse</subscribed_device>
         </rxchannel>
         <rxchannel danteId="49" mediaType="audio">
             <name>49</name>
@@ -1723,41 +1741,43 @@
         </txchannel>
         <rxchannel danteId="1" mediaType="audio">
             <name>01</name>
-            <subscribed_channel>15</subscribed_channel>
-            <subscribed_device>Stage-B</subscribed_device>
+            <subscribed_channel>01</subscribed_channel>
+            <subscribed_device>Stage-A</subscribed_device>
         </rxchannel>
         <rxchannel danteId="2" mediaType="audio">
             <name>02</name>
-            <subscribed_channel>16</subscribed_channel>
-            <subscribed_device>Stage-B</subscribed_device>
+            <subscribed_channel>02</subscribed_channel>
+            <subscribed_device>Stage-A</subscribed_device>
         </rxchannel>
         <rxchannel danteId="3" mediaType="audio">
             <name>03</name>
-            <subscribed_channel>05</subscribed_channel>
+            <subscribed_channel>03</subscribed_channel>
             <subscribed_device>Stage-A</subscribed_device>
         </rxchannel>
         <rxchannel danteId="4" mediaType="audio">
             <name>04</name>
+            <subscribed_channel>04</subscribed_channel>
+            <subscribed_device>Stage-A</subscribed_device>
         </rxchannel>
         <rxchannel danteId="5" mediaType="audio">
             <name>05</name>
-            <subscribed_channel>06</subscribed_channel>
+            <subscribed_channel>05</subscribed_channel>
             <subscribed_device>Stage-A</subscribed_device>
         </rxchannel>
         <rxchannel danteId="6" mediaType="audio">
             <name>06</name>
-            <subscribed_channel>07</subscribed_channel>
+            <subscribed_channel>06</subscribed_channel>
             <subscribed_device>Stage-A</subscribed_device>
         </rxchannel>
         <rxchannel danteId="7" mediaType="audio">
             <name>07</name>
-            <subscribed_channel>08</subscribed_channel>
+            <subscribed_channel>07</subscribed_channel>
             <subscribed_device>Stage-A</subscribed_device>
         </rxchannel>
         <rxchannel danteId="8" mediaType="audio">
             <name>08</name>
-            <subscribed_channel>11</subscribed_channel>
-            <subscribed_device>Stage-B</subscribed_device>
+            <subscribed_channel>08</subscribed_channel>
+            <subscribed_device>Stage-A</subscribed_device>
         </rxchannel>
         <rxchannel danteId="9" mediaType="audio">
             <name>09</name>
@@ -1766,37 +1786,37 @@
         </rxchannel>
         <rxchannel danteId="10" mediaType="audio">
             <name>10</name>
-            <subscribed_channel>12</subscribed_channel>
-            <subscribed_device>Stage-B</subscribed_device>
+            <subscribed_channel>10</subscribed_channel>
+            <subscribed_device>Stage-A</subscribed_device>
         </rxchannel>
         <rxchannel danteId="11" mediaType="audio">
             <name>11</name>
-            <subscribed_channel>13</subscribed_channel>
-            <subscribed_device>Stage-B</subscribed_device>
+            <subscribed_channel>11</subscribed_channel>
+            <subscribed_device>Stage-A</subscribed_device>
         </rxchannel>
         <rxchannel danteId="12" mediaType="audio">
             <name>12</name>
-            <subscribed_channel>14</subscribed_channel>
-            <subscribed_device>Stage-B</subscribed_device>
+            <subscribed_channel>12</subscribed_channel>
+            <subscribed_device>Stage-A</subscribed_device>
         </rxchannel>
         <rxchannel danteId="13" mediaType="audio">
             <name>13</name>
-            <subscribed_channel>01</subscribed_channel>
+            <subscribed_channel>13</subscribed_channel>
             <subscribed_device>Stage-A</subscribed_device>
         </rxchannel>
         <rxchannel danteId="14" mediaType="audio">
             <name>14</name>
-            <subscribed_channel>02</subscribed_channel>
+            <subscribed_channel>14</subscribed_channel>
             <subscribed_device>Stage-A</subscribed_device>
         </rxchannel>
         <rxchannel danteId="15" mediaType="audio">
             <name>15</name>
-            <subscribed_channel>03</subscribed_channel>
+            <subscribed_channel>15</subscribed_channel>
             <subscribed_device>Stage-A</subscribed_device>
         </rxchannel>
         <rxchannel danteId="16" mediaType="audio">
             <name>16</name>
-            <subscribed_channel>04</subscribed_channel>
+            <subscribed_channel>16</subscribed_channel>
             <subscribed_device>Stage-A</subscribed_device>
         </rxchannel>
         <rxchannel danteId="17" mediaType="audio">
@@ -1851,29 +1871,33 @@
         </rxchannel>
         <rxchannel danteId="27" mediaType="audio">
             <name>27</name>
+            <subscribed_channel>11</subscribed_channel>
+            <subscribed_device>Stage-B</subscribed_device>
         </rxchannel>
         <rxchannel danteId="28" mediaType="audio">
             <name>28</name>
+            <subscribed_channel>12</subscribed_channel>
+            <subscribed_device>Stage-B</subscribed_device>
         </rxchannel>
         <rxchannel danteId="29" mediaType="audio">
             <name>29</name>
-            <subscribed_channel>10</subscribed_channel>
-            <subscribed_device>Stage-A</subscribed_device>
+            <subscribed_channel>13</subscribed_channel>
+            <subscribed_device>Stage-B</subscribed_device>
         </rxchannel>
         <rxchannel danteId="30" mediaType="audio">
             <name>30</name>
-            <subscribed_channel>11</subscribed_channel>
-            <subscribed_device>Stage-A</subscribed_device>
+            <subscribed_channel>14</subscribed_channel>
+            <subscribed_device>Stage-B</subscribed_device>
         </rxchannel>
         <rxchannel danteId="31" mediaType="audio">
             <name>31</name>
-            <subscribed_channel>12</subscribed_channel>
-            <subscribed_device>Stage-A</subscribed_device>
+            <subscribed_channel>15</subscribed_channel>
+            <subscribed_device>Stage-B</subscribed_device>
         </rxchannel>
         <rxchannel danteId="32" mediaType="audio">
             <name>32</name>
-            <subscribed_channel>13</subscribed_channel>
-            <subscribed_device>Stage-A</subscribed_device>
+            <subscribed_channel>16</subscribed_channel>
+            <subscribed_device>Stage-B</subscribed_device>
         </rxchannel>
         <rxchannel danteId="33" mediaType="audio">
             <name>33</name>
@@ -2230,13 +2254,13 @@
         </txchannel>
         <rxchannel danteId="1" mediaType="audio">
             <name>Left</name>
-            <subscribed_channel>Broadcast L</subscribed_channel>
-            <subscribed_device>SQ6-Broadcast</subscribed_device>
+            <subscribed_channel>Main-L</subscribed_channel>
+            <subscribed_device>SQ6-FrontOfHouse</subscribed_device>
         </rxchannel>
         <rxchannel danteId="2" mediaType="audio">
             <name>Right</name>
-            <subscribed_channel>Broadcast R</subscribed_channel>
-            <subscribed_device>SQ6-Broadcast</subscribed_device>
+            <subscribed_channel>Main-R</subscribed_channel>
+            <subscribed_device>SQ6-FrontOfHouse</subscribed_device>
         </rxchannel>
     </device>
     <device>
