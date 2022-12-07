@@ -7,7 +7,7 @@ Type=simple
 StandardInput=null
 StandardOutput=journal
 StandardError=journal
-ExecStart=/home/sound/avista/bin/crossbar start --cbdir=/home/sound/av-config/control/avista/ --logformat syslogd
+ExecStart=/home/church/venv-avista/bin/crossbar start --cbdir=/home/church/av-config/control/avista/ --logformat syslogd
 Restart=on-abort
 
 [Install]
