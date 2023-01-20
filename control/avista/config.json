@@ -140,6 +140,15 @@
             "name": "recorder",
             "host": "10.10.7.21"
           }
+        },
+        {
+          "type": "class",
+          "realm": "avista",
+          "classname": "avista.devices.aja.Helo",
+          "extra": {
+            "name": "helo",
+            "host": "10.10.7.25"
+          }
         }
       ]
     }
