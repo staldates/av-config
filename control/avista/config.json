@@ -100,16 +100,16 @@
           "classname": "avista.devices.infrastructure.StaggeredSystemPower",
           "extra": {
             "name": "power",
-            "delay": 1,
+            "delay": 2,
             "switches": [
-              ["power_relays", 1],
-              ["power_relays", 2],
-              ["power_relays", 3],
-              ["power_relays", 4],
               ["power_relays", 5],
-              ["power_relays", 6],
+              ["power_relays", 8],
               ["power_relays", 7],
-              ["power_relays", 8]
+              ["power_relays", 6],
+              ["power_relays", 4],
+              ["power_relays", 2],
+              ["power_relays", 1],
+              ["power_relays", 3]
             ]
           }
         },
