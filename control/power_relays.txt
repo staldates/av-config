@@ -1,0 +1,10 @@
+StA power relays
+
+1. Screens north
+2. Screens south
+3. Broadcast gallery
+4. Racks
+5. FoH
+6. Stage 2
+7. Stage 1 + screens
+8. Stage 3
