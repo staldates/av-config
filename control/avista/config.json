@@ -149,6 +149,15 @@
             "name": "helo",
             "host": "10.10.7.25"
           }
+        },
+        {
+          "type": "class",
+          "realm": "avista",
+          "classname": "avista.devices.allen_heath.AHM",
+          "extra": {
+            "name": "ahm",
+            "host": "10.10.7.90"
+          }
         }
       ]
     }
