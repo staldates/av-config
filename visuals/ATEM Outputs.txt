@@ -1,0 +1,16 @@
+ 1. Front left
+ 2. Oak Room
+ 3. Front centre
+ 4. Front right
+ 5. East End
+ 6. Foyer
+ 7. Stage
+ 8. Pillar NW (north-west)
+ 9. Pillar NC (north central)
+10. Pillar NE (north-east)
+11. Pillar SW
+12. Pillar SC
+13. Pillar SE
+14. HyperDeck in
+15. Stream out
+
