@@ -126,6 +126,81 @@
         {
           "type": "class",
           "realm": "avista",
+          "classname": "avista.devices.dingtian.EthernetRelay",
+          "extra": {
+            "name": "blinds_a",
+            "alwaysPowered": true,
+            "host": "10.10.7.12"
+          }
+        },
+        {
+          "type": "class",
+          "realm": "avista",
+          "classname": "avista.devices.dingtian.EthernetRelay",
+          "extra": {
+            "name": "blinds_b",
+            "alwaysPowered": true,
+            "host": "10.10.7.13"
+          }
+        },
+        {
+          "type": "class",
+          "realm": "avista",
+          "classname": "avista.devices.dingtian.EthernetRelay",
+          "extra": {
+            "name": "tower_blind",
+            "alwaysPowered": true,
+            "host": "10.10.7.14"
+          }
+        },
+        {
+          "type": "class",
+          "realm": "avista",
+          "classname": "avista.devices.blinds.BlindsArray",
+          "extra": {
+            "name": "blinds",
+            "blinds": [
+              {
+                "up": ["blinds_a", 1],
+                "down": ["blinds_a", 2],
+                "stop": ["blinds_a", 3]
+              },
+              {
+                "up": ["blinds_a", 4],
+                "down": ["blinds_a", 5],
+                "stop": ["blinds_a", 6]
+              },
+              {
+                "up": ["blinds_a", 7],
+                "down": ["blinds_a", 8],
+                "stop": ["blinds_a", 9]
+              },
+              {
+                "up": ["blinds_a", 10],
+                "down": ["blinds_a", 11],
+                "stop": ["blinds_a", 12]
+              },
+              {
+                "up": ["blinds_a", 13],
+                "down": ["blinds_a", 14],
+                "stop": ["blinds_a", 15]
+              },
+              {
+                "up": ["blinds_a", 16],
+                "down": ["blinds_b", 1],
+                "stop": ["blinds_b", 2]
+              },
+              {
+                "up": ["tower_blind", 1],
+                "down": ["tower_blind", 2],
+                "stop": ["tower_blind", 3]
+              }
+            ]
+          }
+        },
+        {
+          "type": "class",
+          "realm": "avista",
           "classname": "avista.devices.blackmagic.ATEM",
           "extra": {
             "name": "atem",
