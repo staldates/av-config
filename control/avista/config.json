@@ -159,6 +159,7 @@
           "classname": "avista.devices.blinds.BlindsArray",
           "extra": {
             "name": "blinds",
+	    "pulse": "true",
             "blinds": [
               {
                 "up": ["blinds_a", 1],
