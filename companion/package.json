@@ -1,0 +1,12 @@
+{
+  "name": "companion-yaml-download",
+  "version": "1.0.0",
+  "description": "Simple script to download companion config, convert to YAML and save to git",
+  "main": "index.js",
+  "repository": "http://github.com/staldates/av-config",
+  "author": "Robert (Jamie) Munro",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}

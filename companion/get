@@ -1,0 +1,7 @@
+#!/bin/bash
+
+COMPANION_HOST=http://localhost:8000
+
+cd "$(dirname "$0")"
+
+curl "$COMPANION_HOST/int/export/custom?connections=1&buttons=1&surfaces=1&triggers=1&customVariables=1&format=json" | node_modules/.bin/js-yaml > CompanionPi.companionconfig.yaml
