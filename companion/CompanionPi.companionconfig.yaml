@@ -1972,13 +1972,13 @@ pages:
         '5':
           type: button
           style:
-            text: ''
-            textExpression: false
-            size: auto
+            text: $(internal:custom_heloImage)
+            textExpression: true
+            size: '14'
             png64: null
             alignment: center:center
             pngalignment: center:center
-            color: 16777215
+            color: 4737096
             bgcolor: 0
             show_topbar: false
             png: null
@@ -2138,8 +2138,7 @@ pages:
             pngalignment: center:center
             color: 16777215
             bgcolor: 0
-            show_topbar: false
-            png: null
+            show_topbar: default
           options:
             relativeDelay: false
             rotaryActions: false
@@ -2162,18 +2161,126 @@ pages:
             alignment: center:center
             pngalignment: center:center
             color: 16777215
-            bgcolor: 0
+            bgcolor: 3342336
             show_topbar: false
             png: null
           options:
             relativeDelay: false
             rotaryActions: false
             stepAutoProgress: true
-          feedbacks: []
+          feedbacks:
+            - id: 7OK_gZ2EjRkH-1G7Zo8Ge
+              type: variable_value
+              instance_id: internal
+              options:
+                variable: internal:custom_heloImage
+                op: eq
+                value: linked
+              style:
+                png64: >-
+                  iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAACSVBMVEUAAAAA//+A//9Vqv+Av/9mzP+A1f9t2/9xxv+AzP900f9q1f9t2/93zP9wz/940v9x1f951/9zzP9tzv900f9v0/9w1v92zv9x0P920f931f9z1v9wz/900f910/9x1P91z/9y0P920f9w0/9z1f9x0P900f9x0v900/9y1P911f9y0P910f9x0/900f9y0f900v9y0/911P9z0P910f9z0v9x0v900/900f9y0f900v9z0v9y0v900/9y0/900f9y0f900v9z0v900/9z0/9y0f9z0f900/900f900v9z0v9z0/9y0f9y0v900v900/9z0f900v9z0/9y0f9z0f9y0v900v9z0/900f9z0v900v9z0v900/9z0f9y0f9z0v9y0/900f1z0v100v1z0v100/1z0/1z0v1y0v1z0f1z0v1y0v1z0/1z0v1y0v1z0v100/1z0f100v1z0v1y0v1y0f1z0v1z0v1z0v100/100v1y0v1z0v1z0/1z0f1z0v1z0v500/5z0f5y0v5z0v5z0v5z0/5z0f5z0v500v5z0v500v5z0/5y0v5z0v5z0v5z0v5z0v500v5z0v5z0/5y0f5z0v5z0/500v5z0v5y0v5z0v5z0f5z0v5z0v5z0v5z0v5z0v5z0v5z0v5z0/5z0v5z0v5z0v5z0v5z0f5z0v5z0v5z0v5z0v5z0v5z0v5z0/5z0v5z0v5z0v5z0v5z0v5z0v5z0v5z0v5z0v5z0v5z0v5z0v5z0v5z0v5z0v5z0v5z0v5z0v5PvYjNAAAAwnRSTlMAAQIDBAUGBwkKCwwODxAREhMUFRYXGRobHB4fICEjJCUmJykqKywtLi8wMTI0Nzg5Ojs8PT4/QEJDRElKS0xNTk9QUVJTVFZYWltdXmBhY2RlaGlqa2xtcHF3eHl6e3x/gIGCg4SFh4iMjo+QkpOUlpeYmZqcnp+goaOlpqeoqausra6vsbKztLW2t7i5u7y9v8DBw8TGycvMzc7P0NLT1NXX2Nrc3d7f4OPl5ufo6evs7e7w8fLz9Pb3+Pn6+/z9/nSwuZgAAANWSURBVBgZ7cH5XxRlAAfg7wJOkg4VIx2GYheUJpVZYpeblmZAhlOB2qlZeWRBKZ3auZZiuaRuKrlRRFYEeKFLTLt8/7Led2Fmdmfe2R3sUz/xPJg27T9nPL557/d9A+d/+zHeseGeMlyeBZtPMc+lr9eWY6oiDx+hwsVdczElDT0MYHVUIrSqvSzgXEsE4SwfZGFfXIUwNmZYzOlbUVRkJ0M4ezeKaWcoqbtQ2CsM6cwtKOQJhtavI9j8EbrGu19es2LNi9+kqfYpApUco2N8942YcN2Ov6nUiCAtdAwtg2vhr1QZqoCafoa2gRrkMpJU2QG1TbSNLUY+I0mF0SqozBymbQukyKr347G22ZCMJBXegMqTtJ2fBaGym9LgvZCMPvoNz4DCIdo6IJQe4YRUA6TtVFgBv8oMbasgNNGWagBQP0KFD+G3mo75EA7SkWpA/QWqDEbg8zYdFRD6mNXZTnLswCWq1cLnOB2VEHoobQJM2vo7LXo0w2eEjsUQ3qKwBYLJCUkDUYv5XodXFV3PQbjJIlkNyaTUawCIWszzObzuoCsOaR3J/Rokk8LTkKIWc30HryXMsQiSSTKmQTJJntQhPZZhjh/gtZw5jpZCMknGNEgmyYQO6VXm6IfXMubaiqxWkjENkkkyoUO4op+uU/BayDzPQipJk4xpkEySiXII6+k6Bq95zGdCWEoppkF6j+Q7ECrSdHTBq8xiPhOoO8usmAYgcpDk+A0QjtPxJnx+osfWpmFOimmItFNqgvARHa3w2Ue1C+dIflW3h1ltEHbTcR981lMpWVWRoGs1hA9oS2nwuZkqSQPQE7SlroZwlLZvodBLhdsg6AlOegnCzL9oewYKG6nQDEnvYta7EQiNtI1dA4XrLfpZUUgljfGhP/c/BKmsl7ZPoLSHClYUHi/QcSeUajJUsFYiz6MZ2roQYBdVMq3I8ZRFW7oWAfQhKh2qxaSaz+jahkArGaC7bWl1db15IEPXz7MQbCdDG61DAVqcYa1FQXoPw9mAIoyTDON5FKUfZlGZdQhhxjYWMXA/wnnkDxby5RyENXt7mkFORzEV8zrGqPJLi4YpmtN2gh6jHz9Yissxt7nzxEVO+P3waw+U49+4dsGiJbdXX4lp0/4H/wDcadQjfWVIxQAAAABJRU5ErkJggg==
+              isInverted: false
+            - id: jGaqYu-vMcfbVfKIuA-yq
+              type: variable_value
+              instance_id: internal
+              options:
+                variable: internal:custom_heloImage
+                op: eq
+                value: unlinked
+              style:
+                png64: >-
+                  iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAC01BMVEUAAAD///+AgICqqqqAgICZmZmAgICSkpKOjo6AgICLi4uAgICJiYmAgICIiIiAgICHh4eAgI6GhoaAgIyGhoZ/f4uFhYWAgIqFhYV/f4mEhISAgImAiIiEhISAh4eDg4OAh4eDg4p/h4eDg4qDg4mAhoaAhoaAhYWCgoh/hYWCgoiAhYWCgoeAhYWCgoeEhImCgoeEhImCgoaEhImChoaEhIiChoaEhIiChoaEhIiChoaDg4eBhYWDg4eBhYWDg4eBhYmBhYiDg4eBhYiDg4aBhYiBhIiDg4aDg4aBhIeDg4aBhIeDg4aBhIeChYiBhIeChYiBhIeChYiBhIeChYiBhIaChYiBhIaChYeBg4aChYeBg4aChYeBg4aDg4iChIeDg4iChIeDg4iChIeDg4iChIaDg4iChIaDg4eChIaDhYeChIaDhYeChIaDhYeChIiDhYeChIiDhYeChIiDhYeChIiBg4eChIaBg4eChIaBg4eChIaBg4eChIiBg4eChIiBg4eChIiBhYeChIiBhYeChIeBhYaChIeBhYaChIeBhYaChIeBhYaChIeDhIiChIeDhIiChIeDhIiDhIeCg4eDhIeCg4eDhIeCg4aDhIeCg4aDhIeCg4aDhIeChIeChYiChIeChYiChIeChYeChIeChIeChIeChIeChIeChIeChIaChIeChIaChIeChIiChIeChIiChIeCg4eBhIeCg4eBhIeCg4eBhIeCg4eBhIeChYeBhIaBhIaChYeDhIiChIeDhIiChIeDhIeChIeDhIeChIeChIeChIeChIeChIeChIeChIeChIeChIaChIeChIiChIeChIeCg4eChIeChYeChIeChYeChIeChIeChIeChIeChIeChIeChIeChIaChIeChIiChIeChIeChIeChIeChIeChIeChIeChIeChIeChIeChIeChIeChIeChIeChIeChIeGfJSoAAAA8HRSTlMAAQIDBAUGBwkKCwwNDg8QERITFBUWFxgZGhscHh8gISIjJCUnKCosLS4vMDEyMzQ1Njc4OTo7PD0+P0BBQkNERUdISUpLTU5QUVJTVFVWV1hZWltcXV5fYGFiY2RlZ2hpamtsbW5vcHFyc3R1dnd4eXp7fH1+gIGEhYaHiImKi4yNjo+QkZKTlJWWl5iZmpucnZ6goaKjpKWmp6ipqqytrq+wsbKztLW2t7i5uru8vb6/wMHCw8TFxsfIycvMzc7P0NHS09TV1tfY2drb3N3e3+Dh4uPk5ebn6Onq6+zt7u/w8fLz9PX29/j5+vv8/f4WpHB4AAAFK0lEQVQYGe3B+UOUBQLH4e87w7xgIBVoWtm2oXZIqYGVyZZHx2qaGnZYmWGaZlaUuWXb7KqbZTnV7toFmWU0RWlT2aVCh2mKkR26UdkiJJesODOfP2GBeYGZ950B9GefR8cdl5AxaOzUWxfMzr9qiEfHzBz7SFkTHYIVq6ecpGMw/Kka2hzet+vL7XvraXP41T+7dHQu3wQEty698ky32g0Ys6i0EfjuZlO9NzgAfDY3U7GSr/UHYc849ZJ7yWHYmKd4sv7ZAmtPUm+c+j7sGadEBgfgx1z17LxfwJusbsxooCVfPbm0jpor1L3B22GBupd7iH1D1JO0AMxTd4YeoPJ09cwsITRViaXt4ecz1Clt5PjLz/EoHnMT/8tWQi/TNEyW1PnlIVodemuyS07pu6lMVQLTYZYsM6tpVd9Eq68vltO5zfgUX99feUUR5gvQ/PRladIpU98IE1oopzmEcxTXcuoHqp37dVg/QJbsL8ArB1c5nxmKI7OZRYpYCn9Rq1NHjx4oKXkdeOUwEq5UHF72p6hddpCVki7bQqtPx0juIvDKwc9WOZk1FCqihAqPtBg4cgR4QHIXwT2yy4XhcphIS4banR7mGulG2JzncuVtAa/kLma/HLaxUg6vUaKI2VQn6YT/8qZHrTxF4FWfD/hVDnfxm1s27jryFfEv1knTaD5F7dxFsPwDmCmH02CEbEZCf0VsZKn0d0plcRfRqkBx7GaRbO5mpywfslh6jmfUwb061DBLSveHK0coxlP4ZfNvXpTlTZZJT7BeXVI8Uno5UJejaLfynWw+YYksj7FBuoGG/oqWUk7ovirqchRlNEFTsX5imiyTae6rtGreNRXlZkIzlFVFXY66DIAzFesgE2RJbWSBNA38prrMoyFHyqqieog6pUC2YsEl6rCS2gHSveA31SmzirocKes3dpjqFGKMYsEIdcis4SNTKgS/R52yqqjLkUYFuUedmshTrGby1GkS+E2pEOaqS1YVB4dKKziQLIsBFypWNRPVZSH4TZm7eVJRsn6mIkn9jzBJlhPhbMXayVxFKQR/qh/GK9rwIDdJb/O0LOdChmKt53FFK4QaKFCsItZLS9gsyzXUyuavBBSjECiQ+q4I3Gmow2wqpJv4XpbFbJHNFBqTFGPUvAul9HLAZ8hSwE5pOntl2cAq2WSEuUgO6eWEAuAzFLGO16Q7+UoR5iEmym4bj8phGaEZhg98htpcFOY66QVeUcR4QifL7gF+csnOT8CQ4YO1GZKurmV7klJ+53ZFFPGuHM4IM052c8BnyFgFTe8UV8D+LGkhLZlqd2IT18vpPQKyM3zgM6TbamizcZD0x3pWK+JBDp4gpz9BruwMH/hcUtp07+r7siX128X+DLVLPcBDiqeMzYbsDB+8kakOF/xAS54iHqUxU/FcDLfIwfgH1N4/UG3OeSbIoasVMbSF+xXfGmoHyen63yG8Y+1zJXuBivMV4SnjG1Px9fuFrR459fNWE/Ht7R5ZlhO6VImMCbHGUByeS+5+Ys3yOcPUaSY8qMQK4RH1xlVBSl3qxipYZqhHkw9T1kfdcb8EzyerB3eE2JGp7hkr4YvB6k5aMXycrh7ddYSG+UlKaMIP8GKKemHUf2D7BMV39uvQPEu90/fxIGzLT5GdK68E2HCWem1YKVC/Zko/dekz9m/7gK8n6aicX9xMq8qSZQtm5c+c/3Dxly1AeNNEQ0cr/ba3GokW3Lz4Dzo2SbkFj5WW7dpb+Xng2YXjU3XccQn8H7hhuZUN/d9CAAAAAElFTkSuQmCC
+              isInverted: false
           steps:
             '0':
               action_sets:
-                down: []
+                down:
+                  - id: 9W9k9a5qgdmb973_Hu131
+                    action: get
+                    instance: h1XQomDoXyezmrby6lU6U
+                    options:
+                      url: >-
+                        config?action=set&paramid=eParamID_LinkStartStop&value=0&configid=0&_=1716703751417
+                      header: ''
+                      result_stringify: true
+                    delay: 0
+                  - id: h_IktpTmmzCX8hCWK7crV
+                    action: bgcolor
+                    instance: internal
+                    options:
+                      color: 13369344
+                      location_target: this
+                      location_text: $(this:page)/$(this:row)/$(this:column)
+                      location_expression: >-
+                        concat($(this:page), '/', $(this:row), '/',
+                        $(this:column))
+                    delay: 0
+                    disabled: true
+                  - id: bBVJdcFgoQI5Y25FK-jF8
+                    action: button_text
+                    instance: internal
+                    options:
+                      label: Unlinked
+                      location_target: this
+                      location_text: $(this:page)/$(this:row)/$(this:column)
+                      location_expression: >-
+                        concat($(this:page), '/', $(this:row), '/',
+                        $(this:column))
+                    delay: 0
+                    disabled: true
+                  - id: qsMtWmWr8Q2jjlRhX8yvq
+                    action: custom_variable_set_value
+                    instance: internal
+                    options:
+                      name: heloImage
+                      value: unlinked
+                    delay: 0
+                up: []
+              options:
+                runWhileHeld: []
+            '1':
+              action_sets:
+                down:
+                  - id: qVQgdG1Hqgk8j4ZvYnyDz
+                    action: get
+                    instance: h1XQomDoXyezmrby6lU6U
+                    options:
+                      url: >-
+                        config?action=set&paramid=eParamID_LinkStartStop&value=1&configid=0&_=1716703751416
+                      header: ''
+                      result_stringify: true
+                    delay: 0
+                  - id: OWw3A60cV3a_h617fmb65
+                    action: bgcolor
+                    instance: internal
+                    options:
+                      color: 39168
+                      location_target: this
+                      location_text: $(this:page)/$(this:row)/$(this:column)
+                      location_expression: >-
+                        concat($(this:page), '/', $(this:row), '/',
+                        $(this:column))
+                    delay: 0
+                    disabled: true
+                  - id: q0dERUNXTzOpwS3Y1f4_d
+                    action: button_text
+                    instance: internal
+                    options:
+                      label: Linked
+                      location_target: this
+                      location_text: $(this:page)/$(this:row)/$(this:column)
+                      location_expression: >-
+                        concat($(this:page), '/', $(this:row), '/',
+                        $(this:column))
+                    delay: 0
+                    disabled: true
+                  - id: Q97uXEfQSeCzFUPfjgzFE
+                    action: custom_variable_set_value
+                    instance: internal
+                    options:
+                      name: heloImage
+                      value: linked
+                    delay: 0
                 up: []
               options:
                 runWhileHeld: []
@@ -12944,6 +13051,11 @@ custom_variables:
     defaultValue: ''
     persistCurrentValue: false
     sortOrder: 0
+  heloImage:
+    description: A custom variable
+    defaultValue: ''
+    persistCurrentValue: false
+    sortOrder: 1
 instances:
   gnV58bDel4WYIQOGtyddx:
     instance_type: aja-helo
@@ -13106,6 +13218,16 @@ instances:
     config:
       host: 10.10.7.62
     lastUpgradeIndex: -1
+    enabled: true
+  h1XQomDoXyezmrby6lU6U:
+    instance_type: generic-http
+    sortOrder: 16
+    label: httphelo
+    isFirstInit: false
+    config:
+      prefix: http://10.10.7.25/
+      rejectUnauthorized: true
+    lastUpgradeIndex: 1
     enabled: true
 surfaces:
   A00NA34132VS68:
