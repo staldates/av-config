@@ -6556,14 +6556,14 @@ pages:
         '7':
           type: button
           style:
-            text: BLK
+            text: Other
             textExpression: false
             size: '18'
             png64: null
             alignment: center:center
             pngalignment: center:center
             color: 16777215
-            bgcolor: 39168
+            bgcolor: '0'
             show_topbar: false
             png: null
           options:
