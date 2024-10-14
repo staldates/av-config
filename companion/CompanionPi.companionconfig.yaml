@@ -13121,7 +13121,7 @@ triggers:
     options:
       name: Record/Stream to Broadcast Sound
       enabled: false
-      sortOrder: 2
+      sortOrder: 1
       relativeDelay: false
     action_sets:
       '0': []
@@ -13139,7 +13139,7 @@ triggers:
     options:
       name: Start Record of 6pm
       enabled: true
-      sortOrder: 5
+      sortOrder: 14
       relativeDelay: false
     action_sets:
       '0':
@@ -13163,7 +13163,7 @@ triggers:
     options:
       name: Stop Record of 6pm
       enabled: true
-      sortOrder: 6
+      sortOrder: 15
       relativeDelay: false
     action_sets:
       '0':
@@ -13187,7 +13187,7 @@ triggers:
     options:
       name: Start Record of 4pm
       enabled: true
-      sortOrder: 3
+      sortOrder: 12
       relativeDelay: false
     action_sets:
       '0':
@@ -13203,15 +13203,15 @@ triggers:
         type: timeofday
         enabled: true
         options:
-          time: '16:30:00'
+          time: '16:00:00'
           days:
             - 0
   YFXN9NkYbu5T8zIRrBWkH:
     type: trigger
     options:
-      name: Stop Record of 4pm
-      enabled: true
-      sortOrder: 4
+      name: Stop Record of 10am
+      enabled: false
+      sortOrder: 5
       relativeDelay: false
     action_sets:
       '0':
@@ -13227,7 +13227,412 @@ triggers:
         type: timeofday
         enabled: true
         options:
-          time: '17:30:00'
+          time: '11:30:00'
+          days:
+            - 0
+  7e3qsEbRhaoefcu9BSqvD:
+    type: trigger
+    options:
+      name: Link HELO Trigger
+      enabled: true
+      sortOrder: 2
+      relativeDelay: false
+    action_sets:
+      '0':
+        - id: LS0of6u6MKEquL_4UoA_8
+          action: button_pressrelease
+          instance: internal
+          options:
+            location_target: text
+            location_text: 3/2/3
+            location_expression: concat($(this:page), '/', $(this:row), '/', $(this:column))
+            force: true
+          delay: 0
+    condition:
+      - id: B3gSWZ-xjIar_1o-ZmBEE
+        type: variable_value
+        instance_id: internal
+        options:
+          variable: internal:custom_heloImage
+          op: eq
+          value: unlinked
+        style: {}
+        isInverted: false
+        disabled: false
+    events:
+      - id: JjCSVYq7vIs1s_DQJ70ab
+        type: timeofday
+        enabled: true
+        options:
+          time: '08:00:00'
+          days:
+            - 0
+  aonM-eATkcd4wvuToqvaL:
+    type: trigger
+    options:
+      name: Unlink HELO Trigger
+      enabled: true
+      sortOrder: 9
+      relativeDelay: false
+    action_sets:
+      '0':
+        - id: Qs3ukKDkITHRXMmig5156
+          action: button_pressrelease
+          instance: internal
+          options:
+            location_target: text
+            location_text: 3/2/3
+            location_expression: concat($(this:page), '/', $(this:row), '/', $(this:column))
+            force: false
+          delay: 0
+    condition:
+      - id: 8zx1xfCi5eZqStPdTc7DJ
+        type: variable_value
+        instance_id: internal
+        options:
+          variable: internal:custom_heloImage
+          op: eq
+          value: linked
+        style: {}
+        isInverted: false
+    events:
+      - id: JjCSVYq7vIs1s_DQJ70ab
+        type: timeofday
+        enabled: true
+        options:
+          time: '11:55:00'
+          days:
+            - 0
+  2W_RJKUqv_zy0Ugv1VYqp:
+    type: trigger
+    options:
+      name: Link HELO Trigger
+      enabled: true
+      sortOrder: 3
+      relativeDelay: false
+    action_sets:
+      '0':
+        - id: z-LR7dWQSAEKLiTUx4ers
+          action: button_pressrelease
+          instance: internal
+          options:
+            location_target: text
+            location_text: 3/2/3
+            location_expression: concat($(this:page), '/', $(this:row), '/', $(this:column))
+            force: true
+          delay: 0
+    condition:
+      - id: AWOlwe_upOY4aB1PDnXGV
+        type: variable_value
+        instance_id: internal
+        options:
+          variable: internal:custom_heloImage
+          op: eq
+          value: unlinked
+        style: {}
+        isInverted: false
+    events:
+      - id: JjCSVYq7vIs1s_DQJ70ab
+        type: timeofday
+        enabled: true
+        options:
+          time: '20:00:00'
+          days:
+            - 0
+  4IjwD3gDJi8NG-Ds1k-qA:
+    type: trigger
+    options:
+      name: Lighting Auto Transition to 4pm
+      enabled: true
+      sortOrder: 6
+      relativeDelay: false
+    action_sets:
+      '0':
+        - id: 4w5pJEBWe_uoBNkgkiXOu
+          action: execute
+          instance: qLfcwf0iapBcQpvxYIztf
+          options:
+            exeP: '1'
+            exeNr: '18'
+            exeVal: '1'
+          delay: 0
+    condition: []
+    events:
+      - id: k3GjdaB1mvWxmOJvKxKlQ
+        type: timeofday
+        enabled: true
+        options:
+          time: '14:00:00'
+          days:
+            - 0
+  O9nyYFssUMPSuw39HliNS:
+    type: trigger
+    options:
+      name: Sunday Record to IMAG
+      enabled: true
+      sortOrder: 8
+      relativeDelay: false
+    action_sets:
+      '0':
+        - id: 1DIETmNnAlr1ZrjTSnftx
+          action: aux
+          instance: ISpEcjEAm5Oy1-CNLfQCZ
+          options:
+            aux: 14
+            input: 10010
+          delay: 0
+    condition: []
+    events:
+      - id: A9opyr2NqihuPGhSEvp4P
+        type: timeofday
+        enabled: true
+        options:
+          time: '11:55:00'
+          days:
+            - 0
+  3QZ4H5EyWIHqVL2ppdrVt:
+    type: trigger
+    options:
+      name: Streamdecks Bright
+      enabled: true
+      sortOrder: 16
+      relativeDelay: false
+    action_sets:
+      '0':
+        - id: N5yzPBp0hnc-46c8rgiCv
+          action: set_brightness
+          instance: internal
+          options:
+            controller_from_variable: false
+            controller: A00NA34132VS68
+            controller_variable: self
+            brightness: 55
+          delay: 0
+        - id: yL1cjx9TjUKn7pEpsnzNr
+          action: set_brightness
+          instance: internal
+          options:
+            controller_from_variable: false
+            controller: A00NA34132VR83
+            controller_variable: self
+            brightness: 55
+          delay: 0
+    condition: []
+    events:
+      - id: iScvF5V9euCzvidr34eSY
+        type: timeofday
+        enabled: true
+        options:
+          time: '07:30:00'
+          days:
+            - 0
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+  ZEwjfQm53rbR4SX7G8NVS:
+    type: trigger
+    options:
+      name: Streamdecks Sleep
+      enabled: true
+      sortOrder: 17
+      relativeDelay: false
+    action_sets:
+      '0':
+        - id: uAQbTXpvZO5QFQn8Ly4NP
+          action: set_brightness
+          instance: internal
+          options:
+            controller_from_variable: false
+            controller: A00NA34132VS68
+            controller_variable: self
+            brightness: 15
+          delay: 0
+        - id: RbsEjFXfKZ8WiFjSCf4vI
+          action: set_brightness
+          instance: internal
+          options:
+            controller_from_variable: false
+            controller: A00NA34132VR83
+            controller_variable: self
+            brightness: 15
+          delay: 0
+    condition: []
+    events:
+      - id: iScvF5V9euCzvidr34eSY
+        type: timeofday
+        enabled: true
+        options:
+          time: '22:00:00'
+          days:
+            - 0
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+  VZM9TyANCIW20hYzJpujg:
+    type: trigger
+    options:
+      name: HELO Refresh
+      enabled: true
+      sortOrder: 18
+      relativeDelay: false
+    action_sets:
+      '0':
+        - id: 8up6pJkVLDnXcJ8GQx1x3
+          action: instance_control
+          instance: internal
+          options:
+            instance_id: gnV58bDel4WYIQOGtyddx
+            enable: 'false'
+          delay: 0
+        - id: VRG_HQap_xxk1I6XCQTqG
+          action: instance_control
+          instance: internal
+          options:
+            instance_id: gnV58bDel4WYIQOGtyddx
+            enable: 'true'
+          delay: 2000
+    condition: []
+    events:
+      - id: xSxF6-4Vui5yDxkdXc3ZW
+        type: timeofday
+        enabled: true
+        options:
+          time: '07:59:00'
+          days:
+            - 0
+      - id: 6S8NRlETciWyo7HiD7ToK
+        type: timeofday
+        enabled: true
+        options:
+          time: '16:25:00'
+          days:
+            - 0
+  N_MATv7WD-X82ur8_heMP:
+    type: trigger
+    options:
+      name: Start Record of 10am
+      enabled: false
+      sortOrder: 4
+      relativeDelay: false
+    action_sets:
+      '0':
+        - id: tT-GIQbiDWBdxF_WR-sXt
+          action: startStop
+          instance: gnV58bDel4WYIQOGtyddx
+          options:
+            command: ReplicatorCommand&value=1
+          delay: 0
+    condition: []
+    events:
+      - id: vwDT3w3WqHa0e53EIFDoj
+        type: timeofday
+        enabled: true
+        options:
+          time: '10:00:00'
+          days:
+            - 0
+  5DpK9p25c3ShikuxNWOQq:
+    type: trigger
+    options:
+      name: Stop Record of 4pm
+      enabled: true
+      sortOrder: 13
+      relativeDelay: false
+    action_sets:
+      '0':
+        - id: zRpwYEIGBu717ByoKVTsO
+          action: startStop
+          instance: gnV58bDel4WYIQOGtyddx
+          options:
+            command: ReplicatorCommand&value=2
+          delay: 0
+    condition: []
+    events:
+      - id: vwDT3w3WqHa0e53EIFDoj
+        type: timeofday
+        enabled: true
+        options:
+          time: '17:15:00'
+          days:
+            - 0
+  3I9vIzytD_75dpNaIGhN3:
+    type: trigger
+    options:
+      name: Lighting Auto Transition to 6pm
+      enabled: true
+      sortOrder: 7
+      relativeDelay: false
+    action_sets:
+      '0':
+        - id: EpVEu-eixiILWfuhdi69O
+          action: execute
+          instance: qLfcwf0iapBcQpvxYIztf
+          options:
+            exeP: '1'
+            exeNr: '17'
+            exeVal: '1'
+          delay: 0
+    condition: []
+    events:
+      - id: k3GjdaB1mvWxmOJvKxKlQ
+        type: timeofday
+        enabled: true
+        options:
+          time: '17:35:00'
+          days:
+            - 0
+  vDb-289p0yVfHS_vxeGhR:
+    type: trigger
+    options:
+      name: Start Record of 12pm
+      enabled: true
+      sortOrder: 10
+      relativeDelay: false
+    action_sets:
+      '0':
+        - id: U81_OdRJBjNRe1v3nx7KK
+          action: startStop
+          instance: gnV58bDel4WYIQOGtyddx
+          options:
+            command: ReplicatorCommand&value=1
+          delay: 0
+    condition: []
+    events:
+      - id: vwDT3w3WqHa0e53EIFDoj
+        type: timeofday
+        enabled: true
+        options:
+          time: '12:00:00'
+          days:
+            - 0
+  FJjT2qP7b_cF5dZNQbHxm:
+    type: trigger
+    options:
+      name: Stop Record of 12pm
+      enabled: true
+      sortOrder: 11
+      relativeDelay: false
+    action_sets:
+      '0':
+        - id: nBZsq649tdgEZY6ugC9AB
+          action: startStop
+          instance: gnV58bDel4WYIQOGtyddx
+          options:
+            command: ReplicatorCommand&value=2
+          delay: 0
+    condition: []
+    events:
+      - id: vwDT3w3WqHa0e53EIFDoj
+        type: timeofday
+        enabled: true
+        options:
+          time: '13:30:00'
           days:
             - 0
 custom_variables:
