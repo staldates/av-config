@@ -13827,7 +13827,7 @@ surfaces:
       columns: 8
       rows: 4
     config:
-      brightness: 66
+      brightness: 59
       rotation: 0
       never_lock: false
       xOffset: 0
@@ -13854,7 +13854,7 @@ surfaces:
       groupId: null
     groupConfig:
       name: Auto group
-      last_page: 1
+      last_page: 7
       startup_page: 7
       use_last_page: false
     name: Gallery
@@ -13877,7 +13877,7 @@ surfaces:
       emulator_rows: 4
     groupConfig:
       name: Auto group
-      last_page: 2
+      last_page: 7
       startup_page: 1
       use_last_page: false
     name: iPad
