@@ -1083,7 +1083,7 @@ pages:
                     options:
                       instance_id: gnV58bDel4WYIQOGtyddx
                       enable: 'true'
-                    delay: 0
+                    delay: 15000
                 up: []
               options:
                 runWhileHeld: []
