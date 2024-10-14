@@ -6703,9 +6703,9 @@ pages:
         '3':
           type: button
           style:
-            text: FTB
+            text: Fade To Black
             textExpression: false
-            size: '18'
+            size: '14'
             png64: null
             alignment: center:center
             pngalignment: center:center
@@ -6734,6 +6734,37 @@ pages:
                     options:
                       mixeffect: 0
                     delay: 50
+                up: []
+              options:
+                runWhileHeld: []
+        '4':
+          type: button
+          style:
+            text: Cut To Black
+            textExpression: false
+            size: '14'
+            png64: null
+            alignment: center:center
+            pngalignment: center:center
+            color: 16777215
+            bgcolor: 51
+            show_topbar: default
+          options:
+            relativeDelay: false
+            rotaryActions: false
+            stepAutoProgress: true
+          feedbacks: []
+          steps:
+            '0':
+              action_sets:
+                down:
+                  - id: RJycd4cUHI4JOP2nG_zf9
+                    action: program
+                    instance: ISpEcjEAm5Oy1-CNLfQCZ
+                    options:
+                      mixeffect: 0
+                      input: 0
+                    delay: 0
                 up: []
               options:
                 runWhileHeld: []
@@ -6976,37 +7007,6 @@ pages:
                         concat($(this:page), '/', $(this:row), '/',
                         $(this:column))
                       force: false
-                    delay: 0
-                up: []
-              options:
-                runWhileHeld: []
-        '6':
-          type: button
-          style:
-            text: CTB
-            textExpression: false
-            size: '18'
-            png64: null
-            alignment: center:center
-            pngalignment: center:center
-            color: 16777215
-            bgcolor: 51
-            show_topbar: default
-          options:
-            relativeDelay: false
-            rotaryActions: false
-            stepAutoProgress: true
-          feedbacks: []
-          steps:
-            '0':
-              action_sets:
-                down:
-                  - id: RJycd4cUHI4JOP2nG_zf9
-                    action: program
-                    instance: ISpEcjEAm5Oy1-CNLfQCZ
-                    options:
-                      mixeffect: 0
-                      input: 0
                     delay: 0
                 up: []
               options:
