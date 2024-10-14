@@ -1887,7 +1887,16 @@ pages:
             relativeDelay: false
             rotaryActions: false
             stepAutoProgress: true
-          feedbacks: []
+          feedbacks:
+            - id: AI-1jUN24r5XQQ19ZRZsM
+              type: transport_status
+              instance_id: 3retHkQrVmX6A4e1gQCW5
+              options:
+                status: record
+              style:
+                color: 16777215
+                bgcolor: 16711680
+              isInverted: false
           steps:
             '0':
               action_sets:
