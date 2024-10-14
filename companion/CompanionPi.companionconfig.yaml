@@ -13091,23 +13091,12 @@ pages:
       minRow: 0
       maxRow: 3
 triggers:
-  eBYSm2B2JJo1u60Zonuq4:
-    type: trigger
-    options:
-      name: New Trigger
-      enabled: false
-      sortOrder: 0
-      relativeDelay: false
-    action_sets:
-      '0': []
-    condition: []
-    events: []
   SHiMWHaN5UaZAV9ArPrHZ:
     type: trigger
     options:
       name: Record/Stream to IMAG + FOH Sound
       enabled: false
-      sortOrder: 1
+      sortOrder: 0
       relativeDelay: false
     action_sets:
       '0':
