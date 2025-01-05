@@ -232,6 +232,41 @@ pages:
               options:
                 runWhileHeld: []
       '2':
+        '6':
+          type: button
+          style:
+            text: Comms
+            textExpression: false
+            size: '14'
+            png64: null
+            alignment: center:center
+            pngalignment: center:center
+            color: 16777215
+            bgcolor: 0
+            show_topbar: default
+          options:
+            relativeDelay: false
+            rotaryActions: false
+            stepAutoProgress: true
+          feedbacks: []
+          steps:
+            '0':
+              action_sets:
+                down:
+                  - id: fTsFpH0n6Y3EIaM1x0NB7
+                    action: set_page
+                    instance: internal
+                    options:
+                      controller_from_variable: false
+                      controller: self
+                      controller_variable: self
+                      page_from_variable: false
+                      page: 11
+                      page_variable: '1'
+                    delay: 0
+                up: []
+              options:
+                runWhileHeld: []
         '7':
           type: button
           style:
@@ -8816,17 +8851,247 @@ pages:
       minRow: 0
       maxRow: 3
   '11':
-    name: PAGE
+    name: Comms
     controls:
       '0':
         '0':
           type: pageup
+        '1':
+          type: button
+          style:
+            text: Hosts
+            textExpression: false
+            size: '18'
+            png64: null
+            alignment: center:center
+            pngalignment: center:center
+            color: 16777215
+            bgcolor: 0
+            show_topbar: default
+          options:
+            relativeDelay: false
+            rotaryActions: false
+            stepAutoProgress: true
+          feedbacks: []
+          steps:
+            '0':
+              action_sets:
+                down:
+                  - id: 8rriZBYpMWKhnBsJT5P0Z
+                    action: input_to_zone
+                    instance: O8CEgyDl5Kp-f840DSV3v
+                    options:
+                      inputChannel: 17
+                      mute: false
+                      number: 21
+                    delay: 0
+                  - id: X7di-tJ8tzrr8gjUo15iA
+                    action: input_to_zone
+                    instance: O8CEgyDl5Kp-f840DSV3v
+                    options:
+                      inputChannel: 17
+                      mute: false
+                      number: 22
+                    delay: 0
+                  - id: qkTvYkL4pYev06GoYb01-
+                    action: bgcolor
+                    instance: internal
+                    options:
+                      color: 13369344
+                      location_target: this
+                      location_text: $(this:page)/$(this:row)/$(this:column)
+                      location_expression: >-
+                        concat($(this:page), '/', $(this:row), '/',
+                        $(this:column))
+                    delay: 0
+                up:
+                  - id: 7mMSSeJGTJlkiJayIZD2U
+                    action: input_to_zone
+                    instance: O8CEgyDl5Kp-f840DSV3v
+                    options:
+                      inputChannel: 17
+                      mute: true
+                      number: 21
+                    delay: 0
+                  - id: 3nXR8EHJqoc_lCEWPZwTh
+                    action: input_to_zone
+                    instance: O8CEgyDl5Kp-f840DSV3v
+                    options:
+                      inputChannel: 17
+                      mute: true
+                      number: 22
+                    delay: 0
+                  - id: gVJQlqJV5xI7TZ5j5XobV
+                    action: bgcolor
+                    instance: internal
+                    options:
+                      color: 0
+                      location_target: this
+                      location_text: $(this:page)/$(this:row)/$(this:column)
+                      location_expression: >-
+                        concat($(this:page), '/', $(this:row), '/',
+                        $(this:column))
+                    delay: 0
+              options:
+                runWhileHeld: []
+        '2':
+          type: button
+          style:
+            text: All Comms
+            textExpression: false
+            size: '18'
+            png64: null
+            alignment: center:center
+            pngalignment: center:center
+            color: 16777215
+            bgcolor: 0
+            show_topbar: default
+          options:
+            relativeDelay: false
+            rotaryActions: false
+            stepAutoProgress: true
+          feedbacks: []
+          steps:
+            '0':
+              action_sets:
+                down:
+                  - id: VeKoe7adeX7lH6Tqfla7i
+                    action: input_to_zone
+                    instance: O8CEgyDl5Kp-f840DSV3v
+                    options:
+                      inputChannel: 17
+                      mute: false
+                      number: 18
+                    delay: 0
+                  - id: M8mAIlgkhdCF5nNsbjaER
+                    action: bgcolor
+                    instance: internal
+                    options:
+                      color: 13369344
+                      location_target: this
+                      location_text: $(this:page)/$(this:row)/$(this:column)
+                      location_expression: >-
+                        concat($(this:page), '/', $(this:row), '/',
+                        $(this:column))
+                    delay: 0
+                up: []
+              options:
+                runWhileHeld: []
+            '1':
+              action_sets:
+                down:
+                  - id: QB_heTZLMACnneevnuiDU
+                    action: input_to_zone
+                    instance: O8CEgyDl5Kp-f840DSV3v
+                    options:
+                      inputChannel: 17
+                      mute: true
+                      number: 18
+                    delay: 0
+                  - id: wPGIyxxYz-yneKH8A5b1z
+                    action: bgcolor
+                    instance: internal
+                    options:
+                      color: 0
+                      location_target: this
+                      location_text: $(this:page)/$(this:row)/$(this:column)
+                      location_expression: >-
+                        concat($(this:page), '/', $(this:row), '/',
+                        $(this:column))
+                    delay: 0
+                up: []
+              options:
+                runWhileHeld: []
       '1':
         '0':
           type: pagenum
       '2':
         '0':
           type: pagedown
+        '1':
+          type: button
+          style:
+            text: Host Listen
+            textExpression: false
+            size: auto
+            png64: null
+            alignment: center:center
+            pngalignment: center:center
+            color: 16777215
+            bgcolor: '0'
+            show_topbar: default
+          options:
+            relativeDelay: false
+            rotaryActions: false
+            stepAutoProgress: true
+          feedbacks: []
+          steps:
+            '0':
+              action_sets:
+                down:
+                  - id: S_X3qbZbTKLFr5ZVPbUVL
+                    action: input_to_zone
+                    instance: O8CEgyDl5Kp-f840DSV3v
+                    options:
+                      inputChannel: 23
+                      mute: false
+                      number: 19
+                    delay: 0
+                  - id: lwg4Rg2fG0PVUTfb5IBQg
+                    action: input_to_zone
+                    instance: O8CEgyDl5Kp-f840DSV3v
+                    options:
+                      inputChannel: 24
+                      mute: false
+                      number: 19
+                    delay: 0
+                  - id: WayjeUleRu1pVlFN_0Omg
+                    action: bgcolor
+                    instance: internal
+                    options:
+                      color: 39168
+                      location_target: this
+                      location_text: $(this:page)/$(this:row)/$(this:column)
+                      location_expression: >-
+                        concat($(this:page), '/', $(this:row), '/',
+                        $(this:column))
+                    delay: 0
+                up: []
+              options:
+                runWhileHeld: []
+            '1':
+              action_sets:
+                down:
+                  - id: 3DTsV2aAvfFU8teYwsNcg
+                    action: input_to_zone
+                    instance: O8CEgyDl5Kp-f840DSV3v
+                    options:
+                      inputChannel: 23
+                      mute: true
+                      number: 19
+                    delay: 0
+                  - id: yTTrwm1OXQkeUIqdRZ3q5
+                    action: input_to_zone
+                    instance: O8CEgyDl5Kp-f840DSV3v
+                    options:
+                      inputChannel: 24
+                      mute: true
+                      number: 19
+                    delay: 0
+                  - id: J-6DhkXGtKxSjNxTkQWR_
+                    action: bgcolor
+                    instance: internal
+                    options:
+                      color: '0'
+                      location_target: this
+                      location_text: $(this:page)/$(this:row)/$(this:column)
+                      location_expression: >-
+                        concat($(this:page), '/', $(this:row), '/',
+                        $(this:column))
+                    delay: 0
+                up: []
+              options:
+                runWhileHeld: []
     gridSize:
       minColumn: 0
       maxColumn: 7
@@ -13186,7 +13451,7 @@ triggers:
     type: trigger
     options:
       name: Start Record of 4pm
-      enabled: true
+      enabled: false
       sortOrder: 12
       relativeDelay: false
     action_sets:
@@ -13203,7 +13468,7 @@ triggers:
         type: timeofday
         enabled: true
         options:
-          time: '16:00:00'
+          time: '16:30:00'
           days:
             - 0
   YFXN9NkYbu5T8zIRrBWkH:
@@ -13227,14 +13492,14 @@ triggers:
         type: timeofday
         enabled: true
         options:
-          time: '11:30:00'
+          time: '11:59:00'
           days:
             - 0
   7e3qsEbRhaoefcu9BSqvD:
     type: trigger
     options:
       name: Link HELO Trigger
-      enabled: true
+      enabled: false
       sortOrder: 2
       relativeDelay: false
     action_sets:
@@ -13271,7 +13536,7 @@ triggers:
     type: trigger
     options:
       name: Unlink HELO Trigger
-      enabled: true
+      enabled: false
       sortOrder: 9
       relativeDelay: false
     action_sets:
@@ -13307,7 +13572,7 @@ triggers:
     type: trigger
     options:
       name: Link HELO Trigger
-      enabled: true
+      enabled: false
       sortOrder: 3
       relativeDelay: false
     action_sets:
@@ -13369,7 +13634,7 @@ triggers:
     type: trigger
     options:
       name: Sunday Record to IMAG
-      enabled: true
+      enabled: false
       sortOrder: 8
       relativeDelay: false
     action_sets:
@@ -13517,7 +13782,7 @@ triggers:
     type: trigger
     options:
       name: Start Record of 10am
-      enabled: false
+      enabled: true
       sortOrder: 4
       relativeDelay: false
     action_sets:
@@ -13541,7 +13806,7 @@ triggers:
     type: trigger
     options:
       name: Stop Record of 4pm
-      enabled: true
+      enabled: false
       sortOrder: 13
       relativeDelay: false
     action_sets:
@@ -13591,7 +13856,7 @@ triggers:
     type: trigger
     options:
       name: Start Record of 12pm
-      enabled: true
+      enabled: false
       sortOrder: 10
       relativeDelay: false
     action_sets:
@@ -13615,7 +13880,7 @@ triggers:
     type: trigger
     options:
       name: Stop Record of 12pm
-      enabled: true
+      enabled: false
       sortOrder: 11
       relativeDelay: false
     action_sets:
@@ -13854,7 +14119,7 @@ surfaces:
       groupId: null
     groupConfig:
       name: Auto group
-      last_page: 7
+      last_page: 11
       startup_page: 7
       use_last_page: false
     name: Gallery
@@ -13877,7 +14142,7 @@ surfaces:
       emulator_rows: 4
     groupConfig:
       name: Auto group
-      last_page: 7
+      last_page: 4
       startup_page: 1
       use_last_page: false
     name: iPad
