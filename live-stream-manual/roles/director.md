@@ -15,12 +15,12 @@ location: Gallery / control position
 
 **Primary responsibility:** Visual leadership of the service and camera switching.
 
-The Director controls the **Cam Mix ME** on the ATEM control panel and coordinates the camera team. This role decides which camera is live and guides camera operators to frame the next shot.
+The Director controls the **Cam Mix M/E (M/E 3)** on the ATEM control panel and coordinates the camera team. This role decides which camera is live and guides camera operators to frame the next shot.
 
 ## Key Responsibilities
 
 - Switch cameras during the service using the ATEM 1 ME Advanced Panel
-- Provide camera background (Cam Mix ME) that Graphics / IMAG Producer keys graphics over
+- Provide camera background (M/E 3) that Graphics / IMAG Producer keys graphics over
 - Communicate with camera operators via comms
 - Call shots and prepare the next camera
 - Coordinate with the Graphics / IMAG Producer on timing for graphics and lower thirds
@@ -36,7 +36,7 @@ The Director controls the **Cam Mix ME** on the ATEM control panel and coordinat
 
 - [ ] Check all camera feeds are visible on monitors
 - [ ] Test comms system with all camera operators
-- [ ] Verify ATEM panel is controlling the Cam Mix ME
+- [ ] Verify ATEM panel is controlling the Cam Mix M/E (M/E 3)
 - [ ] Review service order/running sheet
 - [ ] Coordinate with other team members on any special requirements
 - [ ] If running with 2 camera operators: Set up and lock Camera 3 on semi-wide shot

@@ -36,11 +36,11 @@ This manual provides guidance for operating our church livestream services. Our 
 
 ### Streamed Services
 
-**Director:** Controls the Cam Mix ME on the ATEM control panel and coordinates the camera team.
+**Director:** Controls the Cam Mix M/E (M/E 3) on the ATEM control panel and coordinates the camera team.
 
-**Graphics Producer:** Manages in-room screens using IMAG ME and operates ProPresenter, keying graphics over the Director's camera mix.
+**Graphics Producer:** Manages in-room screens using the IMAG M/E (M/E 1) and operates ProPresenter, keying graphics over the Director's camera mix.
 
-**Stream Producer:** Controls the Stream ME and manages the YouTube livestream and HELO streaming device.
+**Stream Producer:** Controls the Stream M/E (M/E 2) and manages the YouTube livestream and HELO streaming device.
 
 **Camera Operators:** Operate cameras from various positions around the room to capture the service.
 
