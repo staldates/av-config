@@ -39,6 +39,7 @@ The Director controls the **Cam Mix ME** on the ATEM control panel and coordinat
 - [ ] Verify ATEM panel is controlling the Cam Mix ME
 - [ ] Review service order/running sheet
 - [ ] Coordinate with other team members on any special requirements
+- [ ] If running with 2 camera operators: Set up and lock Camera 3 on semi-wide shot
 
 ## During Service
 
@@ -98,6 +99,40 @@ The Director controls the **Cam Mix ME** on the ATEM control panel and coordinat
 - Medium to close shots of the person speaking
 - Cut to video playback when needed
 - Coordinate with Stream Producer for overlays
+
+## Working with Reduced Crew
+
+### Two Camera Operators
+
+When only two camera operators are available (typically Cameras 1 and 5):
+
+**Camera 3 Setup:**
+
+- Lock Camera 3 on a general semi-wide shot before the service
+- Use tripod locks (pan and tilt) to secure the position
+- Frame a versatile shot that works for multiple scenarios
+- Test the shot and verify it's properly locked
+
+**During Service:**
+
+- Use Camera 3 as a locked safety semi-wide shot (similar to Camera 2 but from side angle and not as wide)
+- Camera 1: Continues close-up role from back of room
+- Camera 5: Provides roving shots and variety
+
+**Camera 5 Operator Dual Role:**
+
+- When needed, Camera 5 operator can temporarily adjust Camera 3
+- Director should give advance notice: "Camera 5, adjust Camera 3 after this shot"
+- Camera 5 operator moves to Camera 3, makes adjustment, locks it, returns to Camera 5
+- Use during transitions or less critical moments
+- Communication is critical - ensure Camera 5 operator knows when they're needed at Camera 3
+
+**Best Practice:**
+
+- Plan Camera 3's locked position based on service requirements
+- Use fixed cameras (2, 4, 6) more heavily
+- Give Camera 1 and Camera 5 operators clear priorities
+- Adjust expectations - fewer dynamic shots, more reliance on fixed cameras
 
 ---
 
