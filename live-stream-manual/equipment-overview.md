@@ -23,15 +23,15 @@ layout: default
 
 ### Fixed Cameras
 
-- **Camera 2:** Wide shot of the stage/room
+- **Camera 2:** Canon C70 - Wide shot of the stage/room
 - **Camera 4:** Drums
 - **Camera 6:** Livestream hosts (outside the room)
 
 ### Operated Cameras
 
-- **Camera 1:** Back of room (operated)
-- **Camera 3:** Side of room (operated)
-- **Camera 5:** Roving near stage (operated)
+- **Camera 1:** Canon C300 Mark II - Back of room (operated)
+- **Camera 3:** Canon C300 Mark II - Side of room (operated)
+- **Camera 5:** Canon C70 - Roving near stage (operated)
 
 See [Camera Setup](camera-setup.md) for detailed positioning and configuration.
 

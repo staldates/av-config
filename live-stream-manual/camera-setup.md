@@ -13,6 +13,7 @@ layout: default
 
 #### Camera 2: Wide Shot
 
+- **Model:** Canon C70
 - **Position:** Fixed
 - **Coverage:** Wide shot of the stage/room (includes backs of congregation heads)
 - **Purpose:** Establishing shots, full stage coverage
@@ -36,6 +37,7 @@ layout: default
 
 #### Camera 1: Back of Room
 
+- **Model:** Canon C300 Mark II
 - **Position:** Back of the room (operated)
 - **Operator Role:** Follow Director's instructions, primarily close-ups
 - **Coverage:** Front-facing shots of stage and speakers, tight framing
@@ -44,6 +46,7 @@ layout: default
 
 #### Camera 3: Side of Room
 
+- **Model:** Canon C300 Mark II
 - **Position:** Side of the room (operated)
 - **Operator Role:** Follow Director's instructions, wider shots and dual coverage
 - **Coverage:** Side perspective of stage, alternate angles
@@ -52,6 +55,7 @@ layout: default
 
 #### Camera 5: Roving
 
+- **Model:** Canon C70
 - **Position:** Near the stage (operated)
 - **Operator Role:** Follow Director's instructions, high mobility
 - **Coverage:** Close-ups, dynamic shots, detail shots
