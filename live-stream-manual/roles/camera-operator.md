@@ -29,6 +29,7 @@ Camera operators frame shots and capture the service from different angles. They
 
 ### Camera 1: Back of Room
 
+- **Model:** Canon C300 Mark II
 - **Position:** Stationed at the back of the room
 - **Mobility:** Limited
 - **Primary Role:** Close-up shots
@@ -36,6 +37,7 @@ Camera operators frame shots and capture the service from different angles. They
 
 ### Camera 3: Side of Room
 
+- **Model:** Canon C300 Mark II
 - **Position:** Side of the room
 - **Mobility:** Limited
 - **Primary Role:** Wider shots and dual coverage
@@ -43,6 +45,7 @@ Camera operators frame shots and capture the service from different angles. They
 
 ### Camera 5: Roving
 
+- **Model:** Canon C70
 - **Position:** Near the stage, mobile
 - **Mobility:** High - can move to different positions as needed
 - **Primary Role:** Dynamic angles and variety
@@ -57,26 +60,151 @@ Camera operators frame shots and capture the service from different angles. They
 
 **Note:** We don't use tally lights - this keeps the setup less distracting and allows us to capture rather than influence the service. Camera operators rely on Director's calls and their own awareness to know when they're live.
 
+## Learning Your Equipment
+
+Camera operators should become familiar with their equipment to operate confidently during services.
+
+### Camera and Lens
+
+#### Essential Controls (Use During Service)
+
+**Focus:**
+
+- Adjust to keep your subject sharp
+- Use manual focus for better control
+- Practice smooth focus pulls when needed
+
+**Push-to-Autofocus Button:**
+
+- The cameras have a button (called "One Shot Auto Focus" or "push AF") that activates autofocus while held
+- **Best practice:** push the button to fix the focus after lining up a shot
+- **Release the button** once your shot is framed and focused to prevent autofocus from hunting or refocusing
+- This is often quicker and easier than manual focus, especially when setting up a new shot
+- Particularly useful when:
+  - Switching to a new subject quickly
+  - A subject moves to a different position
+  - You need to refocus during a transition
+- Once live with your shot, keep the button released so autofocus doesn't get confused by movement or changing subjects
+
+**Zoom:**
+
+- Control framing from wide to tight shots
+- Make smooth, gradual zoom movements
+- Avoid rapid zooming unless directed
+
+**Brightness/Exposure:**
+
+- Adjust to compensate for lighting changes
+- Monitor viewfinder to check exposure
+- Respond quickly when stage lighting changes
+
+#### Advanced Settings (Set at Service Start)
+
+**Aperture:**
+
+- Controls depth of field and light intake
+- Typically set once at the beginning and left alone
+- Operators should know how to adjust if needed
+
+**Color Temperature/White Balance:**
+
+- Set to match the lighting conditions
+- Usually configured at service start
+- Learn how to adjust in case lighting setup changes
+
+**Best Practice:** Advanced settings are typically configured once at the start of the service, but all operators should know how to adjust them if conditions change.
+
+### Tripod Operation
+
+**Resistance/Drag:**
+
+- Controls how smoothly the camera moves
+- Adjust pan and tilt resistance to your preference
+- Tighter for more controlled movements, looser for faster action
+
+**Balance:**
+
+- Ensures camera stays level when you release it
+- Adjust balance point when changing zoom or configuration
+- Properly balanced camera reduces strain during long services
+
+**Locking:**
+
+- Pan lock: Locks horizontal movement
+- Tilt lock: Locks vertical movement
+- Use locks when repositioning or during static shots
+
+**Setup at Start:**
+
+1. Extend tripod legs to appropriate height
+2. Ensure tripod is level and stable
+3. Mount camera securely
+4. Adjust balance for your typical zoom range
+5. Set resistance/drag to comfortable levels
+6. Test pan and tilt movements
+7. Check all locks are functioning
+
+### Comms Headset
+
+**Muting:**
+
+- **Always mute when not speaking** to avoid distracting Director and other operators
+- Quick mute/unmute should become second nature
+- Background noise from your position can interfere with Director's communication
+
+**Ear Configuration:**
+
+- **Single ear:** Allows you to hear the room and service naturally
+- **Double ear:** Better for hearing Director clearly in noisy environments
+- **Choose based on personal preference and position**, for example
+  - Camera 5 (near stage) may prefer single ear to hear service
+  - Cameras 1 and 3 (farther back) may prefer double ear
+
+**Best Practice:** Test your headset and chosen configuration before the service starts.
+
 ## Pre-Service Checklist
 
+### Equipment Setup
+
+- [ ] Set up tripod securely (level, stable, appropriate height)
+- [ ] Mount camera and check it's secure
+- [ ] Adjust tripod balance for your zoom range
+- [ ] Set tripod resistance/drag to comfortable levels
+- [ ] Test pan and tilt movements and locks
 - [ ] Check camera is powered on and functioning
-- [ ] Verify comms headset is working - test with Director
+
+### Camera Configuration
+
+- [ ] Set aperture for current lighting conditions
+- [ ] Set white balance/color temperature for stage lighting
+- [ ] Test focus, zoom, and brightness controls
 - [ ] Check camera viewfinder is clear and functioning
+
+### Communication
+
+- [ ] Set up comms headset (single or double ear preference)
+- [ ] Verify comms is working - test with Director
+- [ ] Practice muting/unmuting quickly
+- [ ] Confirm with Director you understand the camera assignment system
+
+### Preparation
+
 - [ ] Review service order if available
 - [ ] Clear your area of obstacles (especially Camera 5)
 - [ ] Set up initial framing as discussed with Director
-- [ ] Confirm with Director you understand the camera assignment system
 
 ## During Service
 
 ### Following Director Instructions
 
 The Director will call shots like:
+
 - "Camera 1, tight on speaker"
 - "Camera 5, wide worship"
 - "Camera 3, prepare for tight on guitar"
 
 **When you hear your camera number:**
+
 1. Quickly frame the requested shot
 2. Hold steady
 3. Acknowledge verbally if needed ("Camera 1 ready")
@@ -113,9 +241,12 @@ The Director will call shots like:
 ## Skills That Help
 
 - Comfort operating cameras or similar equipment
+- Understanding of camera controls (focus, zoom, exposure)
+- Familiarity with tripod operation and setup
 - Ability to follow directions and react quickly
 - Interest in video production or photography
 - Steady hands and patience
+- Willingness to learn technical equipment
 
 ## Common Scenarios
 
@@ -179,9 +310,30 @@ The Director will call shots like:
 
 ### Camera Issues
 
+**General:**
+
 - Freeze/lock up: Attempt quick restart if safe to do so
-- Focus problems: Switch to manual focus
 - Any major issue: Alert Director immediately
+
+**Focus Problems:**
+
+- Use push-to-autofocus button to quickly acquire focus, then release
+- Switch to manual focus for better control if autofocus is hunting
+- Check lens is clean if image appears soft/blurry
+- Check that lens is properly mounted
+
+**Exposure/Brightness:**
+
+- Adjust brightness/exposure controls if image too dark or bright
+- Verify aperture setting if exposure is way off
+- Check if lighting on stage has changed
+
+**Tripod Issues:**
+
+- Camera won't stay level: Adjust balance
+- Movements too stiff or loose: Adjust resistance/drag
+- Camera drifting: Tighten locks
+- Unstable: Check tripod leg extension and stability
 
 ---
 
