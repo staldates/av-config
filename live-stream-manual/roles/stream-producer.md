@@ -52,14 +52,13 @@ The Stream Producer controls the **Stream M/E (M/E 2)** using a Stream Deck and 
 
 ## Pre-Service Checklist
 
-- [ ] Power on and check HELO streaming device
+- [ ] Check HELO streaming device page is open and ready
 - [ ] Launch ProPresenter (Stream machine) and load stream-specific content
-- [ ] Verify YouTube Studio is accessible and stream key is configured
+- [ ] Set presenter's names in lower thirds
+- [ ] Verify YouTube Studio is accessible; monitor YouTube livestream chat
 - [ ] Test Stream Deck controls for M/E 2
-- [ ] Prepare "Starting Soon" slide in ProPresenter
-- [ ] Check network connection and stream health
-- [ ] Coordinate with online hosts (Camera 6) if in use
-- [ ] Open and monitor YouTube livestream chat
+- [ ] Prepare video that will play before presenters in ProPresenter
+- [ ] Ensure hosts have been sound checked and that their earpieces are working
 - [ ] Verify audio and video quality in YouTube preview
 
 ## During Service
@@ -67,19 +66,25 @@ The Stream Producer controls the **Stream M/E (M/E 2)** using a Stream Deck and 
 ### Stream Management
 
 1. **Pre-Service:**
-   - Start YouTube livestream 10-15 minutes before service begins
-   - Display "Starting Soon" or welcome slide
+   - Start YouTube livestream 10-11 minutes before service begins
+   - Display "Starting Soon" or welcome slide / notices
    - Monitor incoming viewers and chat
+   - Cue hosts at 10 minutes before service to be ready on Camera 6 for pre-service content (announcements, worship, etc.)
+   - Show hosts name slide when they start speaking
+   - Show other slides if they are mentioned, e.g. website, email, alpha etc.
+   - Give hosts time checks so they finish at about 30 seconds before the service starts
 
 2. **Service Start:**
-   - Transition from "Starting Soon" to live service feed
+   - Transition from hosts to main service content, which will be the countdown from ProPresenter using streamdeck to switch M/E 2 to the stream output
+   - Ensure the stream is healthy and that the correct content is going out
+   - Monitor chat for any issues viewers are experiencing and relay to team if needed
    - Ensure M/E 2 is following the service appropriately
 
 3. **During Service:**
    - Monitor stream health (bitrate, dropped frames, connection)
    - Watch for any technical issues and address quickly
-   - Add lower thirds or overlays as needed using Stream ProPresenter
-   - Coordinate with IMAG Producer so graphics don't conflict
+   - Watch YouTube chat for questions or issues that hosts or leadership should address and moderate content as needed
+   - Communicate with hosts when they need to be cued for segments during the service, e.g. Kids leaving / Peace, communion being served, end of service
 
 4. **Post-Service:**
    - Keep stream running if there's post-service content
