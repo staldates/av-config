@@ -26,7 +26,7 @@ location: Back of the room
 
 ## Equipment Used
 
-- **Stream Deck:** Quick access controls for IMAG ME camera switching (connected via Bitfocus Companion)
+- **Stream Deck:** Quick access controls for IMAG M/E (M/E 1) camera switching (connected via Bitfocus Companion)
 - **ProPresenter (IMAG/Graphics machine):** Presentation software for lyrics and slides
 - **Computer/Monitors:** Operating the IMAG and ProPresenter systems
 
@@ -47,7 +47,7 @@ location: Back of the room
 ## Pre-Service Checklist
 
 - [ ] Launch ProPresenter and load the service playlist
-- [ ] Check Stream Deck is connected and controlling IMAG ME
+- [ ] Check Stream Deck is connected and controlling M/E 1
 - [ ] Verify in-room screens are displaying correctly
 - [ ] Review service order and identify all slides/songs needed
 - [ ] Check Camera 1 feed is available and clear
@@ -162,7 +162,7 @@ location: Back of the room
 
 **Graphics not showing on screens:**
 
-- Check IMAG ME upstream key is enabled
+- Check M/E 1 upstream key is enabled
 - Verify ProPresenter output settings
 - Check physical cable connections
 
@@ -172,7 +172,7 @@ location: Back of the room
 
 - Check USB connection
 - Restart Bitfocus Companion software
-- Verify Stream Deck is configured for IMAG ME
+- Verify Stream Deck is configured for M/E 1
 
 **Camera feed not showing:**
 

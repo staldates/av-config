@@ -16,7 +16,7 @@ We currently organise the team into three core positions: Director, Graphics / I
 
 **Primary responsibility:** Visual leadership of the service and camera switching.
 
-The Director controls the **Cam Mix ME** on the ATEM control panel and coordinates the camera team. This role decides which camera is live and guides camera operators to frame the next shot.
+The Director controls the **Cam Mix M/E (M/E 3)** on the ATEM control panel and coordinates the camera team. This role decides which camera is live and guides camera operators to frame the next shot.
 
 ### Key responsibilities
 
@@ -47,7 +47,7 @@ The Director controls the **Cam Mix ME** on the ATEM control panel and coordinat
 
 **Primary responsibility:** Managing what appears on the in-room screens.
 
-This role runs **IMAG ME** using a Stream Deck and operates **ProPresenter** for lyrics, slides, and visual elements in the room.
+This role runs **IMAG M/E (M/E 1)** using a Stream Deck and operates **ProPresenter** for lyrics, slides, and visual elements in the room.
 
 ### Key responsibilities
 
@@ -70,7 +70,7 @@ This role runs **IMAG ME** using a Stream Deck and operates **ProPresenter** for
 
 **Primary responsibility:** Managing the livestream and online experience.
 
-The Stream Producer controls the **Stream ME** using a Stream Deck and manages the YouTube stream and streaming hardware (HELO). They also monitor the livestream chat and coordinate with hosts when needed.
+The Stream Producer controls the **Stream M/E (M/E 2)** using a Stream Deck and manages the YouTube stream and streaming hardware (HELO). They also monitor the livestream chat and coordinate with hosts when needed.
 
 ### Key responsibilities
 
