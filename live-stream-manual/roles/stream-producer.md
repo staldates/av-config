@@ -28,15 +28,21 @@ The Stream Producer controls the **Stream ME** using a Stream Deck and manages t
 
 ## Equipment Used
 
-- **Stream Deck:** Quick access controls for Stream ME
+- **Stream Deck:** Quick access controls for Stream ME (connected via Bitfocus Companion)
 - **HELO Streaming Device:** Hardware encoder for YouTube output
 - **Computer/Monitors:** Managing stream, YouTube, and chat
-- **ProPresenter:** Stream-specific overlays and graphics
+- **ProPresenter (Stream machine):** Separate ProPresenter for stream-specific overlays, lower thirds, and graphics
 - **Comms System:** Communication with hosts at Camera 6
+
+**ProPresenter Configuration:**
+- Dedicated machine for stream-only content
+- Used for pre-service slides ("Starting Soon"), lower thirds, and stream-specific graphics
+- Separate from the IMAG/Graphics ProPresenter machine
 
 ## Pre-Service Checklist
 
 - [ ] Power on and check HELO streaming device
+- [ ] Launch ProPresenter (Stream machine) and load stream-specific content
 - [ ] Verify YouTube Studio is accessible and stream key is configured
 - [ ] Test Stream Deck controls for Stream ME
 - [ ] Prepare "Starting Soon" slide in ProPresenter
@@ -61,7 +67,8 @@ The Stream Producer controls the **Stream ME** using a Stream Deck and manages t
 3. **During Service:**
    - Monitor stream health (bitrate, dropped frames, connection)
    - Watch for any technical issues and address quickly
-   - Add lower thirds or overlays as needed
+   - Add lower thirds or overlays as needed using Stream ProPresenter
+   - Coordinate with IMAG Producer so graphics don't conflict
 
 4. **Post-Service:**
    - Keep stream running if there's post-service content

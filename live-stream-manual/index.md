@@ -11,7 +11,9 @@ layout: default
 
 This manual provides guidance for operating our church livestream services. Our livestream serves both the congregation in the room and those watching online. The goal is clear communication of what God is doing in the service.
 
-We operate with a small team working together across three core positions: Director, Graphics / IMAG Producer, and Stream Producer, supported by our camera operators.
+**Streamed Services:** We operate with a small team working together across three core positions: Director, Graphics / IMAG Producer, and Stream Producer, supported by our camera operators.
+
+**Non-Streamed Services:** The Graphics / IMAG Producer works alone, managing in-room visuals and camera switching.
 
 ## Quick Links
 

@@ -39,13 +39,42 @@ See [Camera Setup](camera-setup.md) for detailed positioning and configuration.
 
 ### ProPresenter
 
-Used for lyrics, slides, and visual elements both in-room and for the stream.
+**Two separate machines:**
+
+#### IMAG/Graphics ProPresenter
+
+Operated by Graphics/IMAG Producer for in-room visuals and lyrics.
+
+**Configuration:**
+- **2 Outputs:** Each with separate key and fill signals
+- **Output Routing:** Connected to upstream keys (USKs) on both IMAG ME and Stream ME
+- **Layout Differences:**
+  - **IMAG output:** Larger text for in-room viewing
+  - **Stream output:** Smaller text styled as subtitles for online viewers
+- **Content:** Service lyrics, slides, teaching content, and in-room graphics
+
+#### Stream ProPresenter
+
+Operated by Stream Producer for stream-specific content.
+
+**Configuration:**
+- **Stream-only output:** Dedicated to Stream ME
+- **Content:** Lower thirds, graphics, and overlays for online-only portions of service (pre-service, transitions)
 
 ## Stream Control
 
-### Stream Deck
+### Stream Decks (2)
 
-Used by both Graphics/IMAG Producer and Stream Producer for quick access to switching and control functions.
+Two Stream Decks are used by the production team, connected to Bitfocus Companion for flexible control.
+
+**Bitfocus Companion Integration:**
+- Provides centralized control for various church systems
+- Allows custom button configurations for different roles
+- Can control ATEM switching, ProPresenter, and other equipment
+
+**Usage:**
+- **Graphics/IMAG Producer:** Stream Deck for IMAG ME control
+- **Stream Producer:** Stream Deck for Stream ME control
 
 ### HELO Streaming Device
 
@@ -56,6 +85,16 @@ Hardware encoder that outputs the final stream to YouTube and other platforms.
 ### Comms System
 
 Allows Director to communicate with camera operators during the service.
+
+## Audio
+
+Audio is managed by a separate audio team and is outside the scope of this manual.
+
+**Audio Team Structure:**
+- **In-room operator:** Front of house audio
+- **Gallery operator:** (Streamed services only) Manages audio mix for the stream
+
+For audio-related questions, consult with the audio team.
 
 ---
 
