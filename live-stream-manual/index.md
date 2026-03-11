@@ -11,33 +11,41 @@ layout: default
 
 This manual provides guidance for operating our church livestream services. Our livestream serves both the congregation in the room and those watching online. The goal is clear communication of what God is doing in the service.
 
-**Streamed Services:** We operate with a small team working together across three core positions: Director, Graphics / IMAG Producer, and Stream Producer, supported by our camera operators.
+**Streamed Services:** We operate with a small team working together across three core positions: Director, Graphics Producer, and Stream Producer, supported by our camera operators.
 
-**Non-Streamed Services:** The Graphics / IMAG Producer works alone, managing in-room visuals and camera switching.
+**Non-Streamed Services:** The IMAG Director works independently, managing in-room visuals and camera switching.
 
 ## Quick Links
 
 - [Equipment Overview](equipment-overview.md)
 - [Camera Setup](camera-setup.md)
+
+### Roles for Streamed Services
+
 - [Director Role](roles/director.md)
-- [Graphics / IMAG Producer Role](roles/graphics-producer.md)
+- [Graphics Producer Role](roles/graphics-producer.md)
 - [Stream Producer Role](roles/stream-producer.md)
 - [Camera Operator Role](roles/camera-operator.md)
 
+### Roles for Non-Streamed Services
+
+- [IMAG Director Role](roles/imag-director.md)
+- [Camera Operator Role](roles/camera-operator.md) (typically Camera 1 only)
+
 ## Team Structure
 
-### Director
+### Streamed Services
 
-Controls the Cam Mix ME on the ATEM control panel and coordinates the camera team.
+**Director:** Controls the Cam Mix ME on the ATEM control panel and coordinates the camera team.
 
-### Graphics / IMAG Producer
+**Graphics Producer:** Manages in-room screens using IMAG ME and operates ProPresenter, keying graphics over the Director's camera mix.
 
-Manages in-room screens using IMAG ME and operates ProPresenter.
+**Stream Producer:** Controls the Stream ME and manages the YouTube livestream and HELO streaming device.
 
-### Stream Producer
+**Camera Operators:** Operate cameras from various positions around the room to capture the service.
 
-Controls the Stream ME and manages the YouTube livestream and HELO streaming device.
+### Non-Streamed Services
 
-### Camera Operators
+**IMAG Director:** Works independently to manage in-room screens, camera switching, and ProPresenter. Makes all production decisions.
 
-Operate cameras from various positions around the room to capture the service.
+**Camera Operator (Camera 1):** Typically one camera operator providing live shots of speakers and stage activity. Camera 3 is usually locked on a wide shot.
