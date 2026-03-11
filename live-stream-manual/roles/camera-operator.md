@@ -52,6 +52,14 @@ Camera operators frame shots and capture the service from different angles. They
 - **Typical shots:** Detail shots, instruments, alternative angles
 - **Privacy Note:** Avoid filming congregation for privacy reasons
 
+**Additional Responsibility (When 2 Operators Only):**
+
+- When only two camera operators are available, Camera 5 operator may be asked to adjust Camera 3
+- Camera 3 will be locked on a semi-wide shot, but may need repositioning during the service
+- During some portions, e.g. the sermon, Camera 5 is rarely used, so the operator may be asked to control Camera 3 for better coverage
+- Director will give advance notice when this is needed
+- After adjusting Camera 3, lock it securely and return to Camera 5 position
+
 ## Equipment Used
 
 - **Camera:** Assigned camera (1, 3, or 5)
