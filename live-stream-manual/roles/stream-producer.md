@@ -15,6 +15,8 @@ location: Gallery (right seat)
 
 **Primary responsibility:** Managing the livestream and online experience.
 
+**Workstation:** The Stream ProPresenter machine serves as the central control point for all streaming operations, including HELO control, YouTube monitoring, and livestream chat.
+
 The Stream Producer controls the **Stream ME** using a Stream Deck and manages the YouTube stream and streaming hardware (HELO). They also monitor the livestream chat and coordinate with hosts when needed.
 
 ## Key Responsibilities
@@ -28,16 +30,25 @@ The Stream Producer controls the **Stream ME** using a Stream Deck and manages t
 
 ## Equipment Used
 
+**Stream ProPresenter Machine (Central Workstation):**
+
+- **ProPresenter:** Stream-specific overlays, lower thirds, and graphics
+- **HELO Control:** Interface for managing the HELO streaming device
+- **YouTube Studio:** Stream monitoring and chat
+- **Capture Device:** Takes Stream ME feed, can be used for OBS, Zoom, or alternative streaming
 - **Stream Deck:** Quick access controls for Stream ME (connected via Bitfocus Companion)
-- **HELO Streaming Device:** Hardware encoder for YouTube output
-- **Computer/Monitors:** Managing stream, YouTube, and chat
-- **ProPresenter (Stream machine):** Separate ProPresenter for stream-specific overlays, lower thirds, and graphics
+- **Multiple Monitors:** Managing all streaming systems simultaneously
+
+**Additional Equipment:**
+
+- **HELO Streaming Device:** Primary hardware encoder for YouTube output
 - **Comms System:** Communication with hosts at Camera 6
 
-**ProPresenter Configuration:**
-- Dedicated machine for stream-only content
-- Used for pre-service slides ("Starting Soon"), lower thirds, and stream-specific graphics
-- Separate from the IMAG/Graphics ProPresenter machine
+**Alternative Streaming:**
+
+- Capture device can be used instead of HELO if needed
+- Enables streaming via OBS, Zoom calls, or other platforms
+- Also allows for scopes using OBS plugin
 
 ## Pre-Service Checklist
 
@@ -121,6 +132,7 @@ The Stream Producer controls the **Stream ME** using a Stream Deck and manages t
 - **Not encoding:** Check power, connections, restart if needed
 - **No video:** Verify input from ATEM Stream ME output
 - **No audio:** Check audio routing in HELO settings
+- **HELO unavailable:** Use capture device with OBS or alternative streaming software as backup
 
 ## Communication
 

@@ -20,9 +20,10 @@ The Director controls the **Cam Mix ME** on the ATEM control panel and coordinat
 ## Key Responsibilities
 
 - Switch cameras during the service using the ATEM 1 ME Advanced Panel
+- Provide camera background (Cam Mix ME) that Graphics / IMAG Producer keys graphics over
 - Communicate with camera operators via comms
 - Call shots and prepare the next camera
-- Coordinate with the Graphics / IMAG Producer so the room screens and cameras work well together
+- Coordinate with the Graphics / IMAG Producer on timing for graphics and lower thirds
 - Maintain awareness of what is happening on stage
 
 ## Equipment Used
@@ -59,9 +60,11 @@ The Director controls the **Cam Mix ME** on the ATEM control panel and coordinat
 
 ### Communication Tips
 
+- Try to say "Ready 1, Go 1" when switching to a camera, giving operators a clear cue. Sometimes during fast sections it's fine to omit the "Ready" part if the operator is already prepared, or you are going to a fixed camera, but clear communication is key. The previous operator needs to know when they are no longer live.
 - Use clear, concise directions: "Camera 1, tight on speaker"
 - Give advance notice: "Camera 3, prepare for wide worship shot"
 - Acknowledge good shots: Brief positive feedback builds team confidence
+- Coordinate with IMAG Producer: Your camera mix is the background for their graphics
 - Stay calm: Your tone sets the atmosphere for the whole team
 
 ## Skills That Help
