@@ -4,7 +4,7 @@
 
 Our livestream relies on a small team working together to serve both the congregation in the room and those watching online. The goal of these roles is not broadcast perfection, but clear communication of what God is doing in the service.
 
-We currently organise the team into three core positions: Director, Graphics / IMAG Producer, and Stream Producer.
+We currently organise the team into three core positions: Director, Graphics / IMAG Producer, and Stream Producer. Each role has specific responsibilities, but all work together to create a cohesive experience for both in-person and online audiences. In addition we have 3 camera operators.
 
 ---
 
@@ -86,6 +86,29 @@ The Stream Producer controls the **Stream ME** using a Stream Deck and manages t
 - Comfort managing several screens at once
 - Attention to detail
 - Ability to troubleshoot calmly
+
+---
+
+## Camera Operators
+
+**Location:** Around the room - 1 at the back (camera 1), 1 on the side (camera 3), 1 roving by the stage (camera 5)
+
+**Primary responsibility:** Operating cameras to capture the service.
+
+Camera operators frame shots and capture the service from different angles. They follow the Director's instructions to ensure the livestream has a variety of shots and captures key moments on stage, but they also need to use their own initiative to give the director options. This role requires attentiveness to what is happening during the service and quick reactions to capture important moments.
+
+### Key responsibilities
+
+- Operate assigned camera during the service
+- Follow the Director's instructions for framing and shots
+- Communicate with the Director via comms
+- Maintain awareness of what is happening on stage to anticipate shots
+
+### Skills that help
+
+- Comfort operating cameras or similar equipment
+- Ability to follow directions and react quickly
+- Interest in video production or photography
 
 ---
 
