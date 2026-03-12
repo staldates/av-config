@@ -1,6 +1,6 @@
-# Livestream Manual
+# St Aldate's Video System Manual
 
-This directory contains the complete operations manual for running livestream services.
+This directory contains the complete operations manual for St Aldate's video systems, covering both livestreamed and non-streamed services.
 
 ## Structure
 
@@ -45,6 +45,38 @@ To use with Vite:
 1. Install vite-plugin-markdown or similar
 2. Configure Vite to process markdown files
 3. Extract front matter for navigation
+
+### Docusaurus (Configured)
+
+The manual is configured to use Docusaurus for a modern documentation website:
+
+1. **Install dependencies:**
+   ```bash
+   yarn install
+   ```
+
+2. **Start development server:**
+   ```bash
+   yarn dev
+   # or
+   yarn start
+   ```
+   Opens at `http://localhost:3000` with live reload.
+
+3. **Build for production:**
+   ```bash
+   yarn build
+   ```
+   Generates static site in `build/` directory.
+
+**Configuration files:**
+- `package.json` - Dependencies and scripts
+- `docusaurus.config.js` - Site configuration
+- `sidebars.js` - Navigation structure
+- `src/css/custom.css` - Custom styling
+
+**Automatic Deployment:**
+The site automatically deploys to GitHub Pages when changes are pushed to the `main` branch via the GitHub Action at `.github/workflows/deploy-docs.yml`.
 
 ### GitHub Pages
 
