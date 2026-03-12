@@ -94,7 +94,7 @@ Two Stream Decks are used by the production team, connected to Bitfocus Companio
 - **Graphics/IMAG Producer:** Stream Deck for functions they need, including M/E 1 control
 - **Stream Producer:** Stream Deck for functions they need, including M/E 2 control
 
-[TODO: Write more about our companion config. Both streamdeks are the same but usually on different pages; controls talking on comms, talking and listening to hosts; some settings for camera 2; some lighting controls; automation of HELO; etc.]
+[TODO: Write more about our companion config. Both streamdecks are the same but usually on different pages; controls talking on comms, talking and listening to hosts; some settings for camera 2; some lighting controls; automation of HELO; etc.]
 
 ### HELO Streaming Device
 

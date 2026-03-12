@@ -1,6 +1,6 @@
 ---
 title: Livestream Operations Manual
-description: Complete guide for running livestream services at Aldates
+description: Complete guide for running livestream services at St. Aldate's
 date: 2026-03-11
 layout: default
 ---
