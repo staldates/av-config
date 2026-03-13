@@ -52,6 +52,8 @@ The Stream Producer controls the **Stream M/E (M/E 2)** using a Stream Deck and 
 
 ## Pre-Service Checklist
 
+Use the [10am Streamed Service Timeline](../operations/service-timeline-10am.mdx) for exact pre-service timing and handoff points.
+
 - [ ] Check HELO streaming device page is open and ready
 - [ ] Launch ProPresenter (Stream machine) and load stream-specific content
 - [ ] Set presenter's names in lower thirds

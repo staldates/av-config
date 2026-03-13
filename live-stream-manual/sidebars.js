@@ -20,6 +20,13 @@ const sidebars = {
     'camera-setup',
     {
       type: 'category',
+      label: 'Operations',
+      items: [
+        'operations/service-timeline-10am',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Volunteer Roles',
       items: [
         'roles/director',

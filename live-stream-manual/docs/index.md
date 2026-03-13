@@ -21,6 +21,7 @@ This manual provides guidance for operating our church livestream services. Our 
 
 - [Equipment Overview](equipment-overview.md)
 - [Camera Setup](camera-setup.md)
+- [10am Streamed Service Timeline](operations/service-timeline-10am.mdx)
 
 ### Roles for Streamed Services
 
