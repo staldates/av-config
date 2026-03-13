@@ -3,6 +3,7 @@ name: Deploy St Aldate's Video System Manual to GitHub Pages
 on:
   push:
     branches:
+      - master
       - main
     paths:
       - 'live-stream-manual/**'
@@ -40,7 +41,9 @@ jobs:
           cache-dependency-path: live-stream-manual/yarn.lock
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: |
+          corepack enable
+          yarn install --frozen-lockfile
 
       - name: Build website
         run: yarn build
