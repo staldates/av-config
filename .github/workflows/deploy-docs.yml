@@ -33,6 +33,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
 
+      - name: Enable corepack
+        run: |
+          corepack enable
+
       - name: Setup Node.js
         uses: actions/setup-node@v5
         with:
@@ -41,9 +45,7 @@ jobs:
           cache-dependency-path: live-stream-manual/yarn.lock
 
       - name: Install dependencies
-        run: |
-          corepack enable
-          yarn install --frozen-lockfile
+        run: yarn install --frozen-lockfile
 
       - name: Build website
         run: yarn build
