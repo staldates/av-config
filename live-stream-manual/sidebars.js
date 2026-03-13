@@ -23,6 +23,7 @@ const sidebars = {
       label: 'Operations',
       items: [
         'operations/service-timeline-10am',
+        'operations/pre-doors-checklist',
       ],
     },
     {
