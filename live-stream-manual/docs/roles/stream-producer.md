@@ -35,6 +35,7 @@ The Stream Producer controls the **Stream M/E (M/E 2)** using a Stream Deck and 
 - **ProPresenter:** Stream-specific overlays, lower thirds, and graphics
 - **HELO Control:** Interface for managing the HELO streaming device
 - **YouTube Studio:** Stream monitoring and chat
+- **Allen & Heath Custom Control:** Gallery monitor level control (comms, host mics, program audio)
 - **Capture Device:** Takes M/E 2 feed, can be used for OBS, Zoom, or alternative streaming
 - **Stream Deck:** Quick access controls for M/E 2 (connected via Bitfocus Companion)
 - **Multiple Monitors:** Managing all streaming systems simultaneously

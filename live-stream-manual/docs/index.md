@@ -21,8 +21,9 @@ This manual provides guidance for operating our church livestream services. Our 
 
 - [Equipment Overview](equipment-overview.md)
 - [Camera Setup](camera-setup.md)
+- [8:00 System Startup](operations/system-startup)
 - [10am Streamed Service Timeline](operations/service-timeline-10am.mdx)
-- [9:25 Pre-Doors Checklist](operations/0925-pre-doors-checklist.mdx)
+- [9:25 Pre-Doors Checklist](operations/pre-doors-checklist)
 
 ### Roles for Streamed Services
 
