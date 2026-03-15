@@ -48,7 +48,7 @@ jobs:
       - name: Install Pandoc and LaTeX
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended texlive-latex-extra
+          sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended texlive-latex-extra texlive-xetex
 
       - name: Generate PDF manual
         working-directory: live-stream-manual/docs
@@ -61,6 +61,7 @@ jobs:
             --toc-depth=3 \
             --number-sections \
             --standalone \
+            --pdf-engine=xelatex \
             --metadata title="Livestream Operations Manual" \
             --metadata author="St Aldate's Church" \
             --metadata date="$(date +%Y-%m-%d)" \
