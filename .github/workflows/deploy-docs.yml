@@ -54,9 +54,7 @@ jobs:
         working-directory: live-stream-manual/docs
         run: |
           pandoc index.md equipment-overview.md camera-setup.md \
-            operations/system-startup.mdx operations/service-timeline-10am.mdx operations/pre-doors-checklist.mdx \
-            roles/director.md roles/graphics-producer.md roles/stream-producer.md \
-            roles/imag-director.md roles/camera-operator.md \
+            roles/*.md \
             --toc \
             --toc-depth=3 \
             --number-sections \
