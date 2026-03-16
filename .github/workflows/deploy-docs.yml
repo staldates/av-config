@@ -45,6 +45,29 @@ jobs:
       - name: Build website
         run: yarn build
 
+      - name: Install Pandoc and LaTeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended texlive-latex-extra texlive-xetex
+
+      - name: Generate PDF manual
+        working-directory: live-stream-manual/docs
+        run: |
+          pandoc index.md equipment-overview.md camera-setup.md \
+            roles/*.md \
+            --toc \
+            --toc-depth=3 \
+            --number-sections \
+            --standalone \
+            --pdf-engine=xelatex \
+            --metadata title="Livestream Operations Manual" \
+            --metadata author="St Aldate's Church" \
+            --metadata date="$(date +%Y-%m-%d)" \
+            -V documentclass=report \
+            -V geometry:margin=1in \
+            -V fontsize=11pt \
+            -o ../static/livestream-manual.pdf
+
       - name: Upload Pages artifact (for deployment)
         if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main'
         uses: actions/upload-pages-artifact@v4
@@ -58,6 +81,13 @@ jobs:
           name: docusaurus-build
           path: live-stream-manual/build
           retention-days: 30
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: livestream-manual-pdf
+          path: live-stream-manual/static/livestream-manual.pdf
+          retention-days: 90
 
   deploy:
     if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main'

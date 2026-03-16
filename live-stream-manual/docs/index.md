@@ -7,6 +7,8 @@ layout: default
 
 # Livestream Operations Manual
 
+📄 **[Download PDF version of this manual](pathname:///livestream-manual.pdf)** _(Generated automatically from the latest documentation)_
+
 ## Overview
 
 This manual provides guidance for operating our church livestream services. Our livestream serves both the congregation in the room and those watching online. The goal is clear communication of what God is doing in the service.
