@@ -1,0 +1,18 @@
+#!/bin/bash
+
+COMPANION_HOST=http://localhost:8000
+COMPANION_YAML_FILENAME=CompanionPi.companionconfig.yaml
+
+cd "$(dirname "$0")"
+
+curl "$COMPANION_HOST/int/export/custom?connections=1&buttons=1&surfaces=1&triggers=1&customVariables=1&format=json" | node_modules/.bin/js-yaml > "$COMPANION_YAML_FILENAME"
+
+if ! git diff --quiet "$COMPANION_YAML_FILENAME"
+then
+    echo "Companion file updated"
+    git add "$COMPANION_YAML_FILENAME"
+    git commit -m "Companion file updated on $(date)"
+else
+    echo "No changes"
+fi
+
