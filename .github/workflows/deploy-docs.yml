@@ -53,8 +53,8 @@ jobs:
       - name: Generate PDF manual
         working-directory: live-stream-manual/docs
         run: |
-          pandoc index.md equipment-overview.md camera-setup.md \
-            roles/*.md \
+          DOC_FILES=$(node ../scripts/get-doc-files.js)
+          pandoc $DOC_FILES \
             --toc \
             --toc-depth=3 \
             --number-sections \
