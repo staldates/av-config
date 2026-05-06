@@ -33,7 +33,7 @@ Camera operators frame shots and capture the service from different angles. They
 - **Position:** Stationed at the back of the room
 - **Mobility:** Limited
 - **Primary Role:** Close-up shots
-- **Typical shots:** Tight framing on speakers, worship leaders, individuals on stage
+- **Typical shots:** Tight framing on speakers, lead worship leaders, individuals on stage
 
 ### Camera 3: Side of Room
 
@@ -41,7 +41,7 @@ Camera operators frame shots and capture the service from different angles. They
 - **Position:** Side of the room
 - **Mobility:** Limited
 - **Primary Role:** Wider shots and dual coverage
-- **Typical shots:** Both people when two are on stage, wider angles, medium shots
+- **Typical shots:** Both people when two are on stage, other singers, instruments/instrumentalists, wider angles, medium shots
 
 ### Camera 5: Roving
 
@@ -96,9 +96,7 @@ Camera operators should become familiar with their equipment to operate confiden
 
 **Zoom:**
 
-- Control framing from wide to tight shots
-- Make smooth, gradual zoom movements
-- Avoid rapid zooming unless directed
+Zoom is manual on our lenses, so you control it with a zoom ring on the lens. Use zoom to adjust your framing, but avoid zooming while live, as the lenses are not parfocal, meaning the focus will change when you zoom. It is also hard to not shake the camera, during zooms, so it's best to set your zoom before going live.
 
 **Brightness/Exposure:**
 

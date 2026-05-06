@@ -117,6 +117,23 @@ Audio is managed by a separate audio team and is outside the scope of this manua
 
 For audio-related questions, consult with the audio team.
 
+### Allen & Heath Custom Control App
+
+The [Allen & Heath Custom Control app](https://www.allen-heath.com/hardware/controllers/custom-control/) is used by the Stream Producer for gallery monitor control.
+
+**Purpose:**
+
+- Adjust gallery monitor levels for the production team
+- Control audio balance for comms, host mics, and program audio in the gallery
+
+**Faders available:**
+
+- Comms/talkback level
+- Host microphone levels (for Camera 6 presenters)
+- Program audio feed level
+
+The app runs on the Stream Producer's workstation and provides independent control of what the production team hears without affecting the broadcast or in-room audio.
+
 ---
 
 [Back to Manual Index](index.md)

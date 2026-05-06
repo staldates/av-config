@@ -34,6 +34,8 @@ The Director controls the **Cam Mix M/E (M/E 3)** on the ATEM control panel and 
 
 ## Pre-Service Checklist
 
+Use the [9:25 Pre-Doors Checklist](../operations/0925-pre-doors-checklist.mdx) for the comms call-and-response run before doors open.
+
 - [ ] Check all camera feeds are visible on monitors
 - [ ] Test comms system with all camera operators
 - [ ] Verify ATEM panel is controlling the Cam Mix M/E (M/E 3)
